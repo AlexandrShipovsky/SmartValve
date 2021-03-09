@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=PWM_Pulse2 Pin=DD1-25
+Removed Pin From Net: NetName=PWM_Pulse1 Pin=DD1-27
+Added Pin To Net: NetName=PWM_Pulse1 Pin=DD1-25
+Added Pin To Net: NetName=PWM_Pulse2 Pin=DD1-27
+Added Member To Class: ClassName=SmartValve Member=Component C2 1uF
+Added Member To Class: ClassName=SmartValve Member=Component C3 0.1uF
+Added Member To Class: ClassName=SmartValve Member=Component C5 1uF
+Added Member To Class: ClassName=SmartValve Member=Component C6 0.1uF
+Added Member To Class: ClassName=SmartValve Member=Component C8 1uF
+Added Member To Class: ClassName=SmartValve Member=Component C9 1uF
+Added Member To Class: ClassName=SmartValve Member=Component C11 1uF
+Added Member To Class: ClassName=SmartValve Member=Component C13 10.0
+Added Member To Class: ClassName=SmartValve Member=Component C14 1uF
+Added Member To Class: ClassName=SmartValve Member=Component C16 1uF
+Added Member To Class: ClassName=SmartValve Member=Component C17 0.1uF

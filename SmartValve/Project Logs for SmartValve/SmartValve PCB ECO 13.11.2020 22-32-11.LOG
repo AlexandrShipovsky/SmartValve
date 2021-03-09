@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=GND Pin=1-1
+Removed Member From Class: ClassName=SmartValve Member=1
+Added Component: Designator=?(BAT_3AA)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=?-2
+Added Pin To Net: NetName=Net?_1 Pin=?-1
+Added Pin To Net: NetName=Net?_1 Pin=R1-1
+Added Pin To Net: NetName=Net?_1 Pin=VT1-3
+Added Net: Name=Net?_1
+Added Member To Class: ClassName=SmartValve Member=Component ? 3xAA

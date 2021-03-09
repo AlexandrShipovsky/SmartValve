@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: SmartValve.PcbDoc   25.01.2021  14:27:29
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : SmartValve-Plated.TXT
+ASCII Non-Plated RoundHoles File : SmartValve-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.305mm)                                           Round             43        PTH        0.00inch (0.00mm)
+T2      20mil (0.508mm)                                           Round             2         PTH        0.00inch (0.00mm)
+T3      39mil (0.991mm)                                           Round             29        PTH        0.00inch (0.00mm)
+T4      43mil (1.092mm)                                           Round             8         PTH        0.00inch (0.00mm)
+T5      118mil (2.997mm)                                          Round             2         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              84
+
+Total Processing Time (hh:mm:ss) : 00:00:00

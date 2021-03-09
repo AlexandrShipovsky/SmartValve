@@ -1,0 +1,7 @@
+Added Component: Designator=BQ1(6.2 x 02.1MM CYLINDER PACKAGE)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1861653"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetBQ1_1 Pin=BQ1-1
+Added Pin To Net: NetName=NetBQ1_2 Pin=BQ1-2
+Added Member To Class: ClassName=SmartValve Member=Component BQ1 AB26T

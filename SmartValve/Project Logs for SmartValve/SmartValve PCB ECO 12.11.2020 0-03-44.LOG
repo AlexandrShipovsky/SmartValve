@@ -1,0 +1,966 @@
+Added Component: Designator=1(BAT_3AA)
+Add component. Clean all parameters for all variants
+Added Component: Designator=2(TP_36_PAD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "TP_36_PAD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TP_36_PAD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Testpoint"; VariantName = "[No Variations]"
+Added Component: Designator=3(TP_36_PAD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "TP_36_PAD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TP_36_PAD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Testpoint"; VariantName = "[No Variations]"
+Added Component: Designator=4(TP_36_PAD)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "TP_36_PAD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TP_36_PAD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Testpoint"; VariantName = "[No Variations]"
+Added Component: Designator=C1(CC0402_0.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "\\192.168.11.60\BolidLibrary\Altium\Database\Datasheets\727234197.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "333447376"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperRecomend"; Value = "Желательно"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CC0402_0.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "\\192.168.11.60\BolidLibrary\Altium\Database\Datasheets\727234197.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "333447376"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperRecomend"; Value = "Желательно"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C3(CC0402_0.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "539117446"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CC0402_0.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "539117446"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C5(CC0402_0.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "\\192.168.11.60\BolidLibrary\Altium\Database\Datasheets\727234197.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "333447376"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperRecomend"; Value = "Желательно"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C6(CC0402_0.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "539117446"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C7(CC0402_0.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "539117446"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C8(CC0402_0.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "539117446"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C9(CC0402_0.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "\\192.168.11.60\BolidLibrary\Altium\Database\Datasheets\727234197.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "333447376"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperRecomend"; Value = "Желательно"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C10(CC0402_0.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "539117446"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C11(CC0402_0.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "C0402_NP0_10pF_5%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0402_NP0_10pF_5%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "NP0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10.0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C12(CC0402_0.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "C0402_NP0_10pF_5%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0402_NP0_10pF_5%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "NP0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10.0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C13(CC0402_0.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "539117446"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C14(CC0402_0.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "\\192.168.11.60\BolidLibrary\Altium\Database\Datasheets\727234197.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "333447376"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperRecomend"; Value = "Желательно"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C15(CC0402_0.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "539117446"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0402_X5R_1uF_10%_10V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "10V"; VariantName = "[No Variations]"
+Added Component: Designator=C16(CC0402_0.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "\\192.168.11.60\BolidLibrary\Altium\Database\Datasheets\727234197.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "333447376"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperRecomend"; Value = "Желательно"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C17(CC0402_0.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "\\192.168.11.60\BolidLibrary\Altium\Database\Datasheets\727234197.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "333447376"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperRecomend"; Value = "Желательно"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "C0402_X7R_0.1uF_10%_16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=DA1(SOT-23)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "3257434"; VariantName = "[No Variations]"
+Added Component: Designator=DD1(TQFP-64)
+Add component. Clean all parameters for all variants
+Added Component: Designator=L1(CL0402(1005))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1515762"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "600 Ом"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Компэл"; Value = "BLM15AG601SN1D"; VariantName = "[No Variations]"
+Added Component: Designator=LCD1(LCD_8x16)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R1(RC0402)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MaxWorkingVoltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "0402-2M-1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0402-2M-1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerDiss"; Value = "0.0625 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureCoef"; Value = "±100 ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "General purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2M"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RC0402)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MaxWorkingVoltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "0402-2M-1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0402-2M-1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerDiss"; Value = "0.0625 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureCoef"; Value = "±100 ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "General purpose"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2M"; VariantName = "[No Variations]"
+Added Component: Designator=R3(RC0402)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "AnalogDB"; Value = "0402-10K-1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "\\192.168.11.60\BolidLibrary\Altium\Database\Datasheets\845136600.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "155833251"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "0402-10K-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperRecomend"; Value = "Желательно"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MaxWorkingVoltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "0402-10K-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0402-10K-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerDiss"; Value = "0.0625 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureCoef"; Value = "±100 ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R4(RC0402)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "AnalogDB"; Value = "0402-150R-1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "\\192.168.11.60\BolidLibrary\Altium\Database\Datasheets\845136600.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "489132610"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "0402-150R-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperRecomend"; Value = "Желательно"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MaxWorkingVoltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "0402-150R-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0402-150R-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerDiss"; Value = "0.0625 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureCoef"; Value = "±100 ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150.0"; VariantName = "[No Variations]"
+Added Component: Designator=R5(RC0402)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "AnalogDB"; Value = "0402-150R-1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "\\192.168.11.60\BolidLibrary\Altium\Database\Datasheets\845136600.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "489132610"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "0402-150R-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperRecomend"; Value = "Желательно"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MaxWorkingVoltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "0402-150R-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0402-150R-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerDiss"; Value = "0.0625 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureCoef"; Value = "±100 ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150.0"; VariantName = "[No Variations]"
+Added Component: Designator=R6(RC0402)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "AnalogDB"; Value = "0402-10K-1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "\\192.168.11.60\BolidLibrary\Altium\Database\Datasheets\845136600.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "155833251"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "0402-10K-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperRecomend"; Value = "Желательно"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MaxWorkingVoltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "0402-10K-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0402-10K-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerDiss"; Value = "0.0625 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureCoef"; Value = "±100 ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R7(RC0402)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "AnalogDB"; Value = "0402-10K-1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "\\192.168.11.60\BolidLibrary\Altium\Database\Datasheets\845136600.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "155833251"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "0402-10K-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperRecomend"; Value = "Желательно"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MaxWorkingVoltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "0402-10K-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0402-10K-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerDiss"; Value = "0.0625 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureCoef"; Value = "±100 ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R8(RC0402)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "AnalogDB"; Value = "0402-10K-1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "\\192.168.11.60\BolidLibrary\Altium\Database\Datasheets\845136600.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "155833251"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "0402-10K-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperRecomend"; Value = "Желательно"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MaxWorkingVoltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "0402-10K-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0402-10K-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerDiss"; Value = "0.0625 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureCoef"; Value = "±100 ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R9(RC0402)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "AnalogDB"; Value = "0402-10K-1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "\\192.168.11.60\BolidLibrary\Altium\Database\Datasheets\845136600.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "155833251"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "0402-10K-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperRecomend"; Value = "Желательно"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MaxWorkingVoltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "0402-10K-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0402-10K-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerDiss"; Value = "0.0625 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureCoef"; Value = "±100 ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=R10(RC0402)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "AnalogDB"; Value = "0402-150R-1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "\\192.168.11.60\BolidLibrary\Altium\Database\Datasheets\845136600.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "489132610"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "0402-150R-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperRecomend"; Value = "Желательно"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MaxWorkingVoltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "0402-150R-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0402-150R-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerDiss"; Value = "0.0625 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureCoef"; Value = "±100 ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150.0"; VariantName = "[No Variations]"
+Added Component: Designator=R11(RC0402)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "AnalogDB"; Value = "0402-150R-1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentHeight"; Value = "0.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.yageo.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "\\192.168.11.60\BolidLibrary\Altium\Database\Datasheets\845136600.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "489132610"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "0402-150R-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperRecomend"; Value = "Желательно"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MaxWorkingVoltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "0402-150R-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0402-150R-5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PowerDiss"; Value = "0.0625 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TemperatureCoef"; Value = "±100 ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TempRange"; Value = "-55..+155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "150.0"; VariantName = "[No Variations]"
+Added Component: Designator=SB1(Membrane keyboard)
+Add component. Clean all parameters for all variants
+Added Component: Designator=VL1(Electric valve)
+Add component. Clean all parameters for all variants
+Added Component: Designator=VT1(SOT-23)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "IRLML6402GTRPBFDKR-ND"; VariantName = "[No Variations]"
+Added Component: Designator=VT2(SuperSOT-6)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.fairchildsemi.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "548145014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "FDC6420C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Fairchild"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "FDC6420C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "FDC6420C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=VT3(SuperSOT-6)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.fairchildsemi.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheet 2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "Datasheet 3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentVersion"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Creator"; Value = "Турнаев С.С."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Developer_ID"; Value = "548145014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeveloperMnemocod"; Value = "FDC6420C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Fairchild"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "FDC6420C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "FDC6420C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PatternVersion"; Value = "0"; VariantName = "[No Variations]"
+Added Component: Designator=XP1(PLS-4)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=3.3V Pin=4-1
+Added Pin To Net: NetName=3.3V Pin=C4-1
+Added Pin To Net: NetName=3.3V Pin=C5-1
+Added Pin To Net: NetName=3.3V Pin=C6-1
+Added Pin To Net: NetName=3.3V Pin=C13-2
+Added Pin To Net: NetName=3.3V Pin=C15-2
+Added Pin To Net: NetName=3.3V Pin=DA1-2
+Added Pin To Net: NetName=3.3V Pin=DD1-11
+Added Pin To Net: NetName=3.3V Pin=DD1-29
+Added Pin To Net: NetName=3.3V Pin=DD1-55
+Added Pin To Net: NetName=3.3V Pin=L1-1
+Added Pin To Net: NetName=3.3V Pin=XP1-1
+Added Net: Name=3.3V
+Added Pin To Net: NetName=4.5V Pin=C3-1
+Added Pin To Net: NetName=4.5V Pin=DA1-3
+Added Pin To Net: NetName=4.5V Pin=R6-2
+Added Pin To Net: NetName=4.5V Pin=R8-1
+Added Pin To Net: NetName=4.5V Pin=VT1-2
+Added Pin To Net: NetName=4.5V Pin=VT2-2
+Added Pin To Net: NetName=4.5V Pin=VT3-2
+Added Net: Name=4.5V
+Added Pin To Net: NetName=COM1 Pin=DD1-5
+Added Pin To Net: NetName=COM1 Pin=LCD1-8
+Added Net: Name=COM1
+Added Pin To Net: NetName=COM2 Pin=DD1-6
+Added Pin To Net: NetName=COM2 Pin=LCD1-7
+Added Net: Name=COM2
+Added Pin To Net: NetName=COM3 Pin=DD1-7
+Added Pin To Net: NetName=COM3 Pin=LCD1-6
+Added Net: Name=COM3
+Added Pin To Net: NetName=COM4 Pin=DD1-26
+Added Pin To Net: NetName=COM4 Pin=LCD1-5
+Added Net: Name=COM4
+Added Pin To Net: NetName=COM5 Pin=DD1-41
+Added Pin To Net: NetName=COM5 Pin=LCD1-4
+Added Net: Name=COM5
+Added Pin To Net: NetName=COM6 Pin=DD1-42
+Added Pin To Net: NetName=COM6 Pin=LCD1-3
+Added Net: Name=COM6
+Added Pin To Net: NetName=COM7 Pin=DD1-43
+Added Pin To Net: NetName=COM7 Pin=LCD1-2
+Added Net: Name=COM7
+Added Pin To Net: NetName=COM8 Pin=DD1-44
+Added Pin To Net: NetName=COM8 Pin=LCD1-1
+Added Net: Name=COM8
+Added Pin To Net: NetName=Enable1 Pin=DD1-48
+Added Pin To Net: NetName=Enable1 Pin=R10-2
+Added Net: Name=Enable1
+Added Pin To Net: NetName=Enable2 Pin=DD1-47
+Added Pin To Net: NetName=Enable2 Pin=R4-1
+Added Net: Name=Enable2
+Added Pin To Net: NetName=GND Pin=1-1
+Added Pin To Net: NetName=GND Pin=2-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C15-1
+Added Pin To Net: NetName=GND Pin=C16-1
+Added Pin To Net: NetName=GND Pin=C17-1
+Added Pin To Net: NetName=GND Pin=DA1-1
+Added Pin To Net: NetName=GND Pin=DD1-9
+Added Pin To Net: NetName=GND Pin=DD1-10
+Added Pin To Net: NetName=GND Pin=DD1-30
+Added Pin To Net: NetName=GND Pin=DD1-56
+Added Pin To Net: NetName=GND Pin=R2-2
+Added Pin To Net: NetName=GND Pin=R3-2
+Added Pin To Net: NetName=GND Pin=R7-2
+Added Pin To Net: NetName=GND Pin=R9-1
+Added Pin To Net: NetName=GND Pin=VT2-5
+Added Pin To Net: NetName=GND Pin=VT3-5
+Added Pin To Net: NetName=GND Pin=XP1-4
+Added Net: Name=GND
+Added Pin To Net: NetName=Net1_2 Pin=1-2
+Added Pin To Net: NetName=Net1_2 Pin=R1-1
+Added Pin To Net: NetName=Net1_2 Pin=VT1-3
+Added Net: Name=Net1_2
+Added Pin To Net: NetName=Net3_1 Pin=3-1
+Added Pin To Net: NetName=Net3_1 Pin=C2-1
+Added Pin To Net: NetName=Net3_1 Pin=DD1-2
+Added Pin To Net: NetName=Net3_1 Pin=XP1-3
+Added Net: Name=Net3_1
+Added Pin To Net: NetName=NetBQ1_1 Pin=C11-2
+Added Pin To Net: NetName=NetBQ1_1 Pin=DD1-61
+Added Net: Name=NetBQ1_1
+Added Pin To Net: NetName=NetBQ1_2 Pin=C12-2
+Added Pin To Net: NetName=NetBQ1_2 Pin=DD1-60
+Added Net: Name=NetBQ1_2
+Added Pin To Net: NetName=NetC1_1 Pin=C1-1
+Added Pin To Net: NetName=NetC1_1 Pin=DD1-62
+Added Pin To Net: NetName=NetC1_1 Pin=R1-2
+Added Pin To Net: NetName=NetC1_1 Pin=R2-1
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetC7_1 Pin=C7-1
+Added Pin To Net: NetName=NetC7_1 Pin=VL1-1
+Added Pin To Net: NetName=NetC7_1 Pin=VT2-4
+Added Pin To Net: NetName=NetC7_1 Pin=VT2-6
+Added Net: Name=NetC7_1
+Added Pin To Net: NetName=NetC7_2 Pin=C7-2
+Added Pin To Net: NetName=NetC7_2 Pin=VL1-2
+Added Pin To Net: NetName=NetC7_2 Pin=VT3-4
+Added Pin To Net: NetName=NetC7_2 Pin=VT3-6
+Added Net: Name=NetC7_2
+Added Pin To Net: NetName=NetC10_1 Pin=C10-1
+Added Pin To Net: NetName=NetC10_1 Pin=DD1-18
+Added Net: Name=NetC10_1
+Added Pin To Net: NetName=NetC14_2 Pin=C14-2
+Added Pin To Net: NetName=NetC14_2 Pin=DD1-54
+Added Pin To Net: NetName=NetC14_2 Pin=SB1-1
+Added Net: Name=NetC14_2
+Added Pin To Net: NetName=NetC16_2 Pin=C16-2
+Added Pin To Net: NetName=NetC16_2 Pin=DD1-53
+Added Pin To Net: NetName=NetC16_2 Pin=SB1-2
+Added Net: Name=NetC16_2
+Added Pin To Net: NetName=NetC17_2 Pin=C17-2
+Added Pin To Net: NetName=NetC17_2 Pin=DD1-52
+Added Pin To Net: NetName=NetC17_2 Pin=SB1-3
+Added Net: Name=NetC17_2
+Added Pin To Net: NetName=NetDD1_1 Pin=DD1-1
+Added Pin To Net: NetName=NetDD1_1 Pin=XP1-2
+Added Net: Name=NetDD1_1
+Added Pin To Net: NetName=NetDD1_50 Pin=DD1-50
+Added Pin To Net: NetName=NetDD1_50 Pin=SB1-5
+Added Net: Name=NetDD1_50
+Added Pin To Net: NetName=NetDD1_51 Pin=DD1-51
+Added Pin To Net: NetName=NetDD1_51 Pin=SB1-4
+Added Net: Name=NetDD1_51
+Added Pin To Net: NetName=NetR3_1 Pin=R3-1
+Added Pin To Net: NetName=NetR3_1 Pin=VT1-1
+Added Net: Name=NetR3_1
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=NetR4_2 Pin=R6-1
+Added Pin To Net: NetName=NetR4_2 Pin=VT2-3
+Added Net: Name=NetR4_2
+Added Pin To Net: NetName=NetR5_2 Pin=R5-2
+Added Pin To Net: NetName=NetR5_2 Pin=R7-1
+Added Pin To Net: NetName=NetR5_2 Pin=VT2-1
+Added Net: Name=NetR5_2
+Added Pin To Net: NetName=NetR8_2 Pin=R8-2
+Added Pin To Net: NetName=NetR8_2 Pin=R10-1
+Added Pin To Net: NetName=NetR8_2 Pin=VT3-3
+Added Net: Name=NetR8_2
+Added Pin To Net: NetName=NetR9_2 Pin=R9-2
+Added Pin To Net: NetName=NetR9_2 Pin=R11-1
+Added Pin To Net: NetName=NetR9_2 Pin=VT3-1
+Added Net: Name=NetR9_2
+Added Pin To Net: NetName=PWM_Pulse1 Pin=DD1-45
+Added Pin To Net: NetName=PWM_Pulse1 Pin=R5-1
+Added Net: Name=PWM_Pulse1
+Added Pin To Net: NetName=PWM_Pulse2 Pin=DD1-46
+Added Pin To Net: NetName=PWM_Pulse2 Pin=R11-2
+Added Net: Name=PWM_Pulse2
+Added Pin To Net: NetName=SEG0 Pin=DD1-8
+Added Pin To Net: NetName=SEG0 Pin=LCD1-9
+Added Net: Name=SEG0
+Added Pin To Net: NetName=SEG1 Pin=DD1-19
+Added Pin To Net: NetName=SEG1 Pin=LCD1-10
+Added Net: Name=SEG1
+Added Pin To Net: NetName=SEG2 Pin=DD1-20
+Added Pin To Net: NetName=SEG2 Pin=LCD1-11
+Added Net: Name=SEG2
+Added Pin To Net: NetName=SEG3 Pin=DD1-21
+Added Pin To Net: NetName=SEG3 Pin=LCD1-12
+Added Net: Name=SEG3
+Added Pin To Net: NetName=SEG4 Pin=DD1-22
+Added Pin To Net: NetName=SEG4 Pin=LCD1-13
+Added Net: Name=SEG4
+Added Pin To Net: NetName=SEG5 Pin=DD1-23
+Added Pin To Net: NetName=SEG5 Pin=LCD1-14
+Added Net: Name=SEG5
+Added Pin To Net: NetName=SEG6 Pin=DD1-24
+Added Pin To Net: NetName=SEG6 Pin=LCD1-15
+Added Net: Name=SEG6
+Added Pin To Net: NetName=SEG7 Pin=DD1-25
+Added Pin To Net: NetName=SEG7 Pin=LCD1-16
+Added Net: Name=SEG7
+Added Pin To Net: NetName=SEG8 Pin=DD1-27
+Added Pin To Net: NetName=SEG8 Pin=LCD1-17
+Added Net: Name=SEG8
+Added Pin To Net: NetName=SEG9 Pin=DD1-28
+Added Pin To Net: NetName=SEG9 Pin=LCD1-18
+Added Net: Name=SEG9
+Added Pin To Net: NetName=SEG10 Pin=DD1-31
+Added Pin To Net: NetName=SEG10 Pin=LCD1-19
+Added Net: Name=SEG10
+Added Pin To Net: NetName=SEG11 Pin=DD1-32
+Added Pin To Net: NetName=SEG11 Pin=LCD1-20
+Added Net: Name=SEG11
+Added Pin To Net: NetName=SEG12 Pin=DD1-33
+Added Pin To Net: NetName=SEG12 Pin=LCD1-21
+Added Net: Name=SEG12
+Added Pin To Net: NetName=SEG13 Pin=DD1-34
+Added Pin To Net: NetName=SEG13 Pin=LCD1-22
+Added Net: Name=SEG13
+Added Pin To Net: NetName=SEG14 Pin=DD1-35
+Added Pin To Net: NetName=SEG14 Pin=LCD1-23
+Added Net: Name=SEG14
+Added Pin To Net: NetName=SEG15 Pin=DD1-36
+Added Pin To Net: NetName=SEG15 Pin=LCD1-24
+Added Net: Name=SEG15
+Added Pin To Net: NetName=VDDA Pin=C8-1
+Added Pin To Net: NetName=VDDA Pin=C9-1
+Added Pin To Net: NetName=VDDA Pin=DD1-12
+Added Pin To Net: NetName=VDDA Pin=DD1-13
+Added Pin To Net: NetName=VDDA Pin=L1-2
+Added Net: Name=VDDA
+Added Class: Name=SmartValve

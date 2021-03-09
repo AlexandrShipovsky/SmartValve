@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=Net1_1 Pin=1-1
+Added Pin To Net: NetName=GND Pin=1-2
+Added Pin To Net: NetName=NetC7_1 Pin=VL1-1
+Added Pin To Net: NetName=NetC7_2 Pin=VL1-2
+Added Member To Class: ClassName=SmartValve Member=Component 1 3xAA
+Added Member To Class: ClassName=SmartValve Member=Component VL1 Electric valve
+Added Room: Name=SmartValve

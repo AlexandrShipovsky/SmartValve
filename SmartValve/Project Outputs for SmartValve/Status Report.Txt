@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [SmartValve.PrjPcb]
+   Generated File[SmartValve-Plated.TXT]
+   Generated File[SmartValve-NonPlated.TXT]
+   Generated File[SmartValve.LDP]
+   Generated File[SmartValve.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 14:27:29 On 25.01.2021

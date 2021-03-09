@@ -1,0 +1,1791 @@
+
+Map of Debug\adcprecision.sm8 from link file Debug\adcprecision.lkf - Fri Sep 26 16:41:27 2008
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 00008539 length  1209 segment .const
+start 0000856c end 0000d06c length 19200 segment .text
+start 00004000 end 00004000 length     0 segment .eeprom
+start 00000000 end 00000000 length     0 segment .bsct
+start 00000000 end 0000000a length    10 segment .ubsct
+start 0000000a end 0000000a length     0 segment .share
+start 00000100 end 0000012b length    43 segment .data, initialized
+start 00008541 end 0000856c length    43 segment .data, from
+start 0000012b end 0000013b length    16 segment .bss
+start 00000000 end 000069ca length 27082 segment .debug
+start 00008000 end 00008080 length   128 segment .const
+start 00008539 end 00008541 length     8 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+C:\Program Files\COSMIC\CXSTM8\Lib\crtsi0.sm8:
+start 0000856c end 000085b7 length    75 section .text
+start 0000012b end 0000012b length     0 section .bss
+start 00000000 end 00000000 length     0 section .ubsct
+
+Debug\stm8s_adc2.o:
+start 000085b7 end 00008735 length   382 section .text
+start 00000000 end 00000f30 length  3888 section .debug
+
+Debug\stm8s_gpio.o:
+start 00008735 end 000087cb length   150 section .text
+start 00000f30 end 00001936 length  2566 section .debug
+
+Debug\stm8s_spi.o:
+start 000087cb end 00008905 length   314 section .text
+start 00001936 end 0000284e length  3864 section .debug
+
+Debug\adcaveraging.o:
+start 00008905 end 00008a84 length   383 section .text
+start 0000284e end 00002b8e length   832 section .debug
+start 00008080 end 0000809e length    30 section .const
+
+Debug\adccalibration.o:
+start 00008a84 end 00008fea length  1382 section .text
+start 00002b8e end 0000326e length  1760 section .debug
+start 0000809e end 000080dd length    63 section .const
+
+Debug\adcdriverfft.o:
+start 00008fea end 000095b4 length  1482 section .text
+start 00000100 end 00000120 length    32 section .data
+start 0000326e end 00003e3f length  3025 section .debug
+start 000080dd end 0000812b length    78 section .const
+
+Debug\adcfncfft.o:
+start 000095b4 end 000096e1 length   301 section .text
+start 0000012b end 0000012d length     2 section .bss
+start 00003e3f end 00004214 length   981 section .debug
+
+Debug\adcwhitenoise.o:
+start 000096e1 end 000097ed length   268 section .text
+start 00004214 end 0000447d length   617 section .debug
+start 0000812b end 0000814c length    33 section .const
+
+Debug\fft.o:
+start 000097ed end 0000ab6b length  4990 section .text
+start 00000120 end 00000121 length     1 section .data
+start 0000012d end 0000013b length    14 section .bss
+start 0000447d end 00005595 length  4376 section .debug
+start 0000814c end 000082a2 length   342 section .const
+
+Debug\filter50hz.o:
+start 0000ab6b end 0000ad5e length   499 section .text
+start 00005595 end 000058fe length   873 section .debug
+start 000082a2 end 000082c0 length    30 section .const
+
+Debug\main.o:
+start 0000ad5e end 0000af0e length   432 section .text
+start 000058fe end 00005a56 length   344 section .debug
+start 000082c0 end 000083a1 length   225 section .const
+
+Debug\mono_lcd.o:
+start 0000af0e end 0000b323 length  1045 section .text
+start 00005a56 end 000067d4 length  3454 section .debug
+start 000083a1 end 000083e1 length    64 section .const
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)atan.o:
+start 0000b323 end 0000b499 length   374 section .text
+start 000083e1 end 00008431 length    80 section .const
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cffun0.o:
+start 0000b499 end 0000b4f5 length    92 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ceil.o:
+start 0000b4f5 end 0000b52a length    53 section .text
+start 00008431 end 00008435 length     4 section .const
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ftrunc.o:
+start 0000b52a end 0000b54a length    32 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sin.o:
+start 0000b54a end 0000b5e9 length   159 section .text
+start 00008435 end 00008471 length    60 section .const
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ifmod.o:
+start 0000b5e9 end 0000b6f7 length   270 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)floor.o:
+start 0000b6f7 end 0000b72c length    53 section .text
+start 00008471 end 00008475 length     4 section .const
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)log.o:
+start 0000b72c end 0000b8ac length   384 section .text
+start 00008475 end 000084a1 length    44 section .const
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cfcon.o:
+start 000084a1 end 000084c3 length    34 section .const
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)printf.o:
+start 0000b8ac end 0000b8bc length    16 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cprint.o:
+start 0000b8bc end 0000be6f length  1459 section .text
+start 000084c3 end 000084fc length    57 section .const
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtoe.o:
+start 0000be6f end 0000bfb4 length   325 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtof.o:
+start 0000bfb4 end 0000c0a7 length   243 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtog.o:
+start 0000c0a7 end 0000c18c length   229 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cnorm.o:
+start 0000c18c end 0000c2f7 length   363 section .text
+start 000084fc end 00008504 length     8 section .const
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtento.o:
+start 0000c2f7 end 0000c3c9 length   210 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)round.o:
+start 0000c3c9 end 0000c441 length   120 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sprnt.o:
+start 0000c441 end 0000c455 length    20 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sqrt.o:
+start 0000c455 end 0000c52e length   217 section .text
+start 00008504 end 00008514 length    16 section .const
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)itob.o:
+start 0000c52e end 0000c645 length   279 section .text
+start 00008514 end 00008539 length    37 section .const
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)idiv0.o:
+start 0000c645 end 0000c650 length    11 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)ildiv0.o:
+start 0000c650 end 0000c66b length    27 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)malloc.o:
+start 0000c66b end 0000c808 length   413 section .text
+start 00000121 end 00000129 length     8 section .data
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)memchr0.o:
+start 0000c808 end 0000c818 length    16 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)putchr.o:
+start 0000c818 end 0000c821 length     9 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)sbreak.o:
+start 0000c821 end 0000c850 length    47 section .text
+start 00000129 end 0000012b length     2 section .data
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)strlen0.o:
+start 0000c850 end 0000c85c length    12 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)toup0.o:
+start 0000c85c end 0000c867 length    11 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ctof.o:
+start 0000c867 end 0000c86f length     8 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ldiv.o:
+start 0000c86f end 0000c95a length   235 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fadd.o:
+start 0000c95a end 0000ca37 length   221 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fcmp.o:
+start 0000ca37 end 0000ca6d length    54 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fdiv.o:
+start 0000ca6d end 0000caf1 length   132 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgadd.o:
+start 0000caf1 end 0000caf9 length     8 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgdiv.o:
+start 0000caf9 end 0000cb1b length    34 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgmul.o:
+start 0000cb1b end 0000cb23 length     8 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgneg.o:
+start 0000cb23 end 0000cb2e length    11 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgsub.o:
+start 0000cb2e end 0000cb39 length    11 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fmul.o:
+start 0000cb39 end 0000cc0e length   213 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fneg.o:
+start 0000cc0e end 0000cc19 length    11 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ftol.o:
+start 0000cc19 end 0000cc7b length    98 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)imul.o:
+start 0000cc7b end 0000cc9c length    33 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)itof.o:
+start 0000cc9c end 0000ccca length    46 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)itolx.o:
+start 0000ccca end 0000ccd8 length    14 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ladc.o:
+start 0000ccd8 end 0000cce9 length    17 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ladd.o:
+start 0000cce9 end 0000cd01 length    24 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)land.o:
+start 0000cd01 end 0000cd19 length    24 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lcmp.o:
+start 0000cd19 end 0000cd39 length    32 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lsdiv.o:
+start 0000cd39 end 0000cd58 length    31 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lgadd.o:
+start 0000cd58 end 0000cd6f length    23 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lgneg.o:
+start 0000cd6f end 0000cd82 length    19 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lgsbc.o:
+start 0000cd82 end 0000cd98 length    22 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)llsh.o:
+start 0000cd98 end 0000cda7 length    15 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lsmod.o:
+start 0000cda7 end 0000cdc9 length    34 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lmul.o:
+start 0000cdc9 end 0000ce54 length   139 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lneg.o:
+start 0000ce54 end 0000ce69 length    21 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lreg.o:
+start 00000000 end 00000004 length     4 section .ubsct
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lrzmp.o:
+start 0000ce69 end 0000ce7c length    19 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lsub.o:
+start 0000ce7c end 0000ce94 length    24 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ltof.o:
+start 0000ce94 end 0000cef2 length    94 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ltor.o:
+start 0000cef2 end 0000cf04 length    18 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ludiv.o:
+start 0000cf04 end 0000cf18 length    20 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lzmp.o:
+start 0000cf18 end 0000cf2a length    18 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)rtol.o:
+start 0000cf2a end 0000cf3c length    18 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)sdivx.o:
+start 0000cf3c end 0000cf67 length    43 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)smul.o:
+start 0000cf67 end 0000cfa6 length    63 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)uitof.o:
+start 0000cfa6 end 0000cfca length    36 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)utolx.o:
+start 0000cfca end 0000cfd1 length     7 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ultof.o:
+start 0000cfd1 end 0000d01c length    75 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)umul.o:
+start 0000d01c end 0000d058 length    60 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)xreg.o:
+start 00000004 end 00000007 length     3 section .ubsct
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)xymvx.o:
+start 0000d058 end 0000d067 length    15 section .text
+
+(C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)yreg.o:
+start 00000007 end 0000000a length     3 section .ubsct
+
+Debug\stm8_interrupt_vector.o:
+start 0000d067 end 0000d06c length     5 section .text
+start 000067d4 end 000069ca length   502 section .debug
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Debug\adcaveraging.o:
+L111_GetMinMaxAvrg                  12   (12)
+L3_ADCCollectDataAvrg               23   (8)
+_Average                            26   (12)
+_TestADCAveraging                  209   (38)
+
+Debug\adccalibration.o:
+L103_ADCCalibratePQ                 55   (46)
+L163_GetErrorCalib                  55   (30)
+L332_GetMultiplierCalib             25   (17)
+L53_ADCCollectDataCalib             42   (19)
+_TestADCCalibration                225   (54)
+
+Debug\adcdriverfft.o:
+_AllocateDataBuffer                181   (12)
+_AllocateEvalBoardBuffer           185   (4)
+_ConvertInProgress                   2   (2)
+_GetDataFromEvalBoard                4   (2)
+_GetDataFromEvalBoardfrequency     139   (76)
+_GetMinMaxData                      16   (16)
+_GetPeriodIndex                     63   (54)
+_InitEvalBoardcard                  50   (26)
+_InitEvalBoardparam                 26   (18)
+_SetCPUClock                         2   (2)
+_UnAllocateDataBuffer              175   (6)
+
+Debug\adcfncfft.o:
+_ADCStart                            2   (2)
+_InitADCTimerTrigger                23   (8)
+f_ADCInterrupt                  >   21   (14)
+
+Debug\adcwhitenoise.o:
+L15_AverageWhiteNoise               18   (10)
+L3_ADCCollectDataWhiteNoise         23   (8)
+_TestADCWhiteNoise                 209   (38)
+
+Debug\fft.o:
+_CloseFFT                          177   (2)
+_FFT                                52   (10)
+_FFTall                            144   (20)
+_FillExp                            62   (16)
+_FillInv                            18   (6)
+_FillSamplesInv                     87   (73)
+_GetFFTResults                     154   (10)
+_GetSignalfrequency                149   (10)
+_InitEvalBoard                      38   (12)
+_InitFFT                           195   (10)
+_PrintFFTAll                       175   (4)
+_TestADCFFT                        205   (10)
+_flipbits                           12   (9)
+_getHarmonicPower                  124   (78)
+_mulFFT                             42   (28)
+
+Debug\filter50hz.o:
+L74_Filter50Hz                      46   (14)
+_ADCCollectDataFilt                 23   (8)
+_GetMinMaxFilt                      12   (12)
+_TestADCDigitalFilter50Hz          209   (38)
+
+Debug\main.o:
+L3_delay                             8   (6)
+L53_Init_SPI                        12   (2)
+_main                           >  227   (2)
+
+Debug\mono_lcd.o:
+L33_LCD_SPISendByte                  2   (2)
+_LCD_Backlight                       7   (2)
+_LCD_ChipSelect                      7   (2)
+_LCD_Clear                          15   (4)
+_LCD_ClearLine                      14   (3)
+_LCD_Delay                           4   (4)
+_LCD_DisplayCGRAM0                  17   (6)
+_LCD_DisplayCGRAM1                  17   (6)
+_LCD_DisplayLogo                >   20   (3)
+_LCD_Init                           17   (2)
+_LCD_PrintBin2                  >   19   (3)
+_LCD_PrintBin4                  >   19   (3)
+_LCD_PrintChar                      13   (2)
+_LCD_PrintDec1                  >   17   (4)
+_LCD_PrintDec2                      17   (4)
+_LCD_PrintDec3                  >   19   (6)
+_LCD_PrintDec4                      23   (10)
+_LCD_PrintHex1                      16   (3)
+_LCD_PrintHex2                  >   19   (3)
+_LCD_PrintHex3                  >   20   (4)
+_LCD_PrintMsg                   >   21   (6)
+_LCD_PrintString                    19   (8)
+_LCD_RollString                     26   (12)
+_LCD_SendBuffer                 >   14   (7)
+_LCD_SendByte                       11   (4)
+_LCD_SetCursorPos                   15   (4)
+_LCD_SetGraphicMode             >   17   (2)
+_LCD_SetTextMode                >   17   (2)
+
+Debug\stm8_interrupt_vector.o:
+f_NonHandledInterrupt           >    5   (5)
+f_TLIInterruptHandler           >    5   (5)
+f_TrapInterruptHandler          >    5   (5)
+
+Debug\stm8s_adc2.o:
+_ADC2_ClearFlag                      2   (2)
+_ADC2_ClearITPendingBit         >    2   (2)
+_ADC2_Cmd                            2   (2)
+_ADC2_ConversionConfig               5   (5)
+_ADC2_DeInit                    >    2   (2)
+_ADC2_ExternalTriggerConfig          4   (4)
+_ADC2_GetConversionValue             7   (7)
+_ADC2_GetFlagStatus                  2   (2)
+_ADC2_GetITStatus               >    2   (2)
+_ADC2_ITConfig                       2   (2)
+_ADC2_Init                          15   (10)
+_ADC2_PrescalerConfig                3   (3)
+_ADC2_SchmittTriggerConfig           4   (4)
+_ADC2_StartConversion                2   (2)
+
+Debug\stm8s_gpio.o:
+_GPIO_DeInit                    >    2   (2)
+_GPIO_ExternalPullUpConfig      >    6   (6)
+_GPIO_Init                           6   (6)
+_GPIO_ReadInputData             >    2   (2)
+_GPIO_ReadInputPin              >    5   (5)
+_GPIO_ReadOutputData            >    2   (2)
+_GPIO_Write                     >    5   (5)
+_GPIO_WriteHigh                      5   (5)
+_GPIO_WriteLow                       5   (5)
+_GPIO_WriteReverse              >    5   (5)
+
+Debug\stm8s_spi.o:
+_SPI_BiDirectionalLineConfig    >    2   (2)
+_SPI_CalculateCRCCmd                 5   (3)
+_SPI_ClearFlag                  >    2   (2)
+_SPI_ClearITPendingBit          >    3   (3)
+_SPI_Cmd                             2   (2)
+_SPI_DeInit                          2   (2)
+_SPI_GetCRC                     >    3   (3)
+_SPI_GetCRCPolynomial           >    2   (2)
+_SPI_GetFlagStatus              >    3   (3)
+_SPI_GetITStatus                >    5   (5)
+_SPI_ITConfig                   >    5   (5)
+_SPI_Init                           10   (10)
+_SPI_NSSInternalSoftwareCmd     >    2   (2)
+_SPI_ReceiveData                >    2   (2)
+_SPI_ResetCRC                   >    7   (2)
+_SPI_SendData                   >    2   (2)
+_SPI_TransmitCRC                >    2   (2)
+
+C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8:
+_atan                           >   38   (6)
+_atan2                              32   (21)
+_ceil                               24   (10)
+__addexp                             6   (6)
+__poly                              11   (11)
+__unpack                             4   (4)
+__norm                              54   (29)
+L11__cvtup                           8   (6)
+L31__putbuf                         12   (9)
+L7__gnum                            19   (16)
+__print                            153   (51)
+__dtento                            25   (16)
+__dtoe                              82   (28)
+__dtof                              84   (30)
+__dtog                             102   (18)
+_floor                              24   (10)
+__ftrunc                            14   (8)
+__fmod                              27   (19)
+__ln                                37   (28)
+_log                                43   (6)
+_log10                          >   43   (6)
+_printf                            169   (16)
+__round                              7   (7)
+L751__sin                           40   (13)
+_cos                                46   (6)
+_sin                                46   (6)
+_sprintf                           171   (18)
+_sqrt                               25   (16)
+
+C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8:
+__udiv                               4   (4)
+__uldiv                              6   (6)
+__itob                              19   (15)
+__ltob                              23   (17)
+L11__addheap                        22   (6)
+L32__hmerge                          8   (8)
+__breakup                            8   (8)
+_free                               16   (8)
+_malloc                             32   (10)
+_memchr                              6   (6)
+_putchar                             3   (3)
+_sbreak                              6   (6)
+_strlen                              2   (2)
+_toupper                             2   (2)
+
+Stack size: 248
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > _ADC2_ClearITPendingBit: (2)
+
+   2 > _ADC2_DeInit: (2)
+
+   3 > _ADC2_GetITStatus: (2)
+
+   4 > _GPIO_DeInit: (2)
+
+   5 > _GPIO_ExternalPullUpConfig: (6)
+
+   6 > _GPIO_ReadInputData: (2)
+
+   7 > _GPIO_ReadInputPin: (5)
+
+   8 > _GPIO_ReadOutputData: (2)
+
+   9 > _GPIO_Write: (5)
+
+  10 > _GPIO_WriteReverse: (5)
+
+  11 > _LCD_DisplayLogo: (3)
+  12      + _LCD_DisplayCGRAM0: (6)
+  13      |    + _LCD_SendByte: (4)
+  14      |    |    + L33_LCD_SPISendByte: (2)
+  15      |    |    + _LCD_ChipSelect: (2)
+  16      |    |    |    + _GPIO_WriteHigh: (5)
+  17      |    |    |    + _GPIO_WriteLow: (5)
+          |    |    | 
+          |    | 
+          | 
+  18      + _LCD_DisplayCGRAM1: (6)
+  19      |    + _LCD_SendByte --> 13
+          | 
+       
+  20 > _LCD_PrintBin2: (3)
+  21      + _LCD_PrintHex1: (3)
+  22      |    + _LCD_PrintChar: (2)
+  23      |    |    + _LCD_SendByte --> 13
+          |    | 
+          | 
+       
+  24 > _LCD_PrintBin4: (3)
+  25      + _LCD_PrintHex1 --> 21
+       
+  26 > _LCD_PrintDec1: (4)
+  27      + _LCD_PrintChar --> 22
+       
+  28 > _LCD_PrintDec3: (6)
+  29      + _LCD_PrintChar --> 22
+       
+  30 > _LCD_PrintHex2: (3)
+  31      + _LCD_PrintHex1 --> 21
+       
+  32 > _LCD_PrintHex3: (4)
+  33      + _LCD_PrintHex1 --> 21
+       
+  34 > _LCD_PrintMsg: (6)
+  35      + _LCD_Clear: (4)
+  36      |    + _LCD_SendByte --> 13
+          | 
+  37      + _LCD_SendByte --> 13
+       
+  38 > _LCD_SendBuffer: (7)
+  39      + L33_LCD_SPISendByte --> 14
+  40      + _LCD_ChipSelect --> 15
+       
+  41 > _LCD_SetGraphicMode: (2)
+  42      + _LCD_Clear --> 35
+  43      + _LCD_SendByte --> 13
+       
+  44 > _LCD_SetTextMode: (2)
+  45      + _LCD_Clear --> 35
+  46      + _LCD_SendByte --> 13
+       
+  47 > _SPI_BiDirectionalLineConfig: (2)
+
+  48 > _SPI_ClearFlag: (2)
+
+  49 > _SPI_ClearITPendingBit: (3)
+
+  50 > _SPI_GetCRC: (3)
+
+  51 > _SPI_GetCRCPolynomial: (2)
+
+  52 > _SPI_GetFlagStatus: (3)
+
+  53 > _SPI_GetITStatus: (5)
+
+  54 > _SPI_ITConfig: (5)
+
+  55 > _SPI_NSSInternalSoftwareCmd: (2)
+
+  56 > _SPI_ReceiveData: (2)
+
+  57 > _SPI_ResetCRC: (2)
+  58      + _SPI_CalculateCRCCmd: (3)
+  59      |    + _SPI_Cmd: (2)
+          | 
+  60      + _SPI_Cmd --> 59
+       
+  61 > _SPI_SendData: (2)
+
+  62 > _SPI_TransmitCRC: (2)
+
+  63 > __stext: (0)
+
+  64 > _atan: (6)
+  65      + _atan2: (21)
+  66      |    + __poly: (11)
+          | 
+       
+  67 > _log10: (6)
+  68      + __ln: (28)
+  69      |    + __unpack: (4)
+          | 
+       
+  70 > _main: (2)
+  71      + L3_delay: (6)
+  72      + L53_Init_SPI: (2)
+  73      |    + _SPI_Cmd --> 59
+  74      |    + _SPI_DeInit: (2)
+  75      |    + _SPI_Init: (10)
+          | 
+  76      + _LCD_Backlight: (2)
+  77      |    + _GPIO_WriteHigh --> 16
+  78      |    + _GPIO_WriteLow --> 17
+          | 
+  79      + _LCD_Clear --> 35
+  80      + _LCD_Init: (2)
+  81      |    + _GPIO_Init: (6)
+  82      |    + _LCD_Clear --> 35
+  83      |    + _LCD_SendByte --> 13
+          | 
+  84      + _LCD_PrintString: (8)
+  85      |    + _LCD_SendByte --> 13
+          | 
+  86      + _LCD_RollString: (12)
+  87      |    + _LCD_ClearLine: (3)
+  88      |    |    + _LCD_SendByte --> 13
+          |    | 
+  89      |    + _LCD_Delay: (4)
+  90      |    + _LCD_SendByte --> 13
+          | 
+  91      + _SetCPUClock: (2)
+  92      + _TestADCAveraging: (38)
+  93      |    + L111_GetMinMaxAvrg: (12)
+  94      |    + L3_ADCCollectDataAvrg: (8)
+  95      |    |    + _ADC2_ClearFlag: (2)
+  96      |    |    + _ADC2_Cmd: (2)
+  97      |    |    + _ADC2_GetConversionValue: (7)
+  98      |    |    + _ADC2_GetFlagStatus: (2)
+  99      |    |    + _ADC2_ITConfig: (2)
+ 100      |    |    + _ADC2_Init: (10)
+ 101      |    |    |    + _ADC2_ConversionConfig: (5)
+ 102      |    |    |    + _ADC2_ExternalTriggerConfig: (4)
+ 103      |    |    |    + _ADC2_PrescalerConfig: (3)
+ 104      |    |    |    + _ADC2_SchmittTriggerConfig: (4)
+          |    |    | 
+          |    | 
+ 105      |    + _Average: (12)
+ 106      |    + _LCD_PrintString --> 84
+ 107      |    + _SetCPUClock --> 91
+ 108      |    + _free: (8)
+ 109      |    |    + L32__hmerge: (8)
+          |    | 
+ 110      |    + _malloc: (10)
+ 111      |    |    + L11__addheap: (6)
+ 112      |    |    |    + _free --> 108
+          |    |    | 
+ 113      |    |    + __breakup: (8)
+ 114      |    |    + _sbreak: (6)
+          |    | 
+ 115      |    + _sprintf: (18)
+ 116      |    |    + __print: (51)
+ 117      |    |    |    + L11__cvtup: (6)
+ 118      |    |    |    |    + _toupper: (2)
+          |    |    |    | 
+ 119      |    |    |    + L31__putbuf: (9)
+ 120      |    |    |    |    + _putchar: (3)
+          |    |    |    | 
+ 121      |    |    |    + L7__gnum: (16)
+ 122      |    |    |    + __dtoe: (28)
+ 123      |    |    |    |    + __norm: (29)
+ 124      |    |    |    |    |    + __dtento: (16)
+ 125      |    |    |    |    |    + __udiv: (4)
+ 126      |    |    |    |    |    + __unpack --> 69
+          |    |    |    |    | 
+ 127      |    |    |    |    + __round: (7)
+ 128      |    |    |    |    + __udiv --> 125
+          |    |    |    | 
+ 129      |    |    |    + __dtof: (30)
+ 130      |    |    |    |    + __norm --> 123
+ 131      |    |    |    |    + __round --> 127
+          |    |    |    | 
+ 132      |    |    |    + __dtog: (18)
+ 133      |    |    |    |    + __dtoe --> 122
+ 134      |    |    |    |    + __dtof --> 129
+ 135      |    |    |    |    + __norm --> 123
+ 136      |    |    |    |    + _memchr: (6)
+          |    |    |    | 
+ 137      |    |    |    + __itob: (15)
+ 138      |    |    |    |    + __udiv --> 125
+          |    |    |    | 
+ 139      |    |    |    + __ltob: (17)
+ 140      |    |    |    |    + __uldiv: (6)
+          |    |    |    | 
+ 141      |    |    |    + _strlen: (2)
+          |    |    | 
+          |    | 
+          | 
+ 142      + _TestADCCalibration: (54)
+ 143      |    + L103_ADCCalibratePQ: (46)
+ 144      |    + L163_GetErrorCalib: (30)
+ 145      |    |    + _sqrt: (16)
+ 146      |    |    |    + __addexp: (6)
+ 147      |    |    |    + __unpack --> 69
+          |    |    | 
+          |    | 
+ 148      |    + L332_GetMultiplierCalib: (17)
+ 149      |    + L3_delay --> 71
+ 150      |    + L53_ADCCollectDataCalib: (19)
+ 151      |    |    + L3_delay --> 71
+ 152      |    |    + _ADC2_ClearFlag --> 95
+ 153      |    |    + _ADC2_GetConversionValue --> 97
+ 154      |    |    + _ADC2_GetFlagStatus --> 98
+ 155      |    |    + _ADC2_ITConfig --> 99
+ 156      |    |    + _ADC2_Init --> 100
+ 157      |    |    + _ADC2_StartConversion: (2)
+ 158      |    |    + _LCD_Clear --> 35
+ 159      |    |    + _LCD_PrintChar --> 22
+ 160      |    |    + _LCD_PrintDec2: (4)
+ 161      |    |    |    + _LCD_PrintChar --> 22
+          |    |    | 
+ 162      |    |    + _LCD_PrintDec4: (10)
+ 163      |    |    |    + _LCD_PrintChar --> 22
+          |    |    | 
+ 164      |    |    + _LCD_PrintString --> 84
+ 165      |    |    + _LCD_SetCursorPos: (4)
+ 166      |    |    |    + _LCD_SendByte --> 13
+          |    |    | 
+          |    | 
+ 167      |    + _ADC2_ClearFlag --> 95
+ 168      |    + _ADC2_GetConversionValue --> 97
+ 169      |    + _ADC2_GetFlagStatus --> 98
+ 170      |    + _ADC2_StartConversion --> 157
+ 171      |    + _LCD_Clear --> 35
+ 172      |    + _LCD_PrintDec4 --> 162
+ 173      |    + _LCD_PrintString --> 84
+ 174      |    + _LCD_SetCursorPos --> 165
+ 175      |    + _SetCPUClock --> 91
+ 176      |    + _free --> 108
+ 177      |    + _malloc --> 110
+ 178      |    + _sprintf --> 115
+          | 
+ 179      + _TestADCDigitalFilter50Hz: (38)
+ 180      |    + L74_Filter50Hz: (14)
+ 181      |    |    + _free --> 108
+ 182      |    |    + _malloc --> 110
+          |    | 
+ 183      |    + _ADCCollectDataFilt: (8)
+ 184      |    |    + _ADC2_ClearFlag --> 95
+ 185      |    |    + _ADC2_Cmd --> 96
+ 186      |    |    + _ADC2_GetConversionValue --> 97
+ 187      |    |    + _ADC2_GetFlagStatus --> 98
+ 188      |    |    + _ADC2_ITConfig --> 99
+ 189      |    |    + _ADC2_Init --> 100
+          |    | 
+ 190      |    + _GetMinMaxFilt: (12)
+ 191      |    + _LCD_PrintString --> 84
+ 192      |    + _SetCPUClock --> 91
+ 193      |    + _free --> 108
+ 194      |    + _malloc --> 110
+ 195      |    + _sprintf --> 115
+          | 
+ 196      + _TestADCFFT: (10)
+ 197      |    + _CloseFFT: (2)
+ 198      |    |    + _UnAllocateDataBuffer: (6)
+ 199      |    |    |    + _free --> 108
+ 200      |    |    |    + _printf: (16)
+ 201      |    |    |    |    + __print --> 116
+          |    |    |    | 
+          |    |    | 
+ 202      |    |    + _free --> 108
+          |    | 
+ 203      |    + _GetFFTResults: (10)
+ 204      |    |    + _FFTall: (20)
+ 205      |    |    |    + _FFT: (10)
+ 206      |    |    |    |    + _mulFFT: (28)
+          |    |    |    | 
+ 207      |    |    |    + _FillSamplesInv: (73)
+ 208      |    |    |    |    + _ConvertInProgress: (2)
+          |    |    |    | 
+ 209      |    |    |    + _getHarmonicPower: (78)
+ 210      |    |    |    |    + _atan2 --> 65
+ 211      |    |    |    |    + _cos: (6)
+ 212      |    |    |    |    |    + L751__sin: (13)
+ 213      |    |    |    |    |    |    + __fmod: (19)
+ 214      |    |    |    |    |    |    |    + __addexp --> 146
+ 215      |    |    |    |    |    |    |    + __unpack --> 69
+          |    |    |    |    |    |    | 
+ 216      |    |    |    |    |    |    + __poly --> 66
+          |    |    |    |    |    | 
+          |    |    |    |    | 
+ 217      |    |    |    |    + _sqrt --> 145
+          |    |    |    | 
+          |    |    | 
+ 218      |    |    + _GetDataFromEvalBoard: (2)
+ 219      |    |    |    + _ADCStart: (2)
+          |    |    | 
+ 220      |    |    + _InitEvalBoardcard: (26)
+ 221      |    |    |    + _InitADCTimerTrigger: (8)
+ 222      |    |    |    |    + _ADC2_ClearFlag --> 95
+ 223      |    |    |    |    + _ADC2_ITConfig --> 99
+ 224      |    |    |    |    + _ADC2_Init --> 100
+          |    |    |    | 
+ 225      |    |    |    + _ceil: (10)
+ 226      |    |    |    |    + __ftrunc: (8)
+          |    |    |    | 
+          |    |    | 
+          |    | 
+ 227      |    + _GetSignalfrequency: (10)
+ 228      |    |    + _GetDataFromEvalBoardfrequency: (76)
+ 229      |    |    |    + _ConvertInProgress --> 208
+ 230      |    |    |    + _GetDataFromEvalBoard --> 218
+ 231      |    |    |    + _GetMinMaxData: (16)
+ 232      |    |    |    + _GetPeriodIndex: (54)
+ 233      |    |    |    + _InitEvalBoardcard --> 220
+ 234      |    |    |    + _InitEvalBoardparam: (18)
+          |    |    | 
+          |    | 
+ 235      |    + _InitEvalBoard: (12)
+ 236      |    |    + _InitEvalBoardparam --> 234
+          |    | 
+ 237      |    + _InitFFT: (10)
+ 238      |    |    + _AllocateEvalBoardBuffer: (4)
+ 239      |    |    |    + _AllocateDataBuffer: (12)
+ 240      |    |    |    |    + _malloc --> 110
+ 241      |    |    |    |    + _printf --> 200
+          |    |    |    | 
+          |    |    | 
+ 242      |    |    + _FillExp: (16)
+ 243      |    |    |    + _cos --> 211
+ 244      |    |    |    + _sin: (6)
+ 245      |    |    |    |    + L751__sin --> 212
+          |    |    |    | 
+          |    |    | 
+ 246      |    |    + _FillInv: (6)
+ 247      |    |    |    + _flipbits: (9)
+          |    |    | 
+ 248      |    |    + _floor: (10)
+ 249      |    |    |    + __ftrunc --> 226
+          |    |    | 
+ 250      |    |    + _log: (6)
+ 251      |    |    |    + __ln --> 68
+          |    |    | 
+ 252      |    |    + _malloc --> 110
+ 253      |    |    + _sprintf --> 115
+          |    | 
+ 254      |    + _PrintFFTAll: (4)
+ 255      |    |    + _LCD_RollString --> 86
+ 256      |    |    + _sprintf --> 115
+          |    | 
+ 257      |    + _SetCPUClock --> 91
+ 258      |    + _free --> 108
+ 259      |    + _malloc --> 110
+          | 
+ 260      + _TestADCWhiteNoise: (38)
+ 261      |    + L15_AverageWhiteNoise: (10)
+ 262      |    + L3_ADCCollectDataWhiteNoise: (8)
+ 263      |    |    + _ADC2_ClearFlag --> 95
+ 264      |    |    + _ADC2_Cmd --> 96
+ 265      |    |    + _ADC2_GetConversionValue --> 97
+ 266      |    |    + _ADC2_GetFlagStatus --> 98
+ 267      |    |    + _ADC2_ITConfig --> 99
+ 268      |    |    + _ADC2_Init --> 100
+          |    | 
+ 269      |    + _LCD_PrintString --> 84
+ 270      |    + _SetCPUClock --> 91
+ 271      |    + _free --> 108
+ 272      |    + _malloc --> 110
+ 273      |    + _sprintf --> 115
+          | 
+       
+ 274 > f_ADCInterrupt: (14)
+ 275      + _ADC2_ClearFlag --> 95
+ 276      + _ADC2_Cmd --> 96
+ 277      + _ADC2_GetConversionValue --> 97
+       
+ 278 > f_NonHandledInterrupt: (5)
+
+ 279 > f_TLIInterruptHandler: (5)
+
+ 280 > f_TrapInterruptHandler: (5)
+
+ 281   L103_ADCCalibratePQ --> 143
+
+ 282   L111_GetMinMaxAvrg --> 93
+
+ 283   L11__addheap --> 111
+
+ 284   L11__cvtup --> 117
+
+ 285   L15_AverageWhiteNoise --> 261
+
+ 286   L163_GetErrorCalib --> 144
+
+ 287   L31__putbuf --> 119
+
+ 288   L32__hmerge --> 109
+
+ 289   L332_GetMultiplierCalib --> 148
+
+ 290   L33_LCD_SPISendByte --> 14
+
+ 291   L3_ADCCollectDataAvrg --> 94
+
+ 292   L3_ADCCollectDataWhiteNoise --> 262
+
+ 293   L3_delay --> 71
+
+ 294   L53_ADCCollectDataCalib --> 150
+
+ 295   L53_Init_SPI --> 72
+
+ 296   L74_Filter50Hz --> 180
+
+ 297   L751__sin --> 212
+
+ 298   L7__gnum --> 121
+
+ 299   _ADC2_ClearFlag --> 95
+
+ 300   _ADC2_Cmd --> 96
+
+ 301   _ADC2_ConversionConfig --> 101
+
+ 302   _ADC2_ExternalTriggerConfig --> 102
+
+ 303   _ADC2_GetConversionValue --> 97
+
+ 304   _ADC2_GetFlagStatus --> 98
+
+ 305   _ADC2_ITConfig --> 99
+
+ 306   _ADC2_Init --> 100
+
+ 307   _ADC2_PrescalerConfig --> 103
+
+ 308   _ADC2_SchmittTriggerConfig --> 104
+
+ 309   _ADC2_StartConversion --> 157
+
+ 310   _ADCCollectDataFilt --> 183
+
+ 311   _ADCStart --> 219
+
+ 312   _AllocateDataBuffer --> 239
+
+ 313   _AllocateEvalBoardBuffer --> 238
+
+ 314   _Average --> 105
+
+ 315   _CloseFFT --> 197
+
+ 316   _ConvertInProgress --> 208
+
+ 317   _FFT --> 205
+
+ 318   _FFTall --> 204
+
+ 319   _FillExp --> 242
+
+ 320   _FillInv --> 246
+
+ 321   _FillSamplesInv --> 207
+
+ 322   _GPIO_Init --> 81
+
+ 323   _GPIO_WriteHigh --> 16
+
+ 324   _GPIO_WriteLow --> 17
+
+ 325   _GetDataFromEvalBoard --> 218
+
+ 326   _GetDataFromEvalBoardfrequency --> 228
+
+ 327   _GetFFTResults --> 203
+
+ 328   _GetMinMaxData --> 231
+
+ 329   _GetMinMaxFilt --> 190
+
+ 330   _GetPeriodIndex --> 232
+
+ 331   _GetSignalfrequency --> 227
+
+ 332   _InitADCTimerTrigger --> 221
+
+ 333   _InitEvalBoard --> 235
+
+ 334   _InitEvalBoardcard --> 220
+
+ 335   _InitEvalBoardparam --> 234
+
+ 336   _InitFFT --> 237
+
+ 337   _LCD_Backlight --> 76
+
+ 338   _LCD_ChipSelect --> 15
+
+ 339   _LCD_Clear --> 35
+
+ 340   _LCD_ClearLine --> 87
+
+ 341   _LCD_Delay --> 89
+
+ 342   _LCD_DisplayCGRAM0 --> 12
+
+ 343   _LCD_DisplayCGRAM1 --> 18
+
+ 344   _LCD_Init --> 80
+
+ 345   _LCD_PrintChar --> 22
+
+ 346   _LCD_PrintDec2 --> 160
+
+ 347   _LCD_PrintDec4 --> 162
+
+ 348   _LCD_PrintHex1 --> 21
+
+ 349   _LCD_PrintString --> 84
+
+ 350   _LCD_RollString --> 86
+
+ 351   _LCD_SendByte --> 13
+
+ 352   _LCD_SetCursorPos --> 165
+
+ 353   _PrintFFTAll --> 254
+
+ 354   _SPI_CalculateCRCCmd --> 58
+
+ 355   _SPI_Cmd --> 59
+
+ 356   _SPI_DeInit --> 74
+
+ 357   _SPI_Init --> 75
+
+ 358   _SetCPUClock --> 91
+
+ 359   _TestADCAveraging --> 92
+
+ 360   _TestADCCalibration --> 142
+
+ 361   _TestADCDigitalFilter50Hz --> 179
+
+ 362   _TestADCFFT --> 196
+
+ 363   _TestADCWhiteNoise --> 260
+
+ 364   _UnAllocateDataBuffer --> 198
+
+ 365   __addexp --> 146
+
+ 366   __breakup --> 113
+
+ 367   __dtento --> 124
+
+ 368   __dtoe --> 122
+
+ 369   __dtof --> 129
+
+ 370   __dtog --> 132
+
+ 371   __fmod --> 213
+
+ 372   __ftrunc --> 226
+
+ 373   __itob --> 137
+
+ 374   __ln --> 68
+
+ 375   __ltob --> 139
+
+ 376   __norm --> 123
+
+ 377   __poly --> 66
+
+ 378   __print --> 116
+
+ 379   __round --> 127
+
+ 380   __udiv --> 125
+
+ 381   __uldiv --> 140
+
+ 382   __unpack --> 69
+
+ 383   _atan2 --> 65
+
+ 384   _ceil --> 225
+
+ 385   _cos --> 211
+
+ 386   _flipbits --> 247
+
+ 387   _floor --> 248
+
+ 388   _free --> 108
+
+ 389   _getHarmonicPower --> 209
+
+ 390   _log --> 250
+
+ 391   _malloc --> 110
+
+ 392   _memchr --> 136
+
+ 393   _mulFFT --> 206
+
+ 394   _printf --> 200
+
+ 395   _putchar --> 120
+
+ 396   _sbreak --> 114
+
+ 397   _sin --> 244
+
+ 398   _sprintf --> 115
+
+ 399   _sqrt --> 145
+
+ 400   _strlen --> 141
+
+ 401   _toupper --> 118
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_ADC2_ClearFlag                  00008725   defined in Debug\stm8s_adc2.o section .text
+                                            used in Debug\adcaveraging.o
+                                                    Debug\adccalibration.o
+                                                    Debug\adcfncfft.o
+                                                    Debug\adcwhitenoise.o
+                                                    Debug\filter50hz.o
+_ADC2_ClearITPendingBit          00008730   defined in Debug\stm8s_adc2.o section .text
+_ADC2_Cmd                        000085f2   defined in Debug\stm8s_adc2.o section .text
+                                            used in Debug\adcaveraging.o
+                                                    Debug\adcfncfft.o
+                                                    Debug\adcwhitenoise.o
+                                                    Debug\filter50hz.o
+_ADC2_ConversionConfig           0000869a   defined in Debug\stm8s_adc2.o section .text
+_ADC2_DeInit                     000085b7   defined in Debug\stm8s_adc2.o section .text
+_ADC2_ExternalTriggerConfig      000086c7   defined in Debug\stm8s_adc2.o section .text
+_ADC2_GetConversionValue         000086ed   defined in Debug\stm8s_adc2.o section .text
+                                            used in Debug\adcaveraging.o
+                                                    Debug\adccalibration.o
+                                                    Debug\adcfncfft.o
+                                                    Debug\adcwhitenoise.o
+                                                    Debug\filter50hz.o
+_ADC2_GetFlagStatus              0000871f   defined in Debug\stm8s_adc2.o section .text
+                                            used in Debug\adcaveraging.o
+                                                    Debug\adccalibration.o
+                                                    Debug\adcwhitenoise.o
+                                                    Debug\filter50hz.o
+_ADC2_GetITStatus                0000872a   defined in Debug\stm8s_adc2.o section .text
+_ADC2_ITConfig                   000085ff   defined in Debug\stm8s_adc2.o section .text
+                                            used in Debug\adcaveraging.o
+                                                    Debug\adccalibration.o
+                                                    Debug\adcfncfft.o
+                                                    Debug\adcwhitenoise.o
+                                                    Debug\filter50hz.o
+_ADC2_Init                       000085cc   defined in Debug\stm8s_adc2.o section .text
+                                            used in Debug\adcaveraging.o
+                                                    Debug\adccalibration.o
+                                                    Debug\adcfncfft.o
+                                                    Debug\adcwhitenoise.o
+                                                    Debug\filter50hz.o
+_ADC2_PrescalerConfig            0000860c   defined in Debug\stm8s_adc2.o section .text
+_ADC2_SchmittTriggerConfig       0000861f   defined in Debug\stm8s_adc2.o section .text
+_ADC2_StartConversion            000086e8   defined in Debug\stm8s_adc2.o section .text
+                                            used in Debug\adccalibration.o
+_ADCCollectDataFilt              0000ab6b   defined in Debug\filter50hz.o section .text
+_ADCStart                        00009630   defined in Debug\adcfncfft.o section .text
+                                            used in Debug\adcdriverfft.o
+_ADCpparam                       0000012b   defined in Debug\adcfncfft.o section .bss
+_ADbits                          00008150   defined in Debug\fft.o section .const
+_AllocateDataBuffer              0000901a   defined in Debug\adcdriverfft.o section .text
+_AllocateEvalBoardBuffer         000090ae   defined in Debug\adcdriverfft.o section .text
+                                            used in Debug\fft.o
+_AnaResults                      00000139   defined in Debug\fft.o section .bss
+_Average                         00008978   defined in Debug\adcaveraging.o section .text
+_BufferEvalBoardADC              00000137   defined in Debug\fft.o section .bss
+_CloseFFT                        0000a12d   defined in Debug\fft.o section .text
+_ConvertInProgress               000090b9   defined in Debug\adcdriverfft.o section .text
+                                            used in Debug\fft.o
+_DEBUG_STRING                    0000012d   defined in Debug\fft.o section .bss
+_FFT                             00009ad6   defined in Debug\fft.o section .text
+_FFTall                          0000a94a   defined in Debug\fft.o section .text
+_FillExp                         00009826   defined in Debug\fft.o section .text
+_FillInv                         000098d2   defined in Debug\fft.o section .text
+_FillSamplesInv                  00009b01   defined in Debug\fft.o section .text
+_GPIO_DeInit                     00008735   defined in Debug\stm8s_gpio.o section .text
+_GPIO_ExternalPullUpConfig       000087b5   defined in Debug\stm8s_gpio.o section .text
+_GPIO_Init                       0000873d   defined in Debug\stm8s_gpio.o section .text
+                                            used in Debug\mono_lcd.o
+_GPIO_ReadInputData              000087ab   defined in Debug\stm8s_gpio.o section .text
+_GPIO_ReadInputPin               000087ae   defined in Debug\stm8s_gpio.o section .text
+_GPIO_ReadOutputData             000087a9   defined in Debug\stm8s_gpio.o section .text
+_GPIO_Write                      0000878b   defined in Debug\stm8s_gpio.o section .text
+_GPIO_WriteHigh                  00008793   defined in Debug\stm8s_gpio.o section .text
+                                            used in Debug\mono_lcd.o
+_GPIO_WriteLow                   0000879a   defined in Debug\stm8s_gpio.o section .text
+                                            used in Debug\mono_lcd.o
+_GPIO_WriteReverse               000087a2   defined in Debug\stm8s_gpio.o section .text
+_GetDataFromEvalBoard            000090ab   defined in Debug\adcdriverfft.o section .text
+                                            used in Debug\fft.o
+_GetDataFromEvalBoardfrequency   00009421   defined in Debug\adcdriverfft.o section .text
+                                            used in Debug\fft.o
+_GetFFTResults                   0000aa97   defined in Debug\fft.o section .text
+_GetMinMaxData                   000091a2   defined in Debug\adcdriverfft.o section .text
+_GetMinMaxFilt                   0000ac95   defined in Debug\filter50hz.o section .text
+_GetPeriodIndex                  000091ec   defined in Debug\adcdriverfft.o section .text
+_GetSignalfrequency              0000aace   defined in Debug\fft.o section .text
+_InitADCTimerTrigger             000095b4   defined in Debug\adcfncfft.o section .text
+                                            used in Debug\adcdriverfft.o
+_InitEvalBoard                   0000aa7d   defined in Debug\fft.o section .text
+_InitEvalBoardcard               000090c1   defined in Debug\adcdriverfft.o section .text
+                                            used in Debug\fft.o
+_InitEvalBoardparam              00009141   defined in Debug\adcdriverfft.o section .text
+                                            used in Debug\fft.o
+_InitFFT                         0000a056   defined in Debug\fft.o section .text
+_LCD_Backlight                   0000af42   defined in Debug\mono_lcd.o section .text
+                                            used in Debug\main.o
+_LCD_ChipSelect                  0000af2b   defined in Debug\mono_lcd.o section .text
+_LCD_Clear                       0000afcc   defined in Debug\mono_lcd.o section .text
+                                            used in Debug\adccalibration.o
+                                                    Debug\main.o
+_LCD_ClearLine                   0000aff4   defined in Debug\mono_lcd.o section .text
+_LCD_Delay                       0000af0e   defined in Debug\mono_lcd.o section .text
+_LCD_DisplayCGRAM0               0000b223   defined in Debug\mono_lcd.o section .text
+_LCD_DisplayCGRAM1               0000b264   defined in Debug\mono_lcd.o section .text
+_LCD_DisplayLogo                 0000b2a8   defined in Debug\mono_lcd.o section .text
+_LCD_Init                        0000af9c   defined in Debug\mono_lcd.o section .text
+                                            used in Debug\main.o
+_LCD_PrintBin2                   0000b1f6   defined in Debug\mono_lcd.o section .text
+_LCD_PrintBin4                   0000b204   defined in Debug\mono_lcd.o section .text
+_LCD_PrintChar                   0000b01e   defined in Debug\mono_lcd.o section .text
+                                            used in Debug\adccalibration.o
+_LCD_PrintDec1                   0000b0c4   defined in Debug\mono_lcd.o section .text
+_LCD_PrintDec2                   0000b0e2   defined in Debug\mono_lcd.o section .text
+                                            used in Debug\adccalibration.o
+_LCD_PrintDec3                   0000b10b   defined in Debug\mono_lcd.o section .text
+_LCD_PrintDec4                   0000b14d   defined in Debug\mono_lcd.o section .text
+                                            used in Debug\adccalibration.o
+_LCD_PrintHex1                   0000b1bb   defined in Debug\mono_lcd.o section .text
+_LCD_PrintHex2                   0000b1d5   defined in Debug\mono_lcd.o section .text
+_LCD_PrintHex3                   0000b1e3   defined in Debug\mono_lcd.o section .text
+_LCD_PrintMsg                    0000b06c   defined in Debug\mono_lcd.o section .text
+_LCD_PrintString                 0000b025   defined in Debug\mono_lcd.o section .text
+                                            used in Debug\adcaveraging.o
+                                                    Debug\adccalibration.o
+                                                    Debug\adcwhitenoise.o
+                                                    Debug\filter50hz.o
+                                                    Debug\main.o
+_LCD_RollString                  0000b2bc   defined in Debug\mono_lcd.o section .text
+                                            used in Debug\fft.o Debug\main.o
+_LCD_SendBuffer                  0000af78   defined in Debug\mono_lcd.o section .text
+_LCD_SendByte                    0000af59   defined in Debug\mono_lcd.o section .text
+_LCD_SetCursorPos                0000b011   defined in Debug\mono_lcd.o section .text
+                                            used in Debug\adccalibration.o
+_LCD_SetGraphicMode              0000afe9   defined in Debug\mono_lcd.o section .text
+_LCD_SetTextMode                 0000afde   defined in Debug\mono_lcd.o section .text
+_PrintFFTAll                     0000a14b   defined in Debug\fft.o section .text
+_SPI_BiDirectionalLineConfig     00008892   defined in Debug\stm8s_spi.o section .text
+_SPI_CalculateCRCCmd             00008861   defined in Debug\stm8s_spi.o section .text
+_SPI_ClearFlag                   000088ac   defined in Debug\stm8s_spi.o section .text
+_SPI_ClearITPendingBit           000088ee   defined in Debug\stm8s_spi.o section .text
+_SPI_Cmd                         00008811   defined in Debug\stm8s_spi.o section .text
+                                            used in Debug\main.o
+_SPI_DeInit                      000087cb   defined in Debug\stm8s_spi.o section .text
+                                            used in Debug\main.o
+_SPI_GetCRC                      00008875   defined in Debug\stm8s_spi.o section .text
+_SPI_GetCRCPolynomial            0000888e   defined in Debug\stm8s_spi.o section .text
+_SPI_GetFlagStatus               0000889f   defined in Debug\stm8s_spi.o section .text
+_SPI_GetITStatus                 000088b1   defined in Debug\stm8s_spi.o section .text
+_SPI_ITConfig                    0000881e   defined in Debug\stm8s_spi.o section .text
+_SPI_Init                        000087e0   defined in Debug\stm8s_spi.o section .text
+                                            used in Debug\main.o
+_SPI_NSSInternalSoftwareCmd      0000884f   defined in Debug\stm8s_spi.o section .text
+_SPI_ReceiveData                 0000884b   defined in Debug\stm8s_spi.o section .text
+_SPI_ResetCRC                    00008886   defined in Debug\stm8s_spi.o section .text
+_SPI_SendData                    00008847   defined in Debug\stm8s_spi.o section .text
+_SPI_TransmitCRC                 0000885c   defined in Debug\stm8s_spi.o section .text
+_S_CGRAM                         000083a1   defined in Debug\mono_lcd.o section .const
+_SetCPUClock                     00008fea   defined in Debug\adcdriverfft.o section .text
+                                            used in Debug\adcaveraging.o
+                                                    Debug\adccalibration.o
+                                                    Debug\adcwhitenoise.o
+                                                    Debug\fft.o
+                                                    Debug\filter50hz.o
+                                                    Debug\main.o
+_T_CGRAM                         000083c1   defined in Debug\mono_lcd.o section .const
+_TestADCAveraging                00008a05   defined in Debug\adcaveraging.o section .text
+                                            used in Debug\main.o
+_TestADCCalibration              00008ead   defined in Debug\adccalibration.o section .text
+                                            used in Debug\main.o
+_TestADCDigitalFilter50Hz        0000acd9   defined in Debug\filter50hz.o section .text
+                                            used in Debug\main.o
+_TestADCFFT                      0000aaf1   defined in Debug\fft.o section .text
+                                            used in Debug\main.o
+_TestADCWhiteNoise               00009783   defined in Debug\adcwhitenoise.o section .text
+                                            used in Debug\main.o
+_UnAllocateDataBuffer            0000907f   defined in Debug\adcdriverfft.o section .text
+                                            used in Debug\fft.o
+__addexp                         0000b499   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cffun0.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ifmod.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sqrt.o
+__breakup                        0000c6a4   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)malloc.o section .text
+__dtens                          000084a1   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cfcon.o section .const
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cnorm.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtento.o
+__dtento                         0000c2f7   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtento.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cnorm.o
+__dtoe                           0000be6f   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtoe.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cprint.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtog.o
+__dtof                           0000bfb4   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtof.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cprint.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtog.o
+__dtog                           0000c0a7   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtog.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cprint.o
+__endmem                         000012ff   defined in Debug\main.o
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)sbreak.o
+__endzp                          0000000a   defined in command file section .ubsct
+                                            used in C:\Program Files\COSMIC\CXSTM8\Lib\crtsi0.sm8
+__fmod                           0000b5e9   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ifmod.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sin.o
+__ftrunc                         0000b52a   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ftrunc.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ceil.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)floor.o
+__heap                           00000127   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)malloc.o section .data, initialized
+__huge                           000084bd   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cfcon.o section .const
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)log.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtento.o
+__idesc__                        00008539   defined in linker section .init
+                                            used in C:\Program Files\COSMIC\CXSTM8\Lib\crtsi0.sm8
+__itob                           0000c52e   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)itob.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cprint.o
+__ln                             0000b72c   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)log.o section .text
+__ltob                           0000c5a9   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)itob.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cprint.o
+__memory                         0000013b   defined in command file section .bss
+                                            used in C:\Program Files\COSMIC\CXSTM8\Lib\crtsi0.sm8
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)sbreak.o
+__norm                           0000c18c   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cnorm.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtoe.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtof.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtog.o
+__ntens                          000084c1   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cfcon.o section .const
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtento.o
+__poly                           0000b4c5   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cffun0.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)atan.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sin.o
+__print                          0000b9b6   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cprint.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)printf.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sprnt.o
+__round                          0000c3c9   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)round.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtoe.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtof.o
+__stack                          000017ff   defined in command file
+                                            used in C:\Program Files\COSMIC\CXSTM8\Lib\crtsi0.sm8
+__stext                          0000856c   defined in C:\Program Files\COSMIC\CXSTM8\Lib\crtsi0.sm8 section .text
+                                            used in Debug\stm8_interrupt_vector.o
+__udiv                           0000c645   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)idiv0.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtoe.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cnorm.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)itob.o
+__uldiv                          0000c650   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)ildiv0.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)itob.o
+__unpack                         0000b4de   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cffun0.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ifmod.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)log.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cnorm.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sqrt.o
+__vectab                         00008000   defined in Debug\stm8_interrupt_vector.o section .const
+_arrayexp                        00000135   defined in Debug\fft.o section .bss
+_arrayinv                        00000131   defined in Debug\fft.o section .bss
+_atan                            0000b485   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)atan.o section .text
+_atan2                           0000b323   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)atan.o section .text
+                                            used in Debug\fft.o
+_ceil                            0000b4f5   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ceil.o section .text
+                                            used in Debug\adcdriverfft.o
+_cos                             0000b5dd   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sin.o section .text
+                                            used in Debug\fft.o
+_exit                            000085b5   defined in C:\Program Files\COSMIC\CXSTM8\Lib\crtsi0.sm8 section .text
+_flipbits                        000097ed   defined in Debug\fft.o section .text
+_floor                           0000b6f7   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)floor.o section .text
+                                            used in Debug\fft.o
+_free                            0000c716   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)malloc.o section .text
+                                            used in Debug\adcaveraging.o
+                                                    Debug\adccalibration.o
+                                                    Debug\adcdriverfft.o
+                                                    Debug\adcwhitenoise.o
+                                                    Debug\fft.o
+                                                    Debug\filter50hz.o
+_getHarmonicPower                0000a3fa   defined in Debug\fft.o section .text
+_interpolation                   00000120   defined in Debug\fft.o section .data, initialized
+_log                             0000b884   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)log.o section .text
+                                            used in Debug\fft.o
+_log10                           0000b898   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)log.o section .text
+_main                            0000ad92   defined in Debug\main.o section .text
+                                            used in C:\Program Files\COSMIC\CXSTM8\Lib\crtsi0.sm8
+_malloc                          0000c76c   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)malloc.o section .text
+                                            used in Debug\adcaveraging.o
+                                                    Debug\adccalibration.o
+                                                    Debug\adcdriverfft.o
+                                                    Debug\adcwhitenoise.o
+                                                    Debug\fft.o
+                                                    Debug\filter50hz.o
+_maxAD                           00008152   defined in Debug\fft.o section .const
+_memchr                          0000c808   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)memchr0.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtog.o
+_mulFFT                          000098f0   defined in Debug\fft.o section .text
+_multiplierEnaX                  0000815c   defined in Debug\fft.o section .const
+_multiplierI                     00008158   defined in Debug\fft.o section .const
+_multiplierU                     00008154   defined in Debug\fft.o section .const
+_nbit                            0000012f   defined in Debug\fft.o section .bss
+_param                           00000100   defined in Debug\adcdriverfft.o section .data, initialized
+                                            used in Debug\fft.o
+_printf                          0000b8ac   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)printf.o section .text
+                                            used in Debug\adcdriverfft.o
+_putchar                         0000c818   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)putchr.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cprint.o
+_rangeAD                         0000814c   defined in Debug\fft.o section .const
+_sbreak                          0000c821   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)sbreak.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)malloc.o
+_sin                             0000b5d2   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sin.o section .text
+                                            used in Debug\fft.o
+_smpl                            00000133   defined in Debug\fft.o section .bss
+_sprintf                         0000c441   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sprnt.o section .text
+                                            used in Debug\adcaveraging.o
+                                                    Debug\adccalibration.o
+                                                    Debug\adcwhitenoise.o
+                                                    Debug\fft.o
+                                                    Debug\filter50hz.o
+_sqrt                            0000c455   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sqrt.o section .text
+                                            used in Debug\adccalibration.o
+                                                    Debug\fft.o
+_strlen                          0000c850   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)strlen0.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cprint.o
+_toupper                         0000c85c   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)toup0.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cprint.o
+c_ctof                           0000c867   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ctof.o section .text
+                                            used in Debug\adcdriverfft.o
+c_divsl                          0000c86f   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ldiv.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lsdiv.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lsmod.o
+c_divul                          0000c886   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ldiv.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)ildiv0.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ludiv.o
+c_fadd                           0000c96e   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fadd.o section .text
+                                            used in Debug\adccalibration.o
+                                                    Debug\adcdriverfft.o
+                                                    Debug\fft.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)atan.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cffun0.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ceil.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)log.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sqrt.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgadd.o
+c_fcmp                           0000ca37   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fcmp.o section .text
+                                            used in Debug\adcdriverfft.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)atan.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ceil.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ifmod.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)floor.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)log.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cnorm.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtento.o
+c_fdiv                           0000ca6d   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fdiv.o section .text
+                                            used in Debug\adccalibration.o
+                                                    Debug\adcdriverfft.o
+                                                    Debug\adcwhitenoise.o
+                                                    Debug\fft.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)atan.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)log.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sqrt.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgdiv.o
+c_fgadd                          0000caf1   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgadd.o section .text
+                                            used in Debug\adccalibration.o
+                                                    Debug\adcdriverfft.o
+                                                    Debug\adcwhitenoise.o
+                                                    Debug\fft.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)atan.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)log.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sqrt.o
+c_fgdiv                          0000caf9   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgdiv.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtento.o
+c_fgmul                          0000cb1b   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgmul.o section .text
+                                            used in Debug\adcdriverfft.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)log.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtento.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sqrt.o
+c_fgneg                          0000cb23   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgneg.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)atan.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ifmod.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtoe.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtof.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cnorm.o
+c_fgsub                          0000cb2e   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgsub.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ifmod.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)log.o
+c_fmul                           0000cb39   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fmul.o section .text
+                                            used in Debug\adccalibration.o
+                                                    Debug\adcdriverfft.o
+                                                    Debug\fft.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)atan.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cffun0.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sin.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)log.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cnorm.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sqrt.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgmul.o
+c_fneg                           0000cc0e   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fneg.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)atan.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sin.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)log.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgsub.o
+c_fsub                           0000c95a   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fadd.o section .text
+                                            used in Debug\adccalibration.o
+                                                    Debug\adcdriverfft.o
+                                                    Debug\fft.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)atan.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)floor.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)log.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cnorm.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgsub.o
+c_ftoi                           0000cc19   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ftol.o section .text
+                                            used in Debug\adccalibration.o
+                                                    Debug\adcdriverfft.o
+                                                    Debug\fft.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)atan.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cnorm.o
+c_ftol                           0000cc1f   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ftol.o section .text
+                                            used in Debug\fft.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ftrunc.o
+c_imul                           0000cc7b   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)imul.o section .text
+                                            used in Debug\adccalibration.o
+                                                    Debug\adcdriverfft.o
+                                                    Debug\fft.o Debug\mono_lcd.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cprint.o
+c_itof                           0000cc9c   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)itof.o section .text
+                                            used in Debug\adccalibration.o
+                                                    Debug\adcdriverfft.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)log.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cnorm.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ctof.o
+c_itolx                          0000ccca   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)itolx.o section .text
+                                            used in Debug\adcdriverfft.o
+                                                    Debug\fft.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cnorm.o
+c_ladc                           0000ccd8   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ladc.o section .text
+                                            used in Debug\adcdriverfft.o
+c_ladd                           0000cce9   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ladd.o section .text
+                                            used in Debug\adcdriverfft.o
+                                                    Debug\fft.o
+c_land                           0000cd01   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)land.o section .text
+                                            used in Debug\fft.o
+c_lcmp                           0000cd19   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lcmp.o section .text
+                                            used in Debug\adcdriverfft.o
+c_ldiv                           0000cd39   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lsdiv.o section .text
+                                            used in Debug\fft.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cnorm.o
+c_lgadd                          0000cd58   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lgadd.o section .text
+                                            used in Debug\adcaveraging.o
+                                                    Debug\adccalibration.o
+                                                    Debug\fft.o
+                                                    Debug\filter50hz.o
+c_lgneg                          0000cd6f   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lgneg.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ldiv.o
+c_lgsbc                          0000cd82   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lgsbc.o section .text
+                                            used in Debug\adccalibration.o
+                                                    Debug\main.o
+c_llsh                           0000cd98   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)llsh.o section .text
+                                            used in Debug\adcdriverfft.o
+                                                    Debug\fft.o
+c_lmod                           0000cda7   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lsmod.o section .text
+                                            used in Debug\fft.o
+c_lmul                           0000cdc9   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lmul.o section .text
+                                            used in Debug\adccalibration.o
+                                                    Debug\fft.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cnorm.o
+c_lmulc                          0000cdd1   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lmul.o section .text
+                                            *** not used ***
+c_lneg                           0000ce54   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lneg.o section .text
+                                            used in (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)itob.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ldiv.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lsdiv.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lsmod.o
+c_lreg                           00000000   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lreg.o section .ubsct
+                                            used in Debug\adcaveraging.o
+                                                    Debug\adcdriverfft.o
+                                                    Debug\fft.o
+                                                    Debug\filter50hz.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)atan.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cffun0.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ifmod.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cnorm.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ldiv.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fadd.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fcmp.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fdiv.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgdiv.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fmul.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fneg.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ftol.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)itof.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)itolx.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ladc.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ladd.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)land.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lcmp.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lgadd.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)llsh.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lsmod.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lmul.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lneg.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lrzmp.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lsub.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ltof.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ltor.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)rtol.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)smul.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)uitof.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)utolx.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ultof.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)umul.o
+c_lrzmp                          0000ce69   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lrzmp.o section .text
+                                            used in Debug\adccalibration.o
+                                                    Debug\fft.o Debug\main.o
+c_lsub                           0000ce7c   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lsub.o section .text
+                                            used in Debug\adcdriverfft.o
+                                                    Debug\fft.o
+                                                    Debug\filter50hz.o
+c_ltof                           0000ce94   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ltof.o section .text
+                                            used in Debug\adcdriverfft.o
+                                                    Debug\fft.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ftrunc.o
+c_ltor                           0000cef2   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ltor.o section .text
+                                            used in Debug\adcaveraging.o
+                                                    Debug\adccalibration.o
+                                                    Debug\adcdriverfft.o
+                                                    Debug\adcwhitenoise.o
+                                                    Debug\fft.o
+                                                    Debug\filter50hz.o
+                                                    Debug\main.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)atan.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cffun0.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ceil.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ftrunc.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sin.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ifmod.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)floor.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)log.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cnorm.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtento.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sqrt.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)itob.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)ildiv0.o
+c_ludv                           0000cf04   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ludiv.o section .text
+                                            used in Debug\adcaveraging.o
+                                                    Debug\filter50hz.o
+c_lzmp                           0000cf18   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lzmp.o section .text
+                                            used in Debug\adcdriverfft.o
+                                                    Debug\fft.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)itob.o
+c_okadd                          0000c978   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fadd.o section .text
+c_okdiv                          0000ca7d   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fdiv.o section .text
+                                            *** not used ***
+c_okmul                          0000cb47   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fmul.o section .text
+                                            *** not used ***
+c_oksub                          0000c964   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fadd.o section .text
+                                            *** not used ***
+c_rtol                           0000cf2a   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)rtol.o section .text
+                                            used in Debug\adccalibration.o
+                                                    Debug\adcdriverfft.o
+                                                    Debug\adcwhitenoise.o
+                                                    Debug\fft.o
+                                                    Debug\filter50hz.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)atan.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ftrunc.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sin.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)ifmod.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)log.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cnorm.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)sqrt.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)itob.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)ildiv0.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgadd.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgdiv.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgmul.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fgsub.o
+c_sdivx                          0000cf42   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)sdivx.o section .text
+                                            used in Debug\adcdriverfft.o
+c_smodx                          0000cf3c   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)sdivx.o section .text
+                                            *** not used ***
+c_smul                           0000cf67   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)smul.o section .text
+                                            used in Debug\fft.o
+c_uitof                          0000cfa6   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)uitof.o section .text
+                                            used in Debug\adccalibration.o
+                                                    Debug\adcdriverfft.o
+                                                    Debug\adcwhitenoise.o
+                                                    Debug\fft.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)atan.o
+c_uitolx                         0000cfca   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)utolx.o section .text
+                                            used in Debug\adcaveraging.o
+                                                    Debug\adccalibration.o
+                                                    Debug\adcdriverfft.o
+                                                    Debug\fft.o
+                                                    Debug\filter50hz.o
+c_ultof                          0000cfd1   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ultof.o section .text
+                                            used in Debug\adccalibration.o
+                                                    Debug\fft.o
+c_umul                           0000d01c   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)umul.o section .text
+                                            used in Debug\adccalibration.o
+c_x                              00000004   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)xreg.o section .ubsct
+                                            used in C:\Program Files\COSMIC\CXSTM8\Lib\crtsi0.sm8
+                                                    Debug\adcdriverfft.o
+                                                    Debug\adcfncfft.o Debug\fft.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)cffun0.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtof.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libfsl0.sm8)dtog.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)strlen0.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)ldiv.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fadd.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fcmp.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fdiv.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)fmul.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)imul.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lsdiv.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lsmod.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)lmul.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)sdivx.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)umul.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)xymvx.o
+c_xymvx                          0000d058   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)xymvx.o section .text
+                                            used in Debug\fft.o
+c_y                              00000007   defined in (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)yreg.o section .ubsct
+                                            used in C:\Program Files\COSMIC\CXSTM8\Lib\crtsi0.sm8
+                                                    Debug\adcdriverfft.o
+                                                    Debug\adcfncfft.o Debug\fft.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libisl0.sm8)malloc.o
+                                                    (C:\Program Files\COSMIC\CXSTM8\Lib\libm0.sm8)umul.o
+f_ADCInterrupt                   00009636   defined in Debug\adcfncfft.o section .text
+                                            used in Debug\stm8_interrupt_vector.o
+f_NonHandledInterrupt            0000d067   defined in Debug\stm8_interrupt_vector.o section .text
+f_TLIInterruptHandler            0000d06a   defined in Debug\stm8_interrupt_vector.o section .text
+f_TrapInterruptHandler           0000d068   defined in Debug\stm8_interrupt_vector.o section .text
