@@ -12,7 +12,7 @@
         <ByteLimit>50</ByteLimit>
     </Stack>
     <DebugChecksum>
-        <Checksum>2366321962</Checksum>
+        <Checksum>3463813328</Checksum>
     </DebugChecksum>
     <CallStack>
         <ShowArgs>0</ShowArgs>
@@ -29,6 +29,11 @@
         <GraphEnabled>0</GraphEnabled>
         <ShowTimeLog>1</ShowTimeLog>
     </DataSample>
+    <Breakpoints>
+        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\..\main.c}.109.3" 1 0 0 0 "" 0 ""</Bp0>
+        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\..\main.c}.112.3" 1 0 0 0 "" 0 ""</Bp1>
+        <Count>2</Count>
+    </Breakpoints>
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
@@ -38,12 +43,13 @@
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
-    <Breakpoints>
-        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\..\stm8l15x_it.c}.166.3" 1 0 0 0 "" 0 ""</Bp0>
-        <Count>1</Count>
-    </Breakpoints>
     <Aliases>
-        <Count>0</Count>
+        <A0>_ "C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c" ""</A0>
+        <A1>_ "C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_exti.c" "C:\SmartValve\firmware\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_exti.c"</A1>
+        <A2>_ "C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_gpio.c" ""</A2>
+        <A3>_ "C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c" "C:\SmartValve\firmware\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c"</A3>
+        <A4>_ "C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Project\SmartValve\main.c" ""</A4>
+        <Count>5</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
     <DebuggerSettings>

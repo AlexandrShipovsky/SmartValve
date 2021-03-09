@@ -1,2 +1,1 @@
-watch.pbi: \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\lib\watch.c
+watch.pbi: C:\SmartValve\firmware\Project\SmartValve\lib\watch.c

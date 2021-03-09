@@ -1,35 +1,35 @@
 stm8l15x_tim1.pbi: \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim1.c \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim1.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\stm8l15x_conf.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_adc.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_aes.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_beep.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_comp.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dac.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_flash.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_irtim.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_itc.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_iwdg.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_lcd.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_pwr.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rst.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rtc.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_syscfg.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim2.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim3.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim4.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim5.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x_clk.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wfe.h \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wwdg.h \
+  C:\SmartValve\firmware\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_tim1.c \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim1.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\stm8l15x_conf.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_adc.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_aes.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_beep.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_comp.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dac.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_flash.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_irtim.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_itc.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_iwdg.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_lcd.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_pwr.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rst.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rtc.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_syscfg.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim2.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim3.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim4.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim5.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x_clk.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wfe.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wwdg.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h

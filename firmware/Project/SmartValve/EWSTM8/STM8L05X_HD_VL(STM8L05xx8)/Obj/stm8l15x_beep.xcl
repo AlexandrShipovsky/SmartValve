@@ -1,46 +1,46 @@
-"C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_beep.c"
+"C:\SmartValve\firmware\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_beep.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Project\SmartValve\EWSTM8\STM8L05X_HD_VL(STM8L05xx8)\Obj\stm8l15x_beep.pbi.dep
+C:\SmartValve\firmware\Project\SmartValve\EWSTM8\STM8L05X_HD_VL(STM8L05xx8)\Obj\stm8l15x_beep.pbi.dep
 -o
 stm8l15x_beep.pbi
 -I
-C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Libraries\STM8L15x_StdPeriph_Driver\src
+C:\SmartValve\firmware\Libraries\STM8L15x_StdPeriph_Driver\src
 -I
-C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Project\SmartValve\EWSTM8\..
+C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..
 -I
-C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc
+C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc
 -I
-C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Utilities\STM8_EVAL
+C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Utilities\STM8_EVAL
 -I
-C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Utilities\STM8_EVAL\STM8L1528_EVAL
+C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Utilities\STM8_EVAL\STM8L1528_EVAL
 -I
-C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Utilities\STM8_EVAL\Common
+C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Utilities\STM8_EVAL\Common
 -I
-C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Project\SmartValve\EWSTM8\..\..\..\Utilities\Misc
+C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Utilities\Misc
 -I
-C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Project\SmartValve\EWSTM8\..\lib
+C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc\c
 -I
-C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Project\SmartValve
+C:\SmartValve\firmware\Project\SmartValve
 -I
-C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Libraries\STM8L15x_StdPeriph_Driver\inc
+C:\SmartValve\firmware\Libraries\STM8L15x_StdPeriph_Driver\inc
 -I
-C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Utilities\STM8_EVAL
+C:\SmartValve\firmware\Utilities\STM8_EVAL
 -I
-C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Utilities\STM8_EVAL\STM8L1528_EVAL
+C:\SmartValve\firmware\Utilities\STM8_EVAL\STM8L1528_EVAL
 -I
-C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Utilities\STM8_EVAL\Common
+C:\SmartValve\firmware\Utilities\STM8_EVAL\Common
 -I
-C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Utilities\Misc
+C:\SmartValve\firmware\Utilities\Misc
 -I
-C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Project\SmartValve\lib
+C:\SmartValve\firmware\Project\SmartValve\lib
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

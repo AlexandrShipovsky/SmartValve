@@ -75,19 +75,19 @@ void main(void)
   rtc_init();
   TIM4_Config();
   gpio_init();
-  ValveInit();
+  //ValveInit();
   
   while (1)
   {
-    //Delay(10);
+    Delay(3000);
     switch(PutButton)
     {
     case OFF:
-      ValveClose();
+      //ValveClose();
       ClearButton(&PutButton);
       break;
     case OK:
-      ValveOpen();
+      //ValveOpen();
       ClearButton(&PutButton);
       break;
     default:
@@ -107,7 +107,7 @@ void clk_init(void)
   CLK_SYSCLKDivConfig(CLK_SYSCLKDiv_4);
   CLK_LSEConfig(CLK_LSE_ON);
   while(CLK_GetFlagStatus(CLK_FLAG_LSERDY) != SET);
-  for(i = 30000;i != 0; i--);
+  for(i = 40000;i != 0; i--);
 
   CLK_LSEClockSecuritySystemEnable();
   CLK_RTCClockConfig(CLK_RTCCLKSource_LSE,CLK_RTCCLKDiv_1);
@@ -176,11 +176,11 @@ void TimingDelay_Decrement(void)
 
 void rtc_init(void)
 {
-  if(RTC_DeInit()!= SUCCESS)
+/*  if(RTC_DeInit()!= SUCCESS)
   {
     error();
   } 
-
+*/
   RTC_InitTypeDef RTC_Struct;
   RTC_Struct.RTC_HourFormat = RTC_HourFormat_24;
   RTC_Struct.RTC_AsynchPrediv = 0x7F;

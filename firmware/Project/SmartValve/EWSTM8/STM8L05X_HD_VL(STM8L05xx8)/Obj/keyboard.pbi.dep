@@ -1,3 +1,2 @@
-keyboard.pbi: \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\lib\keyboard.c \
-  C:\Users\Чистое\ небо\YandexDisk\smart\ valve\firmware\Project\SmartValve\lib/keyboard.h
+keyboard.pbi: C:\SmartValve\firmware\Project\SmartValve\lib\keyboard.c \
+  C:\SmartValve\firmware\Project\SmartValve\lib/keyboard.h
