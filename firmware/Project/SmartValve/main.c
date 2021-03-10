@@ -49,7 +49,7 @@
 /* Private variables ---------------------------------------------------------*/
 static RTC_TimeTypeDef watch;
 enum buttons PutButton;
-
+extern enum ValveState VALVESTATE;
 __IO uint32_t TimingDelay;
 /* Private function prototypes -----------------------------------------------*/
 static void clk_init(void);

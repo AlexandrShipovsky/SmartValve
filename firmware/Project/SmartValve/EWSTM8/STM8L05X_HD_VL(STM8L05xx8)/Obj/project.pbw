@@ -68034,59 +68034,371 @@
     "scope": null
   },
   {
-    "ID": "c:@F@Delay",
+    "ID": "c:stm8l15x_iwdg.h@1306@macro@__STM8L15x_IWDG_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM8L15x_IWDG_H",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+    },
+    "name": "__STM8L15x_IWDG_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_iwdg.h@1807@macro@IWDG_KEY_REFRESH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IWDG_KEY_REFRESH",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+    },
+    "name": "IWDG_KEY_REFRESH",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_iwdg.h@2043@macro@IWDG_KEY_ENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IWDG_KEY_ENABLE",
+    "location": {
+      "column": "9",
+      "line": "62",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+    },
+    "name": "IWDG_KEY_ENABLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@IWDG_WriteAccess_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@IWDG_WriteAccess_TypeDef@IWDG_WriteAccess_Enable",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "IWDG_WriteAccess_Enable",
+        "location": {
+          "column": "3",
+          "line": "83",
+          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+        },
+        "name": "IWDG_WriteAccess_Enable",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@IWDG_WriteAccess_TypeDef@IWDG_WriteAccess_Disable",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "IWDG_WriteAccess_Disable",
+        "location": {
+          "column": "3",
+          "line": "84",
+          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+        },
+        "name": "IWDG_WriteAccess_Disable",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "81",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_iwdg.h@2654@macro@IS_IWDG_WRITE_ACCESS_MODE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_IWDG_WRITE_ACCESS_MODE",
+    "location": {
+      "column": "9",
+      "line": "86",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+    },
+    "name": "IS_IWDG_WRITE_ACCESS_MODE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@IWDG_Prescaler_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@IWDG_Prescaler_TypeDef@IWDG_Prescaler_4",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "IWDG_Prescaler_4",
+        "location": {
+          "column": "3",
+          "line": "97",
+          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+        },
+        "name": "IWDG_Prescaler_4",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@IWDG_Prescaler_TypeDef@IWDG_Prescaler_8",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "IWDG_Prescaler_8",
+        "location": {
+          "column": "3",
+          "line": "98",
+          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+        },
+        "name": "IWDG_Prescaler_8",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@IWDG_Prescaler_TypeDef@IWDG_Prescaler_16",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "IWDG_Prescaler_16",
+        "location": {
+          "column": "3",
+          "line": "99",
+          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+        },
+        "name": "IWDG_Prescaler_16",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@IWDG_Prescaler_TypeDef@IWDG_Prescaler_32",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "IWDG_Prescaler_32",
+        "location": {
+          "column": "3",
+          "line": "100",
+          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+        },
+        "name": "IWDG_Prescaler_32",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@IWDG_Prescaler_TypeDef@IWDG_Prescaler_64",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "IWDG_Prescaler_64",
+        "location": {
+          "column": "3",
+          "line": "101",
+          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+        },
+        "name": "IWDG_Prescaler_64",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@IWDG_Prescaler_TypeDef@IWDG_Prescaler_128",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "IWDG_Prescaler_128",
+        "location": {
+          "column": "3",
+          "line": "102",
+          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+        },
+        "name": "IWDG_Prescaler_128",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@IWDG_Prescaler_TypeDef@IWDG_Prescaler_256",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "IWDG_Prescaler_256",
+        "location": {
+          "column": "3",
+          "line": "103",
+          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+        },
+        "name": "IWDG_Prescaler_256",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "95",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_iwdg.h@3514@macro@IS_IWDG_PRESCALER_VALUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_IWDG_PRESCALER_VALUE",
+    "location": {
+      "column": "9",
+      "line": "105",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+    },
+    "name": "IS_IWDG_PRESCALER_VALUE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IWDG_WriteAccessCmd",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void Delay(volatile uint32_t)",
+    "display": "void IWDG_WriteAccessCmd(IWDG_WriteAccess_TypeDef)",
     "location": {
-      "column": "13",
-      "line": "8",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve .c"
+      "column": "6",
+      "line": "122",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
     },
-    "name": "Delay",
-    "origin": "project_file",
+    "name": "IWDG_WriteAccessCmd",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@ValveInit",
+    "ID": "c:@F@IWDG_WriteAccessCmd",
     "What": "Function",
-    "defdec": "Def",
-    "display": "void ValveInit(void)",
+    "defdec": "Dec",
+    "display": "void IWDG_WriteAccessCmd(IWDG_WriteAccess_TypeDef)",
     "location": {
       "column": "6",
-      "line": "12",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve .c"
+      "line": "122",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
     },
-    "name": "ValveInit",
-    "origin": "project_file",
+    "name": "IWDG_WriteAccessCmd",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@ValveOpen",
+    "ID": "c:@F@IWDG_SetPrescaler",
     "What": "Function",
-    "defdec": "Def",
-    "display": "void ValveOpen(void)",
+    "defdec": "Dec",
+    "display": "void IWDG_SetPrescaler(IWDG_Prescaler_TypeDef)",
     "location": {
       "column": "6",
-      "line": "18",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve .c"
+      "line": "123",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
     },
-    "name": "ValveOpen",
-    "origin": "project_file",
+    "name": "IWDG_SetPrescaler",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@ValveClose",
+    "ID": "c:@F@IWDG_SetPrescaler",
     "What": "Function",
-    "defdec": "Def",
-    "display": "void ValveClose(void)",
+    "defdec": "Dec",
+    "display": "void IWDG_SetPrescaler(IWDG_Prescaler_TypeDef)",
     "location": {
       "column": "6",
-      "line": "30",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve .c"
+      "line": "123",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
     },
-    "name": "ValveClose",
-    "origin": "project_file",
+    "name": "IWDG_SetPrescaler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IWDG_SetReload",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void IWDG_SetReload(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "124",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+    },
+    "name": "IWDG_SetReload",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IWDG_SetReload",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void IWDG_SetReload(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "124",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+    },
+    "name": "IWDG_SetReload",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IWDG_ReloadCounter",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void IWDG_ReloadCounter(void)",
+    "location": {
+      "column": "6",
+      "line": "125",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+    },
+    "name": "IWDG_ReloadCounter",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IWDG_ReloadCounter",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void IWDG_ReloadCounter(void)",
+    "location": {
+      "column": "6",
+      "line": "125",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+    },
+    "name": "IWDG_ReloadCounter",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IWDG_Enable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void IWDG_Enable(void)",
+    "location": {
+      "column": "6",
+      "line": "128",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+    },
+    "name": "IWDG_Enable",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IWDG_Enable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void IWDG_Enable(void)",
+    "location": {
+      "column": "6",
+      "line": "128",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+    },
+    "name": "IWDG_Enable",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -70340,30 +70652,340 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_conf.h@1279@macro@__STM8L15x_CONF_H",
+    "ID": "c:@F@Delay",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Delay(volatile uint32_t)",
+    "location": {
+      "column": "13",
+      "line": "8",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve .c"
+    },
+    "name": "Delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@VALVESTATE",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "VALVESTATE",
+    "location": {
+      "column": "17",
+      "line": "9",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve .c"
+    },
+    "name": "VALVESTATE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ValveInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ValveInit(void)",
+    "location": {
+      "column": "6",
+      "line": "13",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve .c"
+    },
+    "name": "ValveInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ValveOpen",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ValveOpen(void)",
+    "location": {
+      "column": "6",
+      "line": "19",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve .c"
+    },
+    "name": "ValveOpen",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ValveClose",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ValveClose(void)",
+    "location": {
+      "column": "6",
+      "line": "33",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve .c"
+    },
+    "name": "ValveClose",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:valve.h@109@macro@__VALVE_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__STM8L15x_CONF_H",
+    "display": "__VALVE_H",
     "location": {
       "column": "9",
-      "line": "30",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\stm8l15x_conf.h"
+      "line": "3",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
     },
-    "name": "__STM8L15x_CONF_H",
+    "name": "__VALVE_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_conf.h@3273@macro@assert_param",
+    "ID": "c:valve.h@319@macro@SWICHDELAY",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "assert_param",
+    "display": "SWICHDELAY",
     "location": {
-      "column": "11",
-      "line": "86",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\stm8l15x_conf.h"
+      "column": "9",
+      "line": "9",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
     },
-    "name": "assert_param",
+    "name": "SWICHDELAY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:valve.h@342@macro@PULSEWIDTH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PULSEWIDTH",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+    },
+    "name": "PULSEWIDTH",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:valve.h@368@macro@VALVE_ENABLE_PORT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "VALVE_ENABLE_PORT",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+    },
+    "name": "VALVE_ENABLE_PORT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:valve.h@401@macro@VALVE_PULSE_PORT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "VALVE_PULSE_PORT",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+    },
+    "name": "VALVE_PULSE_PORT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:valve.h@435@macro@CLOSE_VALVE_ENABLE_PIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CLOSE_VALVE_ENABLE_PIN",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+    },
+    "name": "CLOSE_VALVE_ENABLE_PIN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:valve.h@478@macro@OPEN_VALVE_ENABLE_PIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "OPEN_VALVE_ENABLE_PIN",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+    },
+    "name": "OPEN_VALVE_ENABLE_PIN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:valve.h@522@macro@CLOSE_VALVE_PULSE_PIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CLOSE_VALVE_PULSE_PIN",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+    },
+    "name": "CLOSE_VALVE_PULSE_PIN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:valve.h@564@macro@OPEN_VALVE_PULSE_PIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "OPEN_VALVE_PULSE_PIN",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+    },
+    "name": "OPEN_VALVE_PULSE_PIN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@E@ValveState",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "ValveState",
+    "fields": [
+      {
+        "ID": "c:@E@ValveState@NONE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "NONE",
+        "location": {
+          "column": "3",
+          "line": "23",
+          "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+        },
+        "name": "NONE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@ValveState@OPEN",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "OPEN",
+        "location": {
+          "column": "3",
+          "line": "24",
+          "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+        },
+        "name": "OPEN",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@E@ValveState@CLOSED",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "CLOSED",
+        "location": {
+          "column": "3",
+          "line": "25",
+          "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+        },
+        "name": "CLOSED",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "6",
+      "line": "21",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+    },
+    "name": "ValveState",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ValveInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ValveInit(void)",
+    "location": {
+      "column": "6",
+      "line": "30",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+    },
+    "name": "ValveInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ValveInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ValveInit(void)",
+    "location": {
+      "column": "6",
+      "line": "30",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+    },
+    "name": "ValveInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ValveOpen",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ValveOpen(void)",
+    "location": {
+      "column": "6",
+      "line": "31",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+    },
+    "name": "ValveOpen",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ValveOpen",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ValveOpen(void)",
+    "location": {
+      "column": "6",
+      "line": "31",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+    },
+    "name": "ValveOpen",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ValveClose",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ValveClose(void)",
+    "location": {
+      "column": "6",
+      "line": "32",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+    },
+    "name": "ValveClose",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ValveClose",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ValveClose(void)",
+    "location": {
+      "column": "6",
+      "line": "32",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+    },
+    "name": "ValveClose",
     "origin": "user_include",
     "scope": null
   },
@@ -71542,284 +72164,30 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_beep.h@1310@macro@__STM8L15x_BEEP_H",
+    "ID": "c:stm8l15x_conf.h@1279@macro@__STM8L15x_CONF_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__STM8L15x_BEEP_H",
+    "display": "__STM8L15x_CONF_H",
     "location": {
       "column": "9",
-      "line": "31",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
+      "line": "30",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\stm8l15x_conf.h"
     },
-    "name": "__STM8L15x_BEEP_H",
+    "name": "__STM8L15x_CONF_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@EA@BEEP_Frequency_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@BEEP_Frequency_TypeDef@BEEP_Frequency_1KHz",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "BEEP_Frequency_1KHz",
-        "location": {
-          "column": "3",
-          "line": "53",
-          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
-        },
-        "name": "BEEP_Frequency_1KHz",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@BEEP_Frequency_TypeDef@BEEP_Frequency_2KHz",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "BEEP_Frequency_2KHz",
-        "location": {
-          "column": "3",
-          "line": "54",
-          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
-        },
-        "name": "BEEP_Frequency_2KHz",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@BEEP_Frequency_TypeDef@BEEP_Frequency_4KHz",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "BEEP_Frequency_4KHz",
-        "location": {
-          "column": "3",
-          "line": "55",
-          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
-        },
-        "name": "BEEP_Frequency_4KHz",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "52",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_beep.h@2024@macro@IS_BEEP_FREQUENCY",
+    "ID": "c:stm8l15x_conf.h@3273@macro@assert_param",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "IS_BEEP_FREQUENCY",
+    "display": "assert_param",
     "location": {
-      "column": "9",
-      "line": "58",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
+      "column": "11",
+      "line": "86",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\stm8l15x_conf.h"
     },
-    "name": "IS_BEEP_FREQUENCY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_beep.h@2421@macro@BEEP_CALIBRATION_DEFAULT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BEEP_CALIBRATION_DEFAULT",
-    "location": {
-      "column": "9",
-      "line": "75",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
-    },
-    "name": "BEEP_CALIBRATION_DEFAULT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_beep.h@2523@macro@LSI_FREQUENCY_MIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LSI_FREQUENCY_MIN",
-    "location": {
-      "column": "9",
-      "line": "76",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
-    },
-    "name": "LSI_FREQUENCY_MIN",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_beep.h@2609@macro@LSI_FREQUENCY_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LSI_FREQUENCY_MAX",
-    "location": {
-      "column": "9",
-      "line": "77",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
-    },
-    "name": "LSI_FREQUENCY_MAX",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_beep.h@2850@macro@IS_LSI_FREQUENCY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_LSI_FREQUENCY",
-    "location": {
-      "column": "9",
-      "line": "87",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
-    },
-    "name": "IS_LSI_FREQUENCY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@BEEP_DeInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void BEEP_DeInit(void)",
-    "location": {
-      "column": "6",
-      "line": "96",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
-    },
-    "name": "BEEP_DeInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@BEEP_DeInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void BEEP_DeInit(void)",
-    "location": {
-      "column": "6",
-      "line": "96",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
-    },
-    "name": "BEEP_DeInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@BEEP_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void BEEP_Init(BEEP_Frequency_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "99",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
-    },
-    "name": "BEEP_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@BEEP_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void BEEP_Init(BEEP_Frequency_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "99",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
-    },
-    "name": "BEEP_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@BEEP_Cmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void BEEP_Cmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "100",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
-    },
-    "name": "BEEP_Cmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@BEEP_Cmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void BEEP_Cmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "100",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
-    },
-    "name": "BEEP_Cmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@BEEP_LSClockToTIMConnectCmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void BEEP_LSClockToTIMConnectCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "103",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
-    },
-    "name": "BEEP_LSClockToTIMConnectCmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@BEEP_LSClockToTIMConnectCmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void BEEP_LSClockToTIMConnectCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "103",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
-    },
-    "name": "BEEP_LSClockToTIMConnectCmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@BEEP_LSICalibrationConfig",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void BEEP_LSICalibrationConfig(uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "104",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
-    },
-    "name": "BEEP_LSICalibrationConfig",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@BEEP_LSICalibrationConfig",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void BEEP_LSICalibrationConfig(uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "104",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
-    },
-    "name": "BEEP_LSICalibrationConfig",
+    "name": "assert_param",
     "origin": "user_include",
     "scope": null
   },
@@ -72542,580 +72910,284 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_iwdg.h@1306@macro@__STM8L15x_IWDG_H",
+    "ID": "c:stm8l15x_beep.h@1310@macro@__STM8L15x_BEEP_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__STM8L15x_IWDG_H",
+    "display": "__STM8L15x_BEEP_H",
     "location": {
       "column": "9",
-      "line": "30",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+      "line": "31",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
     },
-    "name": "__STM8L15x_IWDG_H",
+    "name": "__STM8L15x_BEEP_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_iwdg.h@1807@macro@IWDG_KEY_REFRESH",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IWDG_KEY_REFRESH",
-    "location": {
-      "column": "9",
-      "line": "53",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-    },
-    "name": "IWDG_KEY_REFRESH",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_iwdg.h@2043@macro@IWDG_KEY_ENABLE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IWDG_KEY_ENABLE",
-    "location": {
-      "column": "9",
-      "line": "62",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-    },
-    "name": "IWDG_KEY_ENABLE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@IWDG_WriteAccess_TypeDef",
+    "ID": "c:@EA@BEEP_Frequency_TypeDef",
     "What": "Enum",
     "defdec": "Def",
     "display": "",
     "fields": [
       {
-        "ID": "c:@EA@IWDG_WriteAccess_TypeDef@IWDG_WriteAccess_Enable",
+        "ID": "c:@EA@BEEP_Frequency_TypeDef@BEEP_Frequency_1KHz",
         "What": "Enumerator",
         "defdec": "Def",
-        "display": "IWDG_WriteAccess_Enable",
+        "display": "BEEP_Frequency_1KHz",
         "location": {
           "column": "3",
-          "line": "83",
-          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+          "line": "53",
+          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
         },
-        "name": "IWDG_WriteAccess_Enable",
+        "name": "BEEP_Frequency_1KHz",
         "origin": "user_include",
         "scope": null
       },
       {
-        "ID": "c:@EA@IWDG_WriteAccess_TypeDef@IWDG_WriteAccess_Disable",
+        "ID": "c:@EA@BEEP_Frequency_TypeDef@BEEP_Frequency_2KHz",
         "What": "Enumerator",
         "defdec": "Def",
-        "display": "IWDG_WriteAccess_Disable",
+        "display": "BEEP_Frequency_2KHz",
         "location": {
           "column": "3",
-          "line": "84",
-          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+          "line": "54",
+          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
         },
-        "name": "IWDG_WriteAccess_Disable",
+        "name": "BEEP_Frequency_2KHz",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@BEEP_Frequency_TypeDef@BEEP_Frequency_4KHz",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "BEEP_Frequency_4KHz",
+        "location": {
+          "column": "3",
+          "line": "55",
+          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
+        },
+        "name": "BEEP_Frequency_4KHz",
         "origin": "user_include",
         "scope": null
       }
     ],
     "location": {
       "column": "9",
-      "line": "81",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+      "line": "52",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
     },
     "name": "",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_iwdg.h@2654@macro@IS_IWDG_WRITE_ACCESS_MODE",
+    "ID": "c:stm8l15x_beep.h@2024@macro@IS_BEEP_FREQUENCY",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "IS_IWDG_WRITE_ACCESS_MODE",
+    "display": "IS_BEEP_FREQUENCY",
     "location": {
       "column": "9",
-      "line": "86",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+      "line": "58",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
     },
-    "name": "IS_IWDG_WRITE_ACCESS_MODE",
+    "name": "IS_BEEP_FREQUENCY",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@EA@IWDG_Prescaler_TypeDef",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@IWDG_Prescaler_TypeDef@IWDG_Prescaler_4",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "IWDG_Prescaler_4",
-        "location": {
-          "column": "3",
-          "line": "97",
-          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-        },
-        "name": "IWDG_Prescaler_4",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@IWDG_Prescaler_TypeDef@IWDG_Prescaler_8",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "IWDG_Prescaler_8",
-        "location": {
-          "column": "3",
-          "line": "98",
-          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-        },
-        "name": "IWDG_Prescaler_8",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@IWDG_Prescaler_TypeDef@IWDG_Prescaler_16",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "IWDG_Prescaler_16",
-        "location": {
-          "column": "3",
-          "line": "99",
-          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-        },
-        "name": "IWDG_Prescaler_16",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@IWDG_Prescaler_TypeDef@IWDG_Prescaler_32",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "IWDG_Prescaler_32",
-        "location": {
-          "column": "3",
-          "line": "100",
-          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-        },
-        "name": "IWDG_Prescaler_32",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@IWDG_Prescaler_TypeDef@IWDG_Prescaler_64",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "IWDG_Prescaler_64",
-        "location": {
-          "column": "3",
-          "line": "101",
-          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-        },
-        "name": "IWDG_Prescaler_64",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@IWDG_Prescaler_TypeDef@IWDG_Prescaler_128",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "IWDG_Prescaler_128",
-        "location": {
-          "column": "3",
-          "line": "102",
-          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-        },
-        "name": "IWDG_Prescaler_128",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@IWDG_Prescaler_TypeDef@IWDG_Prescaler_256",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "IWDG_Prescaler_256",
-        "location": {
-          "column": "3",
-          "line": "103",
-          "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-        },
-        "name": "IWDG_Prescaler_256",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "95",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_iwdg.h@3514@macro@IS_IWDG_PRESCALER_VALUE",
+    "ID": "c:stm8l15x_beep.h@2421@macro@BEEP_CALIBRATION_DEFAULT",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "IS_IWDG_PRESCALER_VALUE",
+    "display": "BEEP_CALIBRATION_DEFAULT",
     "location": {
       "column": "9",
-      "line": "105",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
+      "line": "75",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
     },
-    "name": "IS_IWDG_PRESCALER_VALUE",
+    "name": "BEEP_CALIBRATION_DEFAULT",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@IWDG_WriteAccessCmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void IWDG_WriteAccessCmd(IWDG_WriteAccess_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "122",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-    },
-    "name": "IWDG_WriteAccessCmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IWDG_WriteAccessCmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void IWDG_WriteAccessCmd(IWDG_WriteAccess_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "122",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-    },
-    "name": "IWDG_WriteAccessCmd",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IWDG_SetPrescaler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void IWDG_SetPrescaler(IWDG_Prescaler_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "123",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-    },
-    "name": "IWDG_SetPrescaler",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IWDG_SetPrescaler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void IWDG_SetPrescaler(IWDG_Prescaler_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "123",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-    },
-    "name": "IWDG_SetPrescaler",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IWDG_SetReload",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void IWDG_SetReload(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "124",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-    },
-    "name": "IWDG_SetReload",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IWDG_SetReload",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void IWDG_SetReload(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "124",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-    },
-    "name": "IWDG_SetReload",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IWDG_ReloadCounter",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void IWDG_ReloadCounter(void)",
-    "location": {
-      "column": "6",
-      "line": "125",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-    },
-    "name": "IWDG_ReloadCounter",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IWDG_ReloadCounter",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void IWDG_ReloadCounter(void)",
-    "location": {
-      "column": "6",
-      "line": "125",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-    },
-    "name": "IWDG_ReloadCounter",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IWDG_Enable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void IWDG_Enable(void)",
-    "location": {
-      "column": "6",
-      "line": "128",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-    },
-    "name": "IWDG_Enable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@IWDG_Enable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void IWDG_Enable(void)",
-    "location": {
-      "column": "6",
-      "line": "128",
-      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_iwdg.h"
-    },
-    "name": "IWDG_Enable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:valve.h@109@macro@__VALVE_H",
+    "ID": "c:stm8l15x_beep.h@2523@macro@LSI_FREQUENCY_MIN",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__VALVE_H",
+    "display": "LSI_FREQUENCY_MIN",
     "location": {
       "column": "9",
-      "line": "3",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+      "line": "76",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
     },
-    "name": "__VALVE_H",
+    "name": "LSI_FREQUENCY_MIN",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:valve.h@319@macro@SWICHDELAY",
+    "ID": "c:stm8l15x_beep.h@2609@macro@LSI_FREQUENCY_MAX",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "SWICHDELAY",
+    "display": "LSI_FREQUENCY_MAX",
     "location": {
       "column": "9",
-      "line": "9",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+      "line": "77",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
     },
-    "name": "SWICHDELAY",
+    "name": "LSI_FREQUENCY_MAX",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:valve.h@343@macro@PULSEWIDTH",
+    "ID": "c:stm8l15x_beep.h@2850@macro@IS_LSI_FREQUENCY",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "PULSEWIDTH",
+    "display": "IS_LSI_FREQUENCY",
     "location": {
       "column": "9",
-      "line": "10",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+      "line": "87",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
     },
-    "name": "PULSEWIDTH",
+    "name": "IS_LSI_FREQUENCY",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:valve.h@369@macro@VALVE_ENABLE_PORT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "VALVE_ENABLE_PORT",
-    "location": {
-      "column": "9",
-      "line": "12",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
-    },
-    "name": "VALVE_ENABLE_PORT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:valve.h@402@macro@VALVE_PULSE_PORT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "VALVE_PULSE_PORT",
-    "location": {
-      "column": "9",
-      "line": "13",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
-    },
-    "name": "VALVE_PULSE_PORT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:valve.h@436@macro@OPEN_VALVE_ENABLE_PIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "OPEN_VALVE_ENABLE_PIN",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
-    },
-    "name": "OPEN_VALVE_ENABLE_PIN",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:valve.h@478@macro@CLOSE_VALVE_ENABLE_PIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CLOSE_VALVE_ENABLE_PIN",
-    "location": {
-      "column": "9",
-      "line": "16",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
-    },
-    "name": "CLOSE_VALVE_ENABLE_PIN",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:valve.h@523@macro@OPEN_VALVE_PULSE_PIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "OPEN_VALVE_PULSE_PIN",
-    "location": {
-      "column": "9",
-      "line": "18",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
-    },
-    "name": "OPEN_VALVE_PULSE_PIN",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:valve.h@564@macro@CLOSE_VALVE_PULSE_PIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CLOSE_VALVE_PULSE_PIN",
-    "location": {
-      "column": "9",
-      "line": "19",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
-    },
-    "name": "CLOSE_VALVE_PULSE_PIN",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ValveInit",
+    "ID": "c:@F@BEEP_DeInit",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void ValveInit(void)",
+    "display": "void BEEP_DeInit(void)",
     "location": {
       "column": "6",
-      "line": "23",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+      "line": "96",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
     },
-    "name": "ValveInit",
+    "name": "BEEP_DeInit",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@ValveInit",
+    "ID": "c:@F@BEEP_DeInit",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void ValveInit(void)",
+    "display": "void BEEP_DeInit(void)",
     "location": {
       "column": "6",
-      "line": "23",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+      "line": "96",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
     },
-    "name": "ValveInit",
+    "name": "BEEP_DeInit",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@ValveOpen",
+    "ID": "c:@F@BEEP_Init",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void ValveOpen(void)",
+    "display": "void BEEP_Init(BEEP_Frequency_TypeDef)",
     "location": {
       "column": "6",
-      "line": "24",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+      "line": "99",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
     },
-    "name": "ValveOpen",
+    "name": "BEEP_Init",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@ValveOpen",
+    "ID": "c:@F@BEEP_Init",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void ValveOpen(void)",
+    "display": "void BEEP_Init(BEEP_Frequency_TypeDef)",
     "location": {
       "column": "6",
-      "line": "24",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+      "line": "99",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
     },
-    "name": "ValveOpen",
+    "name": "BEEP_Init",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@ValveClose",
+    "ID": "c:@F@BEEP_Cmd",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void ValveClose(void)",
+    "display": "void BEEP_Cmd(FunctionalState)",
     "location": {
       "column": "6",
-      "line": "25",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+      "line": "100",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
     },
-    "name": "ValveClose",
+    "name": "BEEP_Cmd",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@ValveClose",
+    "ID": "c:@F@BEEP_Cmd",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void ValveClose(void)",
+    "display": "void BEEP_Cmd(FunctionalState)",
     "location": {
       "column": "6",
-      "line": "25",
-      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\lib\\valve.h"
+      "line": "100",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
     },
-    "name": "ValveClose",
+    "name": "BEEP_Cmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@BEEP_LSClockToTIMConnectCmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void BEEP_LSClockToTIMConnectCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "103",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
+    },
+    "name": "BEEP_LSClockToTIMConnectCmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@BEEP_LSClockToTIMConnectCmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void BEEP_LSClockToTIMConnectCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "103",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
+    },
+    "name": "BEEP_LSClockToTIMConnectCmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@BEEP_LSICalibrationConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void BEEP_LSICalibrationConfig(uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "104",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
+    },
+    "name": "BEEP_LSICalibrationConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@BEEP_LSICalibrationConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void BEEP_LSICalibrationConfig(uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "104",
+      "path": "C:\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_beep.h"
+    },
+    "name": "BEEP_LSICalibrationConfig",
     "origin": "user_include",
     "scope": null
   },
@@ -86364,6 +86436,20 @@
     "scope": null
   },
   {
+    "ID": "c:@VALVESTATE",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "VALVESTATE",
+    "location": {
+      "column": "24",
+      "line": "52",
+      "path": "C:\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
+    },
+    "name": "VALVESTATE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@TimingDelay",
     "What": "Variable",
     "defdec": "Dec",
@@ -86504,7 +86590,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2962@F@clk_init@i",
+    "ID": "c:main.c@2996@F@clk_init@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
@@ -86574,7 +86660,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4955@F@rtc_init@RTC_Struct",
+    "ID": "c:main.c@4989@F@rtc_init@RTC_Struct",
     "What": "Variable",
     "defdec": "Def",
     "display": "RTC_Struct",

@@ -6,17 +6,24 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
-#define SWICHDELAY 300
-#define PULSEWIDTH 500
+#define SWICHDELAY 50
+#define PULSEWIDTH 150
 
 #define VALVE_ENABLE_PORT GPIOE
 #define VALVE_PULSE_PORT GPIOD
 
-#define OPEN_VALVE_ENABLE_PIN GPIO_Pin_5
-#define CLOSE_VALVE_ENABLE_PIN GPIO_Pin_4
+#define CLOSE_VALVE_ENABLE_PIN GPIO_Pin_5
+#define OPEN_VALVE_ENABLE_PIN GPIO_Pin_4
 
-#define OPEN_VALVE_PULSE_PIN GPIO_Pin_0
-#define CLOSE_VALVE_PULSE_PIN GPIO_Pin_2
+#define CLOSE_VALVE_PULSE_PIN GPIO_Pin_0
+#define OPEN_VALVE_PULSE_PIN GPIO_Pin_2
+
+enum ValveState
+{
+  NONE,
+  OPEN,
+  CLOSED
+};
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
 /* Private function prototypes -----------------------------------------------*/
