@@ -4956,6 +4956,12 @@
             <name>$PROJ_DIR$\..\lib\valve.h</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\..\lib\VBAT.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\lib\VBAT.h</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\..\lib\watch.c</name>
         </file>
         <file>

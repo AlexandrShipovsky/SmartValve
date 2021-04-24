@@ -14,6 +14,7 @@ void ValveInit(void)
 {
   GPIO_Init(VALVE_ENABLE_PORT,OPEN_VALVE_ENABLE_PIN | CLOSE_VALVE_ENABLE_PIN,GPIO_Mode_Out_OD_HiZ_Slow); //pin enable1 and enable2 conf as out push-pull high level
   GPIO_Init(VALVE_PULSE_PORT, OPEN_VALVE_PULSE_PIN | CLOSE_VALVE_PULSE_PIN, GPIO_Mode_Out_PP_Low_Slow);
+  ValveClose();
 }
 
 void ValveOpen(void)

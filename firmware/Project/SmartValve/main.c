@@ -29,6 +29,7 @@
 #include "stm8l15x.h"
 #include "keyboard.h"
 #include "valve.h"
+#include "VBAT.h"
 
 /** @addtogroup STM8L15x_StdPeriph_Template
   * @{
@@ -51,6 +52,8 @@ static RTC_TimeTypeDef watch;
 enum buttons PutButton;
 extern enum ValveState VALVESTATE;
 __IO uint32_t TimingDelay;
+
+uint16_t VBAT = 0;
 /* Private function prototypes -----------------------------------------------*/
 static void clk_init(void);
 static void gpio_init(void);
@@ -75,10 +78,14 @@ void main(void)
   rtc_init();
   TIM4_Config();
   gpio_init();
+  VBAT_init();
   ValveInit();
   
   while (1)
   {
+    
+    VBAT = GetVBAT();
+    Delay(1000);
     switch(PutButton)
     {
     case OFF:
@@ -114,6 +121,8 @@ void clk_init(void)
   CLK_PeripheralClockConfig(CLK_Peripheral_RTC, ENABLE);
   /* Enable TIM4 CLK */
   CLK_PeripheralClockConfig(CLK_Peripheral_TIM4, ENABLE);
+  /* Enable ADC1 CLK */
+  CLK_PeripheralClockConfig(CLK_Peripheral_ADC1, ENABLE);
   
   while(CLK_GetFlagStatus(CLK_FLAG_RTCSWBSY) != SET);
   CLK_ClearFlag();
@@ -214,6 +223,8 @@ void gpio_init(void)
   
   
 }
+
+
 
 
 void error(void)
