@@ -34,4 +34,5 @@ main.pbi: C:\SmartValve\firmware\Project\SmartValve\main.c \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
   C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\keyboard.h \
   C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\valve.h \
-  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\VBAT.h
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\VBAT.h \
+  C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\LCD.h

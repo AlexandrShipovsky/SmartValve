@@ -1,40 +1,23 @@
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __KEYBOARD_H
-#define __KEYBOARD_H
-
+#ifndef __LCD_H
+#define __LCD_H
+/* Includes ------------------------------------------------------------------*/
 #include "stm8l15x.h"
 /* Public typedef -----------------------------------------------------------*/
+typedef struct
+{
+  uint8_t b0:1;
+  uint8_t b1:1;
+  uint8_t b2:1;
+  uint8_t b3:1;
+  uint8_t b4:1;
+  uint8_t b5:1;
+  uint8_t b6:1;
+  uint8_t b7:1;
+}RAM0;
 /* Public define ------------------------------------------------------------*/
-#define BUTTONGPIO1 GPIOC
-#define BUTTONGPIO2 GPIOG
-#define OFF_MAN GPIO_Pin_1
-#define RAIN_SETUP GPIO_Pin_0
-#define PLUS_MINUS GPIO_Pin_7
-#define COM1 GPIO_Pin_6
-#define COM2 GPIO_Pin_5
 /* Public macro -------------------------------------------------------------*/
 /* Public variables ---------------------------------------------------------*/
-enum buttons
-{
-  NOPUT,
-  OFF,
-  MANUAL,
-  DELAY,
-  OK,
-  PLUS,
-  MINUS
-};
-
-enum com
-  {
-  COMSTATE1,
-  COMSTATE2
-};
 /* Public function prototypes -----------------------------------------------*/
-void ClearButton(enum buttons * button);
-void ToggleCOM(void);
-
-
-
-
-#endif /*__KEYBOARD_H */
+void lcd_init(void);
+#endif /*__VALVE_H */

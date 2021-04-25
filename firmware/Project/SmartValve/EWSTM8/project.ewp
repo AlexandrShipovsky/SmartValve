@@ -4950,6 +4950,12 @@
             <name>$PROJ_DIR$\..\lib\keyboard.h</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\..\lib\LCD.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\lib\LCD.h</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\..\lib\valve .c</name>
         </file>
         <file>

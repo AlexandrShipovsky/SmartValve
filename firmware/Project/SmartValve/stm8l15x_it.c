@@ -39,6 +39,7 @@
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
 extern enum buttons PutButton;
+extern enum com SelectCOM;
 /* Private function prototypes -----------------------------------------------*/
 extern void TimingDelay_Decrement(void);
 /* Private functions ---------------------------------------------------------*/
@@ -163,7 +164,10 @@ INTERRUPT_HANDLER(EXTI0_IRQHandler,8)
     /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
-  PutButton = OK;
+  if(SelectCOM == COMSTATE1)
+  {PutButton = OK;}
+  else{PutButton = DELAY;}
+  
   EXTI_ClearITPendingBit(EXTI_IT_Pin0);
 }
 
@@ -177,7 +181,10 @@ INTERRUPT_HANDLER(EXTI1_IRQHandler,9)
     /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
-  PutButton = OFF;
+  if(SelectCOM == COMSTATE1)
+  {PutButton = MANUAL;}
+  else{PutButton = OFF;}
+  
   EXTI_ClearITPendingBit(EXTI_IT_Pin1);
 }
 
@@ -251,7 +258,10 @@ INTERRUPT_HANDLER(EXTI7_IRQHandler,15)
     /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
-  PutButton = PLUS;
+  if(SelectCOM == COMSTATE1)
+  {PutButton = MINUS;}
+  else{PutButton = PLUS;}
+  
   EXTI_ClearITPendingBit(EXTI_IT_Pin7);
 }
 /**

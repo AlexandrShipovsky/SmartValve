@@ -30,6 +30,7 @@
 #include "keyboard.h"
 #include "valve.h"
 #include "VBAT.h"
+#include "LCD.h"
 
 /** @addtogroup STM8L15x_StdPeriph_Template
   * @{
@@ -37,19 +38,12 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
-#define BUTTONGPIO1 GPIOC
-#define BUTTONGPIO2 GPIOG
-#define OFF_MAN GPIO_Pin_1
-#define RAIN_SETUP GPIO_Pin_0
-#define PLUS_MINUS GPIO_Pin_7
-#define COM1 GPIO_Pin_6
-#define COM2 GPIO_Pin_5
 
 #define TIM4_PERIOD       124
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
 static RTC_TimeTypeDef watch;
-enum buttons PutButton;
+extern enum buttons PutButton;
 extern enum ValveState VALVESTATE;
 __IO uint32_t TimingDelay;
 
@@ -76,16 +70,18 @@ void main(void)
   
   clk_init();
   rtc_init();
-  TIM4_Config();
+  TIM4_Config();  
   gpio_init();
   VBAT_init();
   ValveInit();
+  lcd_init();
   
   while (1)
   {
     
     VBAT = GetVBAT();
-    Delay(1000);
+    //Delay(300);
+    ToggleCOM();
     switch(PutButton)
     {
     case OFF:
@@ -96,8 +92,20 @@ void main(void)
       ValveOpen();
       ClearButton(&PutButton);
       break;
-    default:
+    case MANUAL:
       ClearButton(&PutButton);
+      break;
+    case DELAY:
+      ClearButton(&PutButton);
+      break;
+    case PLUS:
+      ClearButton(&PutButton);
+      break;
+    case MINUS:
+      ClearButton(&PutButton);
+      break;
+    default:
+      //ClearButton(&PutButton);
       break;
     }
     RTC_GetTime(RTC_Format_BCD,&watch);
@@ -210,7 +218,8 @@ void gpio_init(void)
   GPIO_Init(BUTTONGPIO2,PLUS_MINUS,GPIO_Mode_In_FL_IT);
   //GPIO_ExternalPullUpConfig(BUTTONGPIO2,PLUS_MINUS, ENABLE);
   
-  GPIO_Init(BUTTONGPIO2,COM1 | COM2,GPIO_Mode_Out_PP_High_Slow);
+  GPIO_Init(BUTTONGPIO2,COM1,GPIO_Mode_Out_PP_High_Slow);
+  GPIO_Init(BUTTONGPIO2,COM2,GPIO_Mode_Out_PP_Low_Slow);
   
   EXTI_SetPinSensitivity(EXTI_Pin_0, EXTI_Trigger_Rising);
   EXTI_SetPinSensitivity(EXTI_Pin_1, EXTI_Trigger_Rising);
