@@ -1,9 +1,9 @@
-/* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __LCD_H
-#define __LCD_H
-/* Includes ------------------------------------------------------------------*/
-#include "stm8l15x.h"
-/* Public typedef -----------------------------------------------------------*/
+//lcd registers
+/*
+
+
+
+*/
 // FIRST PAGE
 struct RAM00
 {
@@ -15,7 +15,7 @@ struct RAM00
   uint8_t b5:1;
   uint8_t b6:1;
   uint8_t b7:1;
-};
+}
 
 struct RAM01
 {
@@ -27,7 +27,7 @@ struct RAM01
   uint8_t A8:1;
   uint8_t A9:1;
   uint8_t A5:1;
-};
+}
 
 struct RAM02
 {
@@ -39,7 +39,7 @@ struct RAM02
   uint8_t T3:1;
   uint8_t b6:1;
   uint8_t b7:1;
-};
+}
 struct RAM03
 {
   uint8_t b0:1;
@@ -50,7 +50,7 @@ struct RAM03
   uint8_t F13:1;
   uint8_t F12:1;
   uint8_t F11:1;
-};
+}
 struct RAM04
 {
   uint8_t F10:1;
@@ -61,7 +61,7 @@ struct RAM04
   uint8_t b5:1;
   uint8_t F14:1;
   uint8_t F15:1;
-};
+}
 struct RAM05
 {
   uint8_t F7:1;
@@ -72,7 +72,7 @@ struct RAM05
   uint8_t F1:1;
   uint8_t F2:1;
   uint8_t F3:1;
-};
+}
 struct RAM06
 {
   uint8_t F4:1;
@@ -83,7 +83,7 @@ struct RAM06
   uint8_t b5:1;
   uint8_t b6:1;
   uint8_t b7:1;
-};
+}
 
 struct RAM07
 {
@@ -95,7 +95,7 @@ struct RAM07
   uint8_t b5:1;
   uint8_t b6:1;
   uint8_t b7:1;
-};
+}
 struct RAM08
 {
   uint8_t b0:1;
@@ -106,7 +106,7 @@ struct RAM08
   uint8_t B8:1;
   uint8_t B9:1;
   uint8_t B5:1;
-};
+}
 
 struct RAM09
 {
@@ -118,7 +118,7 @@ struct RAM09
   uint8_t T1:1;
   uint8_t b6:1;
   uint8_t b7:1;
-};
+}
 
 struct RAM010
 {
@@ -130,7 +130,7 @@ struct RAM010
   uint8_t G13:1;
   uint8_t G12:1;
   uint8_t G11:1;
-};
+}
 
 struct RAM011
 {
@@ -142,7 +142,7 @@ struct RAM011
   uint8_t b5:1;
   uint8_t G14:1;
   uint8_t G15:1;
-};
+}
 
 struct RAM012
 {
@@ -154,7 +154,7 @@ struct RAM012
   uint8_t G1:1;
   uint8_t G2:1;
   uint8_t G3:1;
-};
+}
 
 struct RAM013
 {
@@ -166,7 +166,7 @@ struct RAM013
   uint8_t b5:1;
   uint8_t b6:1;
   uint8_t b7:1;
-};
+}
 /*
 
 
@@ -179,11 +179,11 @@ struct RAM10
   uint8_t E13:1;
   uint8_t E12:1;
   uint8_t E11:1;
-  uint8_t E10:1;
+  uint8_t 10:1;
   uint8_t b5:1;
   uint8_t b6:1;
   uint8_t b7:1;
-};
+}
 
 struct RAM11
 {
@@ -195,7 +195,7 @@ struct RAM11
   uint8_t E8:1;
   uint8_t E9:1;
   uint8_t E5:1;
-};
+}
 
 struct RAM12
 {
@@ -207,7 +207,7 @@ struct RAM12
   uint8_t T5:1;
   uint8_t b6:1;
   uint8_t b7:1;
-};
+}
 
 struct RAM13
 {
@@ -219,7 +219,7 @@ struct RAM13
   uint8_t C13:1;
   uint8_t C12:1;
   uint8_t C11:1;
-};
+}
 
 struct RAM14
 {
@@ -231,7 +231,7 @@ struct RAM14
   uint8_t b5:1;
   uint8_t C14:1;
   uint8_t C15:1;
-};
+}
 
 struct RAM15
 {
@@ -243,7 +243,7 @@ struct RAM15
   uint8_t C1:1;
   uint8_t C2:1;
   uint8_t C3:1;
-};
+}
 
 struct RAM16
 {
@@ -255,7 +255,7 @@ struct RAM16
   uint8_t b5:1;
   uint8_t b6:1;
   uint8_t b7:1;
-};
+}
 
 struct RAM17
 {
@@ -267,7 +267,7 @@ struct RAM17
   uint8_t b5:1;
   uint8_t b6:1;
   uint8_t b7:1;
-};
+}
 
 struct RAM18
 {
@@ -279,7 +279,7 @@ struct RAM18
   uint8_t D8:1;
   uint8_t D9:1;
   uint8_t D5:1;
-};
+}
 
 struct RAM19
 {
@@ -291,7 +291,7 @@ struct RAM19
   uint8_t T17:1;
   uint8_t b6:1;
   uint8_t b7:1;
-};
+}
 
 struct RAM110
 {
@@ -303,7 +303,7 @@ struct RAM110
   uint8_t b5:1;
   uint8_t T20:1;
   uint8_t COL2:1;
-};
+}
 
 struct RAM111
 {
@@ -315,7 +315,7 @@ struct RAM111
   uint8_t b5:1;
   uint8_t T19:1;
   uint8_t T18:1;
-};
+}
 
 struct RAM112
 {
@@ -327,7 +327,7 @@ struct RAM112
   uint8_t T11:1;
   uint8_t T10:1;
   uint8_t COL1:1;
-};
+}
 
 struct RAM113
 {
@@ -339,11 +339,4 @@ struct RAM113
   uint8_t b5:1;
   uint8_t b6:1;
   uint8_t b7:1;
-};
-/* Public define ------------------------------------------------------------*/
-/* Public macro -------------------------------------------------------------*/
-/* Public variables ---------------------------------------------------------*/
-/* Public function prototypes -----------------------------------------------*/
-void lcd_init(void);
-void lcd_update(void);
-#endif /*__VALVE_H */
+}
