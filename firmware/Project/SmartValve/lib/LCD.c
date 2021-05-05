@@ -50,7 +50,15 @@ void lcd_init(void)
   LCD_PageSelect(LCD_PageSelection_FirstPage);
   //LCD_BlinkConfig(LCD_BlinkMode_AllSEG_AllCOM,LCD_BlinkFrequency_Div256);
 
-  RAM110.T20 = 1;
+  A1(1);
+  B1(1);
+  C1(1);
+  D1(1);
+  E1(1);
+  G1(1);
+  F1(1);
+  
+  T7(1);
   lcd_update();
 
 }

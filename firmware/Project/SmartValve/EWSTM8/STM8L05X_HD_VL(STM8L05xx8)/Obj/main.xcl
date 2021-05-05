@@ -1,46 +1,46 @@
-"C:\SmartValve\firmware\Project\SmartValve\main.c"
+"C:\Users\Jumper\Documents\GitHub\SmartValve\firmware\Project\SmartValve\main.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\SmartValve\firmware\Project\SmartValve\EWSTM8\STM8L05X_HD_VL(STM8L05xx8)\Obj\main.pbi.dep
+C:\Users\Jumper\Documents\GitHub\SmartValve\firmware\Project\SmartValve\EWSTM8\STM8L05X_HD_VL(STM8L05xx8)\Obj\main.pbi.dep
 -o
 main.pbi
 -I
-C:\SmartValve\firmware\Project\SmartValve
+C:\Users\Jumper\Documents\GitHub\SmartValve\firmware\Project\SmartValve
 -I
-C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..
+C:\Users\Jumper\Documents\GitHub\SmartValve\firmware\Project\SmartValve\EWSTM8\..
 -I
-C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc
+C:\Users\Jumper\Documents\GitHub\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc
 -I
-C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Utilities\STM8_EVAL
+C:\Users\Jumper\Documents\GitHub\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Utilities\STM8_EVAL
 -I
-C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Utilities\STM8_EVAL\STM8L1528_EVAL
+C:\Users\Jumper\Documents\GitHub\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Utilities\STM8_EVAL\STM8L1528_EVAL
 -I
-C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Utilities\STM8_EVAL\Common
+C:\Users\Jumper\Documents\GitHub\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Utilities\STM8_EVAL\Common
 -I
-C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Utilities\Misc
+C:\Users\Jumper\Documents\GitHub\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Utilities\Misc
 -I
-C:\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib
+C:\Users\Jumper\Documents\GitHub\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc
+B:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc\c
+B:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc\c
 -I
-C:\SmartValve\firmware\Project\SmartValve
+C:\Users\Jumper\Documents\GitHub\SmartValve\firmware\Project\SmartValve
 -I
-C:\SmartValve\firmware\Libraries\STM8L15x_StdPeriph_Driver\inc
+C:\Users\Jumper\Documents\GitHub\SmartValve\firmware\Libraries\STM8L15x_StdPeriph_Driver\inc
 -I
-C:\SmartValve\firmware\Utilities\STM8_EVAL
+C:\Users\Jumper\Documents\GitHub\SmartValve\firmware\Utilities\STM8_EVAL
 -I
-C:\SmartValve\firmware\Utilities\STM8_EVAL\STM8L1528_EVAL
+C:\Users\Jumper\Documents\GitHub\SmartValve\firmware\Utilities\STM8_EVAL\STM8L1528_EVAL
 -I
-C:\SmartValve\firmware\Utilities\STM8_EVAL\Common
+C:\Users\Jumper\Documents\GitHub\SmartValve\firmware\Utilities\STM8_EVAL\Common
 -I
-C:\SmartValve\firmware\Utilities\Misc
+C:\Users\Jumper\Documents\GitHub\SmartValve\firmware\Utilities\Misc
 -I
-C:\SmartValve\firmware\Project\SmartValve\lib
+C:\Users\Jumper\Documents\GitHub\SmartValve\firmware\Project\SmartValve\lib
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -283,8 +283,8 @@ C:\SmartValve\firmware\Project\SmartValve\lib
 -D__EDG_CPP11_IL_EXTENSIONS_SUPPORTED=1
 -DUSE_STM8L1528_EVAL=1
 -DSTM8L05X_HD_VL=1
--D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\LIB\dlstm8mmn.h"
--D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\LIB\\dlstm8mmn.h"
+-D_DLIB_CONFIG_FILE_HEADER_NAME="B:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\LIB\dlstm8mmn.h"
+-D_DLIB_CONFIG_FILE_STRING="B:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\LIB\\dlstm8mmn.h"
 -D__VERSION__="IAR C/C++ Compiler V3.11.1.207 for STM8"
 -D__CODE_MEMORY_LIST1__()=__CODE_MEM_HELPER1__(__code, 0 )
 -D__CODE_MEMORY_LIST2__(_P1)=__CODE_MEM_HELPER2__(__code, 0 ,  _P1 )
