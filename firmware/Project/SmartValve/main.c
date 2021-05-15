@@ -75,13 +75,18 @@ void main(void)
   VBAT_init();
   ValveInit();
   lcd_init();
-  
+  uint8_t i = 0;
   while (1)
   {
-    
+    if(i == 10)
+    {
+      i =0;
+    }
     VBAT = GetVBAT();
-    //Delay(300);
-    ToggleCOM();
+    Delay(1000);
+    SevenSegmentSet(1,i);
+    lcd_update();
+    i++;
     switch(PutButton)
     {
     case OFF:

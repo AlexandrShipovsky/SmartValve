@@ -1,6 +1,17 @@
 /* Includes ------------------------------------------------------------------*/
 #include "LCD.h"
 /* Private typedef -----------------------------------------------------------*/
+typedef struct
+{
+  uint8_t A:1;
+  uint8_t B:1;
+  uint8_t C:1;
+  uint8_t D:1;
+  uint8_t E:1;
+  uint8_t F:1;
+  uint8_t G:1;
+} SevenSegmentTypeDef;
+SevenSegmentTypeDef ind;
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
@@ -34,6 +45,149 @@ struct RAM111 RAM111;
 struct RAM112 RAM112;
 struct RAM113 RAM113;
 /* Private function prototypes -----------------------------------------------*/
+static void SevenSegmentCalc(uint8_t i,SevenSegmentTypeDef * ind);
+
+void lcd_set_time(RTC_TimeTypeDef * watch)
+{
+  
+}
+
+
+void SevenSegmentSet(uint8_t NumberSegment,uint8_t val)
+{
+  SevenSegmentCalc(val,&ind);
+  switch(NumberSegment)
+  {
+  case 1:
+    A1(ind.A);
+    B1(ind.B);
+    C1(ind.C);
+    D1(ind.D);
+    E1(ind.E);
+    F1(ind.F);
+    G1(ind.G);
+    break;
+    case 2:
+    A2(ind.A);
+    B2(ind.B);
+    C2(ind.C);
+    D2(ind.D);
+    E2(ind.E);
+    F2(ind.F);
+    G2(ind.G);
+    break;
+    case 3:
+    A3(ind.A);
+    B3(ind.B);
+    C3(ind.C);
+    D3(ind.D);
+    E3(ind.E);
+    F3(ind.F);
+    G3(ind.G);
+    break;
+      case 4:
+    A4(ind.A);
+    B4(ind.B);
+    C4(ind.C);
+    D4(ind.D);
+    E4(ind.E);
+    F4(ind.F);
+    G4(ind.G);
+    break;
+  default:
+    break;
+  }
+}
+void SevenSegmentCalc(uint8_t i,SevenSegmentTypeDef * ind)
+{
+  ind->A = 0;
+  ind->B = 0;
+  ind->C = 0;
+  ind->D = 0;
+  ind->E = 0;
+  ind->F = 0;
+  ind->G = 0;
+  switch(i)
+  {
+  case 0:
+  ind->A = 1;
+  ind->B = 1;
+  ind->C = 1;
+  ind->D = 1;
+  ind->E = 1;
+  ind->F = 1;
+    break;
+  case 1:
+  ind->B = 1;
+  ind->C = 1;
+  break;
+  case 2:
+  ind->A = 1;
+  ind->B = 1;
+  ind->D = 1;
+  ind->E = 1;
+  ind->G = 1;
+    break;
+  case 3:
+   ind->A = 1;
+  ind->B = 1;
+  ind->C = 1;
+  ind->D = 1;
+  ind->G = 1;
+    break;
+  case 4:
+    ind->B = 1;
+  ind->C = 1;
+  ind->F = 1;
+  ind->G = 1;
+    break;
+  case 5:
+    ind->A = 1;
+    ind->F = 1;
+    ind->G = 1;
+    ind->C = 1;
+  ind->D = 1;
+    break;
+  case 6:
+  ind->A = 1;
+  ind->C = 1;
+  ind->D = 1;
+  ind->E = 1;
+  ind->F = 1;
+  ind->G = 1;
+    break;
+    
+    case 7:
+  ind->A = 1;
+  ind->B = 1;
+  ind->C = 1;
+    break;
+    
+    case 8:
+  ind->A = 1;
+  ind->B = 1;
+  ind->C = 1;
+  ind->D = 1;
+  ind->E = 1;
+  ind->F = 1;
+  ind->G = 1;
+    break;
+    
+    case 9:
+  ind->A = 1;
+  ind->B = 1;
+  ind->C = 1;
+  ind->D = 1;
+  ind->F = 1;
+  ind->G = 1;
+    break;
+    
+    
+  default:
+    break;
+  }
+  
+}
 void lcd_init(void)
 {
   CLK_PeripheralClockConfig(CLK_Peripheral_LCD, ENABLE);
@@ -50,13 +204,7 @@ void lcd_init(void)
   LCD_PageSelect(LCD_PageSelection_FirstPage);
   //LCD_BlinkConfig(LCD_BlinkMode_AllSEG_AllCOM,LCD_BlinkFrequency_Div256);
 
-  A1(1);
-  B1(1);
-  C1(1);
-  D1(1);
-  E1(1);
-  G1(1);
-  F1(1);
+  
   
   T7(1);
   lcd_update();

@@ -164,16 +164,6 @@
 
 
 /* Public typedef -----------------------------------------------------------*/
-typedef struct
-{
-  uint8_t * A:1;
-  uint8_t * B:1;
-  uint8_t * C:1;
-  uint8_t * D:1;
-  uint8_t * E:1;
-  uint8_t * F:1;
-  uint8_t * G:1;
-}SevenSegment;
 // FIRST PAGE
 struct RAM00
 {
@@ -516,4 +506,6 @@ struct RAM113
 /* Public function prototypes -----------------------------------------------*/
 void lcd_init(void);
 void lcd_update(void);
+void SevenSegmentSet(uint8_t NumberSegment,uint8_t val);
+void lcd_set_time(RTC_TimeTypeDef * watch);
 #endif /*__VALVE_H */
