@@ -51,6 +51,10 @@
 
    #define B14(state) RAM08.B14 = state;
    #define B15(state) RAM08.B15 = state;
+   #define B5(state) RAM08.B5 = state;
+#define B8(state) RAM08.B8 = state;
+   #define B7(state) RAM08.B7 = state;
+   #define B9(state) RAM08.B9 = state;
 
   #define B6(state)  RAM09.B6 = state;
   #define B1(state)  RAM09.B1 = state;
@@ -503,9 +507,19 @@ struct RAM113
 
 /* Public macro -------------------------------------------------------------*/
 /* Public variables ---------------------------------------------------------*/
+enum BatteryState
+{
+  BatLow,
+  BatMiddle,
+  BatHigh
+};
+  
 /* Public function prototypes -----------------------------------------------*/
 void lcd_init(void);
 void lcd_update(void);
 void SevenSegmentSet(uint8_t NumberSegment,uint8_t val);
-void lcd_set_time(RTC_TimeTypeDef * watch);
+void lcd_set_time(RTC_TimeTypeDef watch);
+void lcd_SetStaticSegment(uint8_t state);
+void lcd_SetBattery(enum BatteryState);
+void lcd_BlinkSegments(void);
 #endif /*__VALVE_H */

@@ -42,7 +42,7 @@
 #define TIM4_PERIOD       124
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
-static RTC_TimeTypeDef watch;
+RTC_TimeTypeDef watch;
 extern enum buttons PutButton;
 extern enum ValveState VALVESTATE;
 __IO uint32_t TimingDelay;
@@ -75,6 +75,7 @@ void main(void)
   VBAT_init();
   ValveInit();
   lcd_init();
+  lcd_SetStaticSegment(1);
   uint8_t i = 0;
   while (1)
   {
@@ -83,10 +84,32 @@ void main(void)
       i =0;
     }
     VBAT = GetVBAT();
-    Delay(1000);
-    SevenSegmentSet(1,i);
-    lcd_update();
-    i++;
+    if(VBAT < 3800)
+    {
+      lcd_SetBattery(BatLow);
+    }
+    else if(VBAT < 4300)
+    {
+      lcd_SetBattery(BatMiddle);
+    }
+    else
+    {
+      lcd_SetBattery(BatHigh);
+    }
+    /*Delay(1000);
+    
+    SevenSegmentSet(5,i);
+    SevenSegmentSet(6,i);
+    SevenSegmentSet(7,i);
+    SevenSegmentSet(8,i);
+    SevenSegmentSet(9,i);
+    SevenSegmentSet(10,i);
+    SevenSegmentSet(11,i);
+    SevenSegmentSet(12,i);
+    SevenSegmentSet(13,i);
+    SevenSegmentSet(14,i);
+    SevenSegmentSet(15,i);
+*/
     switch(PutButton)
     {
     case OFF:
@@ -114,6 +137,10 @@ void main(void)
       break;
     }
     RTC_GetTime(RTC_Format_BCD,&watch);
+    lcd_set_time(watch);
+    lcd_update();
+    i++;
+    ToggleCOM();
   }
 }
 
@@ -197,11 +224,11 @@ void TimingDelay_Decrement(void)
 
 void rtc_init(void)
 {
-/*  if(RTC_DeInit()!= SUCCESS)
+  if(RTC_DeInit()!= SUCCESS)
   {
     error();
   } 
-*/
+
   RTC_InitTypeDef RTC_Struct;
   RTC_Struct.RTC_HourFormat = RTC_HourFormat_24;
   RTC_Struct.RTC_AsynchPrediv = 0x7F;

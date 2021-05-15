@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L05X_HD_VL(STM8L05xx8).general.xcl" --backend -f "C:\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L05X_HD_VL(STM8L05xx8).driver.xcl" 
+& "G:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "G:\Drone John\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L05X_HD_VL(STM8L05xx8).general.xcl" --backend -f "G:\Drone John\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L05X_HD_VL(STM8L05xx8).driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L05X_HD_VL(STM8L05xx8).general.xcl" --debug_file=$debugfile --backend -f "C:\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L05X_HD_VL(STM8L05xx8).driver.xcl" 
+& "G:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "G:\Drone John\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L05X_HD_VL(STM8L05xx8).general.xcl" --debug_file=$debugfile --backend -f "G:\Drone John\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L05X_HD_VL(STM8L05xx8).driver.xcl" 
 }

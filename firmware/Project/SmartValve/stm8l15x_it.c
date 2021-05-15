@@ -29,6 +29,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm8l15x_it.h"
 #include "keyboard.h"
+#include "LCD.h"
 
 /** @addtogroup STM8L15x_StdPeriph_Template
   * @{
@@ -40,6 +41,7 @@
 /* Private variables ---------------------------------------------------------*/
 extern enum buttons PutButton;
 extern enum com SelectCOM;
+uint16_t intforblink = 0;
 /* Private function prototypes -----------------------------------------------*/
 extern void TimingDelay_Decrement(void);
 /* Private functions ---------------------------------------------------------*/
@@ -379,6 +381,12 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_TRG_IRQHandler,25)
     /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
+  if(intforblink > 500)
+  {
+    intforblink = 0;
+    lcd_BlinkSegments();
+  }
+  intforblink++;
   TimingDelay_Decrement();
   /* Cleat Interrupt Pending bit */
   TIM4_ClearITPendingBit(TIM4_IT_Update);
