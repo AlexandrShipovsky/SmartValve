@@ -33,8 +33,8 @@ enum com
 /* Public function prototypes -----------------------------------------------*/
 void ClearButton(enum buttons * button);
 void ToggleCOM(void);
-
-
+void EnableCOM(void);
+void COMFromHalt(void);
 
 
 #endif /*__KEYBOARD_H */

@@ -511,15 +511,39 @@ enum BatteryState
 {
   BatLow,
   BatMiddle,
-  BatHigh
+  BatHigh,
+  BatNONE
 };
-  
+
+enum HoursDay
+{
+  HRS,
+  DAY
+};
+
+enum CurrentSetting
+{
+  CurrentTimeHours,
+  CurrentTimeMin,
+  HowFreqDAYorHRS,
+  HowFreqValue,
+  HowLong,
+  StartTimeHours,
+  StartTimeMin,
+  NONESET
+};
+
 /* Public function prototypes -----------------------------------------------*/
 void lcd_init(void);
 void lcd_update(void);
+void lcd_clear(void);
 void SevenSegmentSet(uint8_t NumberSegment,uint8_t val);
 void lcd_set_time(RTC_TimeTypeDef watch);
+void lcd_set_StartTime(RTC_TimeTypeDef watch);
 void lcd_SetStaticSegment(uint8_t state);
 void lcd_SetBattery(enum BatteryState);
-void lcd_BlinkSegments(void);
+void lcd_SetSevSegmentBlink(enum CurrentSetting CurrentSetting); // if 0 then all segment not blink
+void lcd_SetHowFreq(uint8_t value, enum HoursDay HoursDay);
+void lcd_SetNextIrrigation(uint8_t value, enum HoursDay HoursDay);
+void lcd_SetHowLong(uint16_t value);
 #endif /*__VALVE_H */

@@ -30,21 +30,34 @@
 #include "stm8l15x_it.h"
 #include "keyboard.h"
 #include "LCD.h"
+#include "common.h"
 
 /** @addtogroup STM8L15x_StdPeriph_Template
   * @{
   */
-	
+
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
+#define DELAYBUTTON (uint32_t)10000
+#define SLEEPTIME (uint8_t)60
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
 extern enum buttons PutButton;
 extern enum com SelectCOM;
+extern uint8_t BlinkState;
+extern enum ProgramMode ProgramState;
+
 uint16_t intforblink = 0;
+uint8_t SleepTime = SLEEPTIME;
 /* Private function prototypes -----------------------------------------------*/
 extern void TimingDelay_Decrement(void);
 /* Private functions ---------------------------------------------------------*/
+void DelayInInterrupt(uint32_t time);
+void DelayInInterrupt(uint32_t time)
+{
+  uint32_t i = 0;
+  for(i = time; i != 0; i--);
+}
 /* Public functions ----------------------------------------------------------*/
 
 #ifdef _COSMIC_
@@ -55,9 +68,9 @@ extern void TimingDelay_Decrement(void);
   * @retval 
   * None
 */
-INTERRUPT_HANDLER(NonHandledInterrupt,0)
+INTERRUPT_HANDLER(NonHandledInterrupt, 0)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -72,7 +85,7 @@ INTERRUPT_HANDLER(NonHandledInterrupt,0)
 */
 INTERRUPT_HANDLER_TRAP(TRAP_IRQHandler)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -81,9 +94,9 @@ INTERRUPT_HANDLER_TRAP(TRAP_IRQHandler)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(FLASH_IRQHandler,1)
+INTERRUPT_HANDLER(FLASH_IRQHandler, 1)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -92,9 +105,9 @@ INTERRUPT_HANDLER(FLASH_IRQHandler,1)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(DMA1_CHANNEL0_1_IRQHandler,2)
+INTERRUPT_HANDLER(DMA1_CHANNEL0_1_IRQHandler, 2)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -103,9 +116,9 @@ INTERRUPT_HANDLER(DMA1_CHANNEL0_1_IRQHandler,2)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(DMA1_CHANNEL2_3_IRQHandler,3)
+INTERRUPT_HANDLER(DMA1_CHANNEL2_3_IRQHandler, 3)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -114,9 +127,11 @@ INTERRUPT_HANDLER(DMA1_CHANNEL2_3_IRQHandler,3)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(RTC_CSSLSE_IRQHandler,4)
+INTERRUPT_HANDLER(RTC_CSSLSE_IRQHandler, 4)
 {
-    /* In order to detect unexpected events during development,
+  ProgramState = VALVEOPEN;
+  RTC_ClearITPendingBit(RTC_IT_ALRA);
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -125,9 +140,9 @@ INTERRUPT_HANDLER(RTC_CSSLSE_IRQHandler,4)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(EXTIE_F_PVD_IRQHandler,5)
+INTERRUPT_HANDLER(EXTIE_F_PVD_IRQHandler, 5)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -137,9 +152,9 @@ INTERRUPT_HANDLER(EXTIE_F_PVD_IRQHandler,5)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(EXTIB_G_IRQHandler,6)
+INTERRUPT_HANDLER(EXTIB_G_IRQHandler, 6)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -149,9 +164,9 @@ INTERRUPT_HANDLER(EXTIB_G_IRQHandler,6)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(EXTID_H_IRQHandler,7)
+INTERRUPT_HANDLER(EXTID_H_IRQHandler, 7)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -161,16 +176,26 @@ INTERRUPT_HANDLER(EXTID_H_IRQHandler,7)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(EXTI0_IRQHandler,8)
+INTERRUPT_HANDLER(EXTI0_IRQHandler, 8)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
-  if(SelectCOM == COMSTATE1)
-  {PutButton = OK;}
-  else{PutButton = DELAY;}
+  //disableInterrupts();
+  if (SelectCOM == COMSTATE1)
+  {
+    PutButton = OK;
+  }
+  else
+  {
+    PutButton = DELAY;
+  }
   
+  
+  DelayInInterrupt(DELAYBUTTON);
+  //enableInterrupts();
   EXTI_ClearITPendingBit(EXTI_IT_Pin0);
+  SleepTime = SLEEPTIME;
 }
 
 /**
@@ -178,16 +203,26 @@ INTERRUPT_HANDLER(EXTI0_IRQHandler,8)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(EXTI1_IRQHandler,9)
+INTERRUPT_HANDLER(EXTI1_IRQHandler, 9)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
-  if(SelectCOM == COMSTATE1)
-  {PutButton = MANUAL;}
-  else{PutButton = OFF;}
+   //disableInterrupts();
+  if (SelectCOM == COMSTATE1)
+  {
+    PutButton = MANUAL;
+  }
+  else
+  {
+    PutButton = OFF;
+  }
+
   
+  DelayInInterrupt(DELAYBUTTON);
+  //enableInterrupts();
   EXTI_ClearITPendingBit(EXTI_IT_Pin1);
+  SleepTime = SLEEPTIME;
 }
 
 /**
@@ -195,9 +230,9 @@ INTERRUPT_HANDLER(EXTI1_IRQHandler,9)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(EXTI2_IRQHandler,10)
+INTERRUPT_HANDLER(EXTI2_IRQHandler, 10)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -207,9 +242,9 @@ INTERRUPT_HANDLER(EXTI2_IRQHandler,10)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(EXTI3_IRQHandler,11)
+INTERRUPT_HANDLER(EXTI3_IRQHandler, 11)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -219,9 +254,9 @@ INTERRUPT_HANDLER(EXTI3_IRQHandler,11)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(EXTI4_IRQHandler,12)
+INTERRUPT_HANDLER(EXTI4_IRQHandler, 12)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -231,9 +266,9 @@ INTERRUPT_HANDLER(EXTI4_IRQHandler,12)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(EXTI5_IRQHandler,13)
+INTERRUPT_HANDLER(EXTI5_IRQHandler, 13)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -243,9 +278,9 @@ INTERRUPT_HANDLER(EXTI5_IRQHandler,13)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(EXTI6_IRQHandler,14)
+INTERRUPT_HANDLER(EXTI6_IRQHandler, 14)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -255,25 +290,33 @@ INTERRUPT_HANDLER(EXTI6_IRQHandler,14)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(EXTI7_IRQHandler,15)
+INTERRUPT_HANDLER(EXTI7_IRQHandler, 15)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
-  if(SelectCOM == COMSTATE1)
-  {PutButton = MINUS;}
-  else{PutButton = PLUS;}
-  
+   //disableInterrupts();
+  if (SelectCOM == COMSTATE1)
+  {
+    PutButton = MINUS;
+  }
+  else
+  {
+    PutButton = PLUS;
+  }
+  DelayInInterrupt(DELAYBUTTON);
+  //enableInterrupts();
   EXTI_ClearITPendingBit(EXTI_IT_Pin7);
+  SleepTime = SLEEPTIME;
 }
 /**
   * @brief LCD /AES Interrupt routine.
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(LCD_AES_IRQHandler,16)
+INTERRUPT_HANDLER(LCD_AES_IRQHandler, 16)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -282,9 +325,9 @@ INTERRUPT_HANDLER(LCD_AES_IRQHandler,16)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(SWITCH_CSS_BREAK_DAC_IRQHandler,17)
+INTERRUPT_HANDLER(SWITCH_CSS_BREAK_DAC_IRQHandler, 17)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -294,9 +337,9 @@ INTERRUPT_HANDLER(SWITCH_CSS_BREAK_DAC_IRQHandler,17)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(ADC1_COMP_IRQHandler,18)
+INTERRUPT_HANDLER(ADC1_COMP_IRQHandler, 18)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -306,9 +349,9 @@ INTERRUPT_HANDLER(ADC1_COMP_IRQHandler,18)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(TIM2_UPD_OVF_TRG_BRK_USART2_TX_IRQHandler,19)
+INTERRUPT_HANDLER(TIM2_UPD_OVF_TRG_BRK_USART2_TX_IRQHandler, 19)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -318,22 +361,21 @@ INTERRUPT_HANDLER(TIM2_UPD_OVF_TRG_BRK_USART2_TX_IRQHandler,19)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(TIM2_CC_USART2_RX_IRQHandler,20)
+INTERRUPT_HANDLER(TIM2_CC_USART2_RX_IRQHandler, 20)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
-
 
 /**
   * @brief Timer3 Update/Overflow/Trigger/Break Interrupt routine.
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(TIM3_UPD_OVF_TRG_BRK_USART3_TX_IRQHandler,21)
+INTERRUPT_HANDLER(TIM3_UPD_OVF_TRG_BRK_USART3_TX_IRQHandler, 21)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -342,9 +384,9 @@ INTERRUPT_HANDLER(TIM3_UPD_OVF_TRG_BRK_USART3_TX_IRQHandler,21)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(TIM3_CC_USART3_RX_IRQHandler,22)
+INTERRUPT_HANDLER(TIM3_CC_USART3_RX_IRQHandler, 22)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -353,9 +395,9 @@ INTERRUPT_HANDLER(TIM3_CC_USART3_RX_IRQHandler,22)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(TIM1_UPD_OVF_TRG_COM_IRQHandler,23)
+INTERRUPT_HANDLER(TIM1_UPD_OVF_TRG_COM_IRQHandler, 23)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -364,9 +406,9 @@ INTERRUPT_HANDLER(TIM1_UPD_OVF_TRG_COM_IRQHandler,23)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(TIM1_CC_IRQHandler,24)
+INTERRUPT_HANDLER(TIM1_CC_IRQHandler, 24)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -376,18 +418,33 @@ INTERRUPT_HANDLER(TIM1_CC_IRQHandler,24)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(TIM4_UPD_OVF_TRG_IRQHandler,25)
+INTERRUPT_HANDLER(TIM4_UPD_OVF_TRG_IRQHandler, 25)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
-  if(intforblink > 500)
+  if (intforblink > 500)
   {
     intforblink = 0;
-    lcd_BlinkSegments();
+    if (BlinkState)
+    {
+      BlinkState = 0;
+    }
+    else
+    {
+      BlinkState = 1;
+    }
+
+    if(SleepTime == 0)
+    {
+      ProgramState = SLEEP;
+      SleepTime = SLEEPTIME;
+    }
+    SleepTime--;
   }
   intforblink++;
   TimingDelay_Decrement();
+
   /* Cleat Interrupt Pending bit */
   TIM4_ClearITPendingBit(TIM4_IT_Update);
 }
@@ -396,11 +453,11 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_TRG_IRQHandler,25)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(SPI1_IRQHandler,26)
+INTERRUPT_HANDLER(SPI1_IRQHandler, 26)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
-    */		
+    */
 }
 
 /**
@@ -408,9 +465,9 @@ INTERRUPT_HANDLER(SPI1_IRQHandler,26)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(USART1_TX_TIM5_UPD_OVF_TRG_BRK_IRQHandler,27)
+INTERRUPT_HANDLER(USART1_TX_TIM5_UPD_OVF_TRG_BRK_IRQHandler, 27)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -420,9 +477,9 @@ INTERRUPT_HANDLER(USART1_TX_TIM5_UPD_OVF_TRG_BRK_IRQHandler,27)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(USART1_RX_TIM5_CC_IRQHandler,28)
+INTERRUPT_HANDLER(USART1_RX_TIM5_CC_IRQHandler, 28)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
@@ -432,14 +489,14 @@ INTERRUPT_HANDLER(USART1_RX_TIM5_CC_IRQHandler,28)
   * @param  None
   * @retval None
   */
-INTERRUPT_HANDLER(I2C1_SPI2_IRQHandler,29)
+INTERRUPT_HANDLER(I2C1_SPI2_IRQHandler, 29)
 {
-    /* In order to detect unexpected events during development,
+  /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
 }
 /**
   * @}
-  */ 
+  */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

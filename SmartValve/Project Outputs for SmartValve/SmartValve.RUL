@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: F:\YandexDisk\YandexDisk\smart valve\SmartValve\SmartValve.PcbDoc
+DRC Rules Export File for PCB: G:\Drone John\SmartValve\SmartValve\SmartValve.PcbDoc
 RuleKind=MinimumAnnularRing|RuleName=Minimum AR PAD Advance|Scope=Board|Minimum=5.91
 RuleKind=MinimumAnnularRing|RuleName=Minimum AR VIA Advance|Scope=Board|Minimum=3.94
 RuleKind=MinimumAnnularRing|RuleName=Minimum AR PAD Standart|Scope=Board|Minimum=7.87

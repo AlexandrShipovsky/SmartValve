@@ -35,4 +35,5 @@ main.pbi: G:\Drone\ John\SmartValve\firmware\Project\SmartValve\main.c \
   G:\Drone\ John\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\keyboard.h \
   G:\Drone\ John\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\valve.h \
   G:\Drone\ John\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\VBAT.h \
-  G:\Drone\ John\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\LCD.h
+  G:\Drone\ John\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\LCD.h \
+  G:\Drone\ John\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\common.h

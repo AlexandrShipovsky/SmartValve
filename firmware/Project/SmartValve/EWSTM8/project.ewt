@@ -6460,6 +6460,9 @@
     <group>
         <name>lib</name>
         <file>
+            <name>$PROJ_DIR$\..\lib\common.h</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\..\lib\keyboard.c</name>
         </file>
         <file>

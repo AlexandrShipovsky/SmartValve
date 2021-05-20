@@ -1,330 +1,122 @@
-<?xml version="1.0"?>
-<Project>
-    <WindowStorage>
-        <ChildIdMap>
-            <TB_DEBUG>34048</TB_DEBUG>
-            <TB_MAIN>34049</TB_MAIN>
-            <WIN_AUTO>34050</WIN_AUTO>
-            <WIN_BREAKPOINTS>34051</WIN_BREAKPOINTS>
-            <WIN_BUILD>34052</WIN_BUILD>
-            <WIN_CALL_GRAPH>34053</WIN_CALL_GRAPH>
-            <WIN_CALL_STACK>34054</WIN_CALL_STACK>
-            <WIN_CORES>34055</WIN_CORES>
-            <WIN_CUSTOM_SFR>34056</WIN_CUSTOM_SFR>
-            <WIN_C_STAT>34057</WIN_C_STAT>
-            <WIN_DATA_SAMPLE>34058</WIN_DATA_SAMPLE>
-            <WIN_DATA_SAMPLE_SETUP>34059</WIN_DATA_SAMPLE_SETUP>
-            <WIN_DEBUGGER_MACROS>34060</WIN_DEBUGGER_MACROS>
-            <WIN_DEBUG_LOG>34061</WIN_DEBUG_LOG>
-            <WIN_DISASSEMBLY>34062</WIN_DISASSEMBLY>
-            <WIN_FIND_ALL_DECLARATIONS>34063</WIN_FIND_ALL_DECLARATIONS>
-            <WIN_FIND_ALL_REFERENCES>34064</WIN_FIND_ALL_REFERENCES>
-            <WIN_FIND_IN_FILES>34065</WIN_FIND_IN_FILES>
-            <WIN_IMAGES>34066</WIN_IMAGES>
-            <WIN_LOCALS>34067</WIN_LOCALS>
-            <WIN_MACRO_EVAL>34068</WIN_MACRO_EVAL>
-            <WIN_MACRO_REGISTRATION>34069</WIN_MACRO_REGISTRATION>
-            <WIN_MEMORY_1>34070</WIN_MEMORY_1>
-            <WIN_MEMORY_2>34071</WIN_MEMORY_2>
-            <WIN_MEMORY_3>34072</WIN_MEMORY_3>
-            <WIN_MEMORY_4>34073</WIN_MEMORY_4>
-            <WIN_QUICK_WATCH>34074</WIN_QUICK_WATCH>
-            <WIN_REGISTER_1>34075</WIN_REGISTER_1>
-            <WIN_REGISTER_2>34076</WIN_REGISTER_2>
-            <WIN_REGISTER_3>34077</WIN_REGISTER_3>
-            <WIN_REGISTER_4>34078</WIN_REGISTER_4>
-            <WIN_REGISTER_GROUPS>34079</WIN_REGISTER_GROUPS>
-            <WIN_SELECT_AMBIGUOUS_DEFINITIONS>34080</WIN_SELECT_AMBIGUOUS_DEFINITIONS>
-            <WIN_SOURCEBROWSE_LOG>34081</WIN_SOURCEBROWSE_LOG>
-            <WIN_SOURCE_BROWSE2>34082</WIN_SOURCE_BROWSE2>
-            <WIN_STACK_1>34083</WIN_STACK_1>
-            <WIN_STACK_2>34084</WIN_STACK_2>
-            <WIN_STATICS>34085</WIN_STATICS>
-            <WIN_STATIC_WATCH>34086</WIN_STATIC_WATCH>
-            <WIN_SYMBOLIC_MEMORY>34087</WIN_SYMBOLIC_MEMORY>
-            <WIN_SYMBOLS>34088</WIN_SYMBOLS>
-            <WIN_TERM_IO>34089</WIN_TERM_IO>
-            <WIN_TOOL_OUTPUT>34090</WIN_TOOL_OUTPUT>
-            <WIN_WALLTIMELINE_GRAPH>34091</WIN_WALLTIMELINE_GRAPH>
-            <WIN_WATCH_1>34092</WIN_WATCH_1>
-            <WIN_WATCH_2>34093</WIN_WATCH_2>
-            <WIN_WATCH_3>34094</WIN_WATCH_3>
-            <WIN_WATCH_4>34095</WIN_WATCH_4>
-            <WIN_WORKSPACE>34096</WIN_WORKSPACE>
-        </ChildIdMap>
-        <Desktop>
-            <IarPane-34048>
-                <ToolBarCmdIds>
-                    <item>34390</item>
-                    <item>34323</item>
-                    <item>34398</item>
-                    <item>34400</item>
-                    <item>34397</item>
-                    <item>34320</item>
-                    <item>34321</item>
-                    <item>34324</item>
-                    <item>0</item>
-                </ToolBarCmdIds>
-            </IarPane-34048>
-            <IarPane-34049>
-                <ToolBarCmdIds>
-                    <item>57600</item>
-                    <item>57601</item>
-                    <item>57603</item>
-                    <item>33024</item>
-                    <item>0</item>
-                    <item>57607</item>
-                    <item>0</item>
-                    <item>57635</item>
-                    <item>57634</item>
-                    <item>57637</item>
-                    <item>0</item>
-                    <item>57643</item>
-                    <item>57644</item>
-                    <item>0</item>
-                    <item>33090</item>
-                    <item>33057</item>
-                    <item>57636</item>
-                    <item>57640</item>
-                    <item>57641</item>
-                    <item>33026</item>
-                    <item>33065</item>
-                    <item>33063</item>
-                    <item>33064</item>
-                    <item>33053</item>
-                    <item>33054</item>
-                    <item>0</item>
-                    <item>33035</item>
-                    <item>33036</item>
-                    <item>34399</item>
-                    <item>0</item>
-                    <item>33055</item>
-                    <item>33056</item>
-                    <item>33094</item>
-                    <item>0</item>
-                </ToolBarCmdIds>
-            </IarPane-34049>
-            <IarPane-34062>
-                <col-names>
-                    <item>Disassembly</item>
-                    <item>_I0</item>
-                </col-names>
-                <col-widths>
-                    <item>500</item>
-                    <item>20</item>
-                </col-widths>
-                <DisasmHistory />
-                <ShowCodeCoverage>1</ShowCodeCoverage>
-                <ShowInstrProfiling>1</ShowInstrProfiling>
-            </IarPane-34062>
-            <IarPane-34086>
-                <expressions>
-                    <item>watch</item>
-                    <item>PutButton</item>
-                    <item>TimingDelay</item>
-                    <item>VALVESTATE</item>
-                    <item>VBAT</item>
-                    <item>VREF_RAW</item>
-                    <item>ret</item>
-                    <item></item>
-                </expressions>
-                <col-names>
-                    <item>Expression</item>
-                    <item>Location</item>
-                    <item>Type</item>
-                    <item>Value</item>
-                </col-names>
-                <col-widths>
-                    <item>118</item>
-                    <item>150</item>
-                    <item>100</item>
-                    <item>100</item>
-                </col-widths>
-            </IarPane-34086>
-            <ControlBarVersion>
-                <Major>14</Major>
-                <Minor>12</Minor>
-            </ControlBarVersion>
-            <MFCToolBarParameters>
-                <Tooltips>1</Tooltips>
-                <ShortcutKeys>1</ShortcutKeys>
-                <LargeIcons>0</LargeIcons>
-                <MenuAnimation>0</MenuAnimation>
-                <RecentlyUsedMenus>1</RecentlyUsedMenus>
-                <MenuShadows>1</MenuShadows>
-                <ShowAllMenusAfterDelay>1</ShowAllMenusAfterDelay>
-                <CommandsUsage>940400003800088000000400000040E100000100000013860000010000005786000001000000108600005702000026810000010000002CE10000020000000D86000001000000128100000200000004E100000800000020810000430000000F810000010000000C8100002800000001E1000001000000EA800000010000000D80000001000000048600000200000056860000A600000017810000030000001481000002000000778400000100000007B0000001000000008400000100000000810000050000000C860000010000000E840000010000000E8100002C00000003E100000500000001B0000002000000EC800000010000001A860000010000005E860000010000001F8100001200000003DE000002000000E98000000600000000E10000060000008E860000030000000B81000001000000148600000400000009800000020000005886000004000000118600002400000000860000010000000581000003000000198F000001000000468100000301000010840000040000000B860000010000005184000001000000088600000200000035E10000010000005D8600000400000002E10000010000000D810000010000001686000001000000E880000001000000</CommandsUsage>
-            </MFCToolBarParameters>
-            <CommandManager>
-                <CommandsWithoutImages>0900FFFFFFFF838600005886000037870000748600007784000007840000808C000044D50000</CommandsWithoutImages>
-                <MenuUserImages>30005786000018000000138600002500000004840000720000001086000023000000768600002F0000002392000000000000848600003000000031840000790000000D860000150000000F8100004900000020810000510000000A860000210000000C8100004600000006840000740000009A8600001600000056860000290000000384000071000000008400006E00000030840000780000000E840000760000000C860000140000001A860000280000005E8600002B0000000E810000480000001F8100005000000009860000200000008E860000310000000B81000045000000698600002E000000148600002600000005840000730000005586000007000000118600002400000002840000700000000E860000170000004681000058000000328400007A0000001084000077000000608600002D0000000B86000022000000A186000032000000C3860000030000005D8600002A0000000D810000470000000A84000075000000088600001F000000C08600000B0000001686000027000000</MenuUserImages>
-            </CommandManager>
-            <Pane-59393>
-                <ID>0</ID>
-                <RectRecentFloat>0A0000000A0000006E0000006E000000</RectRecentFloat>
-                <RectRecentDocked>00000000E603000080070000F9030000</RectRecentDocked>
-                <RecentFrameAlignment>4096</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-59393>
-            <BasePane-59393>
-                <IsVisible>1</IsVisible>
-            </BasePane-59393>
-            <Pane-34050>
-                <ID>34050</ID>
-                <RectRecentFloat>00000000170000000601000078010000</RectRecentFloat>
-                <RectRecentDocked>00000000000000000601000061010000</RectRecentDocked>
-                <RecentFrameAlignment>16384</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34050>
-            <BasePane-34050>
-                <IsVisible>0</IsVisible>
-            </BasePane-34050>
-            <IarPane-34050 />
-            <Pane--1>
-                <ID>4294967295</ID>
-                <RectRecentFloat>000000004F0100005605000010020000</RectRecentFloat>
-                <RectRecentDocked>000000003801000056050000F9010000</RectRecentDocked>
-                <RecentFrameAlignment>4096</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane--1>
-            <BasePane--1>
-                <IsVisible>0</IsVisible>
-            </BasePane--1>
-            <Pane-34051>
-                <ID>34051</ID>
-                <RectRecentFloat>000000001700000022010000C8000000</RectRecentFloat>
-                <RectRecentDocked>040000004D0300007C070000CC030000</RectRecentDocked>
-                <RecentFrameAlignment>32768</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34051>
-            <BasePane-34051>
-                <IsVisible>0</IsVisible>
-            </BasePane-34051>
-            <Pane-34052>
-                <ID>34052</ID>
-                <RectRecentFloat>000000001700000022010000C8000000</RectRecentFloat>
-                <RectRecentDocked>040000004D0300007C070000CC030000</RectRecentDocked>
-                <RecentFrameAlignment>4096</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34052>
-            <BasePane-34052>
-                <IsVisible>1</IsVisible>
-            </BasePane-34052>
-            <Pane-34061>
-                <ID>34061</ID>
-                <RectRecentFloat>000000001700000022010000C8000000</RectRecentFloat>
-                <RectRecentDocked>040000004D0300007C070000CC030000</RectRecentDocked>
-                <RecentFrameAlignment>4096</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34061>
-            <BasePane-34061>
-                <IsVisible>1</IsVisible>
-            </BasePane-34061>
-            <Pane-34063>
-                <ID>34063</ID>
-                <RectRecentFloat>000000001700000022010000C8000000</RectRecentFloat>
-                <RectRecentDocked>040000004D0300007C070000CC030000</RectRecentDocked>
-                <RecentFrameAlignment>4096</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34063>
-            <BasePane-34063>
-                <IsVisible>0</IsVisible>
-            </BasePane-34063>
-            <Pane-34064>
-                <ID>34064</ID>
-                <RectRecentFloat>000000001700000022010000C8000000</RectRecentFloat>
-                <RectRecentDocked>040000004D0300007C070000CC030000</RectRecentDocked>
-                <RecentFrameAlignment>4096</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34064>
-            <BasePane-34064>
-                <IsVisible>0</IsVisible>
-            </BasePane-34064>
-            <Pane-34065>
-                <ID>34065</ID>
-                <RectRecentFloat>000000001700000022010000C8000000</RectRecentFloat>
-                <RectRecentDocked>040000004D0300007C070000CC030000</RectRecentDocked>
-                <RecentFrameAlignment>4096</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34065>
-            <BasePane-34065>
-                <IsVisible>0</IsVisible>
-            </BasePane-34065>
-            <Pane-34080>
-                <ID>34080</ID>
-                <RectRecentFloat>000000001700000022010000C8000000</RectRecentFloat>
-                <RectRecentDocked>040000004D0300007C070000CC030000</RectRecentDocked>
-                <RecentFrameAlignment>4096</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34080>
-            <BasePane-34080>
-                <IsVisible>0</IsVisible>
-            </BasePane-34080>
-            <Pane-34090>
-                <ID>34090</ID>
-                <RectRecentFloat>000000001700000022010000C8000000</RectRecentFloat>
-                <RectRecentDocked>040000004D0300007C070000CC030000</RectRecentDocked>
-                <RecentFrameAlignment>4096</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34090>
-            <BasePane-34090>
-                <IsVisible>0</IsVisible>
-            </BasePane-34090>
-            <Pane-34053>
-                <ID>34053</ID>
-                <RectRecentFloat>000000001700000080020000A8000000</RectRecentFloat>
-                <RectRecentDocked>00000000000000008002000091000000</RectRecentDocked>
-                <RecentFrameAlignment>32768</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34053>
-            <BasePane-34053>
-                <IsVisible>0</IsVisible>
-            </BasePane-34053>
-            <Pane-34054>
-                <ID>34054</ID>
-                <RectRecentFloat>00000000170000000601000078010000</RectRecentFloat>
-                <RectRecentDocked>00000000000000000601000061010000</RectRecentDocked>
-                <RecentFrameAlignment>4096</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
+ion_id": "A156A48E8FB37A49629AE5FEF8266525", "vending_id": "wgc_production", "wgc_application_id": "WGC.RU.PRODUCTION", "wgc_realm": "RU"}"]
+ INFO  | 8408   | 20 13:50:45.882 | [StatsEventSender] Push to buffer "wgc_user_environment_v1" stats event with data: [{"body": {"client_event_timestamp": 1621507845851, "event_index": 2, "games_inventory": ["WOT.RU.PRODUCTION"], "installation_id": "AE922DE710FB605E19EAFB64BAEDA8CC04CB96B6", "product_version": "21.02.03.5077", "session_id": "A156A48E8FB37A49629AE5FEF8266525", "vending_id": "wgc_production", "wgc_app_id": "WGC.RU.PRODUCTION", "wgc_realm": "RU"}, "header": {"event_id": "0001GACFR5027K3KMNF9CY9MDY"}}]
+ INFO  | 8408   | 20 13:50:45.882 | [Notifications] Load Notifications Started
+ INFO  | 8408   | 20 13:50:45.932 | [Notifications] Load Notifications Finished
+ INFO  | 8408   | 20 13:50:45.932 | [Notifications] Load Notifications Image Finished
+ INFO  | 8408   | 20 13:50:45.939 | Skipped 109 of 157 processes (0 failed to open, 109 failed to query image name)
+ INFO  | 8408   | 20 13:50:46.790 | [StatsEventSender] Push to buffer "games_info" stats event with data: [{"event_date": "2021-05-20 13:50:46 +0300", "event_sequence_number": 3, "games": {"0": "WOT.RU.PRODUCTION"}, "games_drives": {"0": "G"}, "installation_id": "AE922DE710FB605E19EAFB64BAEDA8CC04CB96B6", "product_version": "21.02.03.5077", "session_id": "A156A48E8FB37A49629AE5FEF8266525", "vending_id": "wgc_production", "wgc_application_id": "WGC.RU.PRODUCTION", "wgc_realm": "RU"}]
+ INFO  | 8408   | 20 13:50:46.790 | WGC initiation finished
+ INFO  | 8408   | 20 13:50:46.830 | Activate UI and show main window.
+ INFO  | 8408   | 20 13:50:46.850 | [CEF] Create CEF std window: 0x094DBB88
+ INFO  | 4192   | 20 13:50:46.136 | [CEF] Open local URL: qrc:/ui/index.html
+ INFO  | 8408   | 20 13:50:46.452 | [R0001] Succeeded [POST "https://wgusst-wgcru.wargaming.net/wgc/user_info{"event_date": "2021-05-20 13:50:45 +0300", "event_sequence_number": 1, "games_inventory": "WOT.RU.PRODUCTION", "installation_id": "AE922DE710FB605E19EAFB64BAEDA8CC04CB96B6", "product_version": "21.02.03.5077", "session_id": "A156A48E8FB37A49629AE5FEF8266525", "vending_id": "wgc_production", "wgc_application_id": "WGC.RU.PRODUCTION", "wgc_realm": "RU"}"]
+ INFO  | 8408   | 20 13:50:46.452 | [R0002] Starting (attempt 1/4) [POST "https://wgusst-wgcru.wargaming.net/v2/wgc_user_environment_v1{"body": {"client_event_timestamp": 1621507845851, "event_index": 2, "games_inventory": ["WOT.RU.PRODUCTION"], "installation_id": "AE922DE710FB605E19EAFB64BAEDA8CC04CB96B6", "product_version": "21.02.03.5077", "session_id": "A156A48E8FB37A49629AE5FEF8266525", "vending_id": "wgc_production", "wgc_app_id": "WGC.RU.PRODUCTION", "wgc_realm": "RU"}, "header": {"event_id": "0001GACFR5027K3KMNF9CY9MDY"}}"]
+ INFO  | 8408   | 20 13:50:46.598 | [R0002] Succeeded [POST "https://wgusst-wgcru.wargaming.net/v2/wgc_user_environment_v1{"body": {"client_event_timestamp": 1621507845851, "event_index": 2, "games_inventory": ["WOT.RU.PRODUCTION"], "installation_id": "AE922DE710FB605E19EAFB64BAEDA8CC04CB96B6", "product_version": "21.02.03.5077", "session_id": "A156A48E8FB37A49629AE5FEF8266525", "vending_id": "wgc_production", "wgc_app_id": "WGC.RU.PRODUCTION", "wgc_realm": "RU"}, "header": {"event_id": "0001GACFR5027K3KMNF9CY9MDY"}}"]
+ INFO  | 8408   | 20 13:50:46.598 | [R0003] Starting (attempt 1/4) [POST "https://wgusst-wgcru.wargaming.net/wgc/games_info{"event_date": "2021-05-20 13:50:46 +0300", "event_sequence_number": 3, "games": {"0": "WOT.RU.PRODUCTION"}, "games_drives": {"0": "G"}, "installation_id": "AE922DE710FB605E19EAFB64BAEDA8CC04CB96B6", "product_version": "21.02.03.5077", "session_id": "A156A48E8FB37A49629AE5FEF8266525", "vending_id": "wgc_production", "wgc_application_id": "WGC.RU.PRODUCTION", "wgc_realm": "RU"}"]
+ INFO  | 8408   | 20 13:50:46.744 | [R0003] Succeeded [POST "https://wgusst-wgcru.wargaming.net/wgc/games_info{"event_date": "2021-05-20 13:50:46 +0300", "event_sequence_number": 3, "games": {"0": "WOT.RU.PRODUCTION"}, "games_drives": {"0": "G"}, "installation_id": "AE922DE710FB605E19EAFB64BAEDA8CC04CB96B6", "product_version": "21.02.03.5077", "session_id": "A156A48E8FB37A49629AE5FEF8266525", "vending_id": "wgc_production", "wgc_application_id": "WGC.RU.PRODUCTION", "wgc_realm": "RU"}"]
+ INFO  | 4192   | 20 13:50:47.739 | [CEF] Open local URL: qrc:///resources/ui/qwebchannel.js
+ INFO  | 4424   | 20 13:50:47.740 | [CEF] Open local URL: qrc:/ui/style.0d2104cb2968b328be56.css
+ INFO  | 4192   | 20 13:50:47.740 | [CEF] Open local URL: qrc:/ui/vendor.0d2104cb2968b328be56.js
+ INFO  | 4584   | 20 13:50:47.740 | [CEF] Open local URL: qrc:/ui/main.0d2104cb2968b328be56.js
+ INFO  | 4584   | 20 13:50:47.996 | [CEF] Open local URL: qrc:///resources/WDS1.ico
+ INFO  | 8408   | 20 13:50:48.410 | [Showcase] Starting
+ INFO  | 8408   | 20 13:50:48.410 | [Platform] Retrieve products called with storefrontType = view, preferCache = 1, platformTitle = n/a, allowNotAuthUser = 0, language = n/a
+ ERROR | 8408   | 20 13:50:48.410 | [Platform] [Error.PlatformService.Failed] User is not logged into WGNI: returning empty product list: 
+ INFO  | 8408   | 20 13:50:48.410 | [Showcase] [R0004] Starting (attempt 1/4) [GET "https://wguscs-wgcru.wargaming.net/api/v18/content/showroom/?lang=RU&gameid=WGC.RU.PRODUCTION&format=json&wgc_publisher_id=wargaming&country_code=RU"]
+ INFO  | 4584   | 20 13:50:48.880 | [CEF] Open local URL: qrc:/ui/f638d787884dfd41559f781212ae5c89.ttf
+ INFO  | 4584   | 20 13:50:48.131 | [CEF] Open local URL: qrc://resources/localization/lang_ru.json
+ INFO  | 8408   | 20 13:50:48.167 | [StatsEventSender] Push to buffer "ui_screen_opened" stats event with data: [{"event_date": "2021-05-20 13:50:48 +0300", "event_sequence_number": 4, "game_application_id": "WOT.RU.PRODUCTION", "installation_id": "AE922DE710FB605E19EAFB64BAEDA8CC04CB96B6", "product_version": "21.02.03.5077", "screen_id": "1", "session_id": "A156A48E8FB37A49629AE5FEF8266525", "vending_id": "wgc_production", "wgc_application_id": "WGC.RU.PRODUCTION", "wgc_realm": "RU"}]
+ INFO  | 8408   | 20 13:50:48.167 | [R0005] Starting (attempt 1/4) [POST "https://wgusst-wgcru.wargaming.net/wgc/ui_screen_opened{"event_date": "2021-05-20 13:50:48 +0300", "event_sequence_number": 4, "game_application_id": "WOT.RU.PRODUCTION", "installation_id": "AE922DE710FB605E19EAFB64BAEDA8CC04CB96B6", "product_version": "21.02.03.5077", "screen_id": "1", "session_id": "A156A48E8FB37A49629AE5FEF8266525", "vending_id": "wgc_production", "wgc_application_id": "WGC.RU.PRODUCTION", "wgc_realm": "RU"}"]
+ INFO  | 4584   | 20 13:50:48.173 | [CEF] Open local URL: game:/G:/Games/World_of_Tanks/game_metadata/resources/game_css/60b26a33b591e0c644565fd264e6ef95e36e6fcd_719.css
+ INFO  | 8408   | 20 13:50:48.264 | Changing localization for [WOT.RU.PRODUCTION | 549898549 | G:\Games\World_of_Tanks] from RU to RU
+ INFO  | 8408   | 20 13:50:48.264 | Ignoring new [WOT.RU.PRODUCTION | 549898549 | G:\Games\World_of_Tanks] preferences: nothing changed.
+ INFO  | 8408   | 20 13:50:48.265 | [Showcase] [R0004] Succeeded [GET "https://wguscs-wgcru.wargaming.net/api/v18/content/showroom/?lang=RU&gameid=WGC.RU.PRODUCTION&format=json&wgc_publisher_id=wargaming&country_code=RU"]
+ INFO  | 8408   | 20 13:50:48.268 | [Showcase] Available games on the showcase: "World of Tanks":["WOT.RU.PRODUCTION", "WOT.EU.PRODUCTION", "WOT.ASIA.PRODUCTION", "WOT.NA.PRODUCTION"], "World of Warships":["WOWS.WW.PRODUCTION", "WOWS.PT.PRODUCTION"], "World of Warplanes":["WOWP.WW.PRODUCTION"], "STD2":["STD2.WW.PRODUCTION"]
+ INFO  | 8408   | 20 13:50:48.268 | [Showcase] Updated from content service
+ INFO  | 4584   | 20 13:50:48.295 | [CEF] Open local URL: game:/G:/Games/World_of_Tanks/game_metadata/resources/small_logo/3bd37dbab54720a9465972dbbc7a171d1326a0a5_8095.png
+ INFO  | 4184   | 20 13:50:48.299 | [CEF] Open local URL: qrc:///resources/WDS1.ico
+ INFO  | 8408   | 20 13:50:48.322 | [R0005] Succeeded [POST "https://wgusst-wgcru.wargaming.net/wgc/ui_screen_opened{"event_date": "2021-05-20 13:50:48 +0300", "event_sequence_number": 4, "game_application_id": "WOT.RU.PRODUCTION", "instal<?xml version="1.0" encoding="utf-8"?>
+<protocol version="3.20" name="preferences">
+    <application>
+        <max_fs_operation_retries>5</max_fs_operation_retries>
+        <fs_operation_retry_timeout>50</fs_operation_retry_timeout>
+        <net_operation_retry_intervals>
+            <value>1</value>
+            <value>4</value>
+            <value>10</value>
+        </net_operation_retry_intervals>
+        <max_unpacking_threads_ssd>8</max_unpacking_threads_ssd>
+        <max_unpacking_threads_hdd>8</max_unpacking_threads_hdd>
+        <lookahead_pieces_multiplier>3</lookahead_pieces_multiplier>
+        <user_info_stat_event_send_interval>7200000</user_info_stat_event_send_interval>
+        <last_user_pc_info_stat_time>1620406240</last_user_pc_info_stat_time>
+        <common_test_participation_state>NotParticipating</common_test_participation_state>
+        <showcase_update_interval>7200000</showcase_update_interval>
+        <user_location_country_code>RU</user_location_country_code>
+        <entitlements_cache_expiration_time>7200000</entitlements_cache_expiration_time>
+        <background_content_update_interval>28800000</background_content_update_interval>
+        <push_notifications_receive_interval>300000</push_notifications_receive_interval>
+        <push_notifications_queue_size>100</push_notifications_queue_size>
+        <refresh_auth_token_interval>2592000000</refresh_auth_token_interval>
+        <localization_manager>
+            <current_localization>ru</current_localization>
+        </localization_manager>
+        <games_manager>
+            <games>
+                <game>
+                    <working_dir>G:\Games\World_of_Tanks</working_dir>
+                    <auto_update>true</auto_update>
+                </game>
+            </games>
+            <game_update_interval>7200000</game_update_interval>
+            <content_update_interval>1800000</content_update_interval>
+            <start_auto_import>false</start_auto_import>
+            <current_game>G:\Games\World_of_Tanks</current_game>
+            <selectedGames>
+                <WOT>G:\Games\World_of_Tanks</WOT>
+            </selectedGames>
+            <update_check_threshold>600000</update_check_threshold>
+            <background_installation>true</background_installation>
+            <schedule>
+                <slots period="9">[0;24]</slots>
+            </schedule>
+        </games_manager>
+        <download_manager>
+            <download_speed_limit>-1</download_speed_limit>
+            <upload_speed_limit>-1</upload_speed_limit>
+            <incoming_connections_port>6881</incoming_connections_port>
+        </download_manager>
+        <upcoming_updates>
+            <enabled>true</enabled>
+            <download_speed_limit>128000</download_speed_limit>
+        </upcoming_updates>
+        <user_interface>
+            <disable_bg_mode_notification>true</disable_bg_mode_notification>
+            <exit_on_close>false</exit_on_close>
+            <minimize_on_launch_game>true</minimize_on_launch_game>
+            <disable_tooltip_divergence_languages>false</disable_tooltip_divergence_languages>
+            <account_exists_question_required>false</account_exists_question_required>
+            <notification_show_interval>600000</notification_show_interval>
+            <news_url_input_available>false</news_url_input_available>
+            <display_pc_load_notification>false</display_pc_load_notification>
+            <show_survey_on_installation_cancel>true</show_survey_on_installation_cancel>
+            <main_window>
+                <maximized>false</maximized>
+                <placements>
+                    <main_window screen="0 0 3840 2160">1368 608 1101 685</main_window>
+                    <main_window screen="0 0 4096 2160">1496 626 1102 685</main_window>
+                    <main_window screen="0 0 1920 1080">818 354 1102 686</main_window>
+                </placements>
+            </main_window>
+        </user_interface>
+        <installed_redistributables/>
+        <accepted_agreements>
+            <agreement version="1" id="RU_EULA"/>
+            <agreement version="1" id="RU_PP"/>
+        </accepted_agreements>
+    </application>
+</protocol>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  e>0</PinState>
             </Pane-34054>
             <BasePane-34054>
                 <IsVisible>0</IsVisible>
@@ -442,7 +234,7 @@
             <Pane-34067>
                 <ID>34067</ID>
                 <RectRecentFloat>00000000170000000601000078010000</RectRecentFloat>
-                <RectRecentDocked>9900000032000000A8010000E9010000</RectRecentDocked>
+                <RectRecentDocked>7E050000320000008D06000031030000</RectRecentDocked>
                 <RecentFrameAlignment>16384</RecentFrameAlignment>
                 <RecentRowIndex>0</RecentRowIndex>
                 <IsFloating>0</IsFloating>
@@ -450,7 +242,7 @@
                 <PinState>0</PinState>
             </Pane-34067>
             <BasePane-34067>
-                <IsVisible>0</IsVisible>
+                <IsVisible>1</IsVisible>
             </BasePane-34067>
             <IarPane-34067>
                 <col-names>
@@ -567,7 +359,7 @@
             <Pane-34075>
                 <ID>34075</ID>
                 <RectRecentFloat>00000000170000000601000078010000</RectRecentFloat>
-                <RectRecentDocked>88050000320000008D06000031030000</RectRecentDocked>
+                <RectRecentDocked>75040000320000007A05000031030000</RectRecentDocked>
                 <RecentFrameAlignment>16384</RecentFrameAlignment>
                 <RecentRowIndex>0</RecentRowIndex>
                 <IsFloating>0</IsFloating>
@@ -693,190 +485,26 @@
                 <PinState>0</PinState>
             </Pane-34082>
             <BasePane-34082>
-                <IsVisible>0</IsVisible>
-            </BasePane-34082>
-            <Pane-34083>
-                <ID>34083</ID>
-                <RectRecentFloat>00000000170000000601000078010000</RectRecentFloat>
-                <RectRecentDocked>00000000000000000601000061010000</RectRecentDocked>
-                <RecentFrameAlignment>4096</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34083>
-            <BasePane-34083>
-                <IsVisible>0</IsVisible>
-            </BasePane-34083>
-            <IarPane-34083 />
-            <Pane-34084>
-                <ID>34084</ID>
-                <RectRecentFloat>00000000170000000601000078010000</RectRecentFloat>
-                <RectRecentDocked>00000000000000000601000061010000</RectRecentDocked>
-                <RecentFrameAlignment>4096</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34084>
-            <BasePane-34084>
-                <IsVisible>0</IsVisible>
-            </BasePane-34084>
-            <IarPane-34084 />
-            <Pane-34085>
-                <ID>34085</ID>
-                <RectRecentFloat>00000000170000000601000078010000</RectRecentFloat>
-                <RectRecentDocked>00000000000000000601000061010000</RectRecentDocked>
-                <RecentFrameAlignment>16384</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34085>
-            <BasePane-34085>
-                <IsVisible>0</IsVisible>
-            </BasePane-34085>
-            <IarPane-34085 />
-            <Pane-34086>
-                <ID>34086</ID>
-                <RectRecentFloat>00000000170000000601000078010000</RectRecentFloat>
-                <RectRecentDocked>68040000320000008405000031030000</RectRecentDocked>
-                <RecentFrameAlignment>16384</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34086>
-            <BasePane-34086>
-                <IsVisible>1</IsVisible>
-            </BasePane-34086>
-            <Pane-34087>
-                <ID>34087</ID>
-                <RectRecentFloat>000000001700000022010000C8000000</RectRecentFloat>
-                <RectRecentDocked>000000000000000022010000B1000000</RectRecentDocked>
-                <RecentFrameAlignment>8192</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34087>
-            <BasePane-34087>
-                <IsVisible>0</IsVisible>
-            </BasePane-34087>
-            <IarPane-34087 />
-            <Pane-34088>
-                <ID>34088</ID>
-                <RectRecentFloat>00000000170000000601000078010000</RectRecentFloat>
-                <RectRecentDocked>00000000000000000601000061010000</RectRecentDocked>
-                <RecentFrameAlignment>16384</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34088>
-            <BasePane-34088>
-                <IsVisible>0</IsVisible>
-            </BasePane-34088>
-            <IarPane-34088 />
-            <Pane-34089>
-                <ID>34089</ID>
-                <RectRecentFloat>0000000017000000AE010000D8000000</RectRecentFloat>
-                <RectRecentDocked>0000000000000000AE010000C1000000</RectRecentDocked>
-                <RecentFrameAlignment>16384</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34089>
-            <BasePane-34089>
-                <IsVisible>0</IsVisible>
-            </BasePane-34089>
-            <IarPane-34089 />
-            <Pane-34091>
-                <ID>34091</ID>
-                <RectRecentFloat>0000000017000000AE010000D8000000</RectRecentFloat>
-                <RectRecentDocked>0000000000000000AE010000C1000000</RectRecentDocked>
-                <RecentFrameAlignment>32768</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34091>
-            <BasePane-34091>
-                <IsVisible>0</IsVisible>
-            </BasePane-34091>
-            <IarPane-34091 />
-            <Pane-34092>
-                <ID>34092</ID>
-                <RectRecentFloat>00000000170000000601000078010000</RectRecentFloat>
-                <RectRecentDocked>00000000000000000601000061010000</RectRecentDocked>
-                <RecentFrameAlignment>16384</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34092>
-            <BasePane-34092>
-                <IsVisible>0</IsVisible>
-            </BasePane-34092>
-            <IarPane-34092 />
-            <Pane-34093>
-                <ID>34093</ID>
-                <RectRecentFloat>00000000170000000601000078010000</RectRecentFloat>
-                <RectRecentDocked>00000000000000000601000061010000</RectRecentDocked>
-                <RecentFrameAlignment>16384</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34093>
-            <BasePane-34093>
-                <IsVisible>0</IsVisible>
-            </BasePane-34093>
-            <IarPane-34093 />
-            <Pane-34094>
-                <ID>34094</ID>
-                <RectRecentFloat>00000000170000000601000078010000</RectRecentFloat>
-                <RectRecentDocked>00000000000000000601000061010000</RectRecentDocked>
-                <RecentFrameAlignment>16384</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34094>
-            <BasePane-34094>
-                <IsVisible>0</IsVisible>
-            </BasePane-34094>
-            <IarPane-34094 />
-            <Pane-34095>
-                <ID>34095</ID>
-                <RectRecentFloat>00000000170000000601000078010000</RectRecentFloat>
-                <RectRecentDocked>00000000000000000601000061010000</RectRecentDocked>
-                <RecentFrameAlignment>16384</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34095>
-            <BasePane-34095>
-                <IsVisible>0</IsVisible>
-            </BasePane-34095>
-            <IarPane-34095 />
-            <Pane-34096>
-                <ID>34096</ID>
-                <RectRecentFloat>00000000170000000601000078010000</RectRecentFloat>
-                <RectRecentDocked>00000000320000005001000031030000</RectRecentDocked>
-                <RecentFrameAlignment>4096</RecentFrameAlignment>
-                <RecentRowIndex>0</RecentRowIndex>
-                <IsFloating>0</IsFloating>
-                <MRUWidth>32767</MRUWidth>
-                <PinState>0</PinState>
-            </Pane-34096>
-            <BasePane-34096>
+                <IsVisible>0</IsVisiYBR…∆vå0ﬁnT˛@8ÌÙÏÊn≈∏ÏMc∏Änzô
+|>éÊ<t0RQ”ﬁ“õ˙OÁWV§i‹˛ë9È◊<'±ﬂ7s6ı·∑Áˇ¥í ç€Ôx mÆÃ∑gß˜7ÁwˇT˙G{Ö&»‡Á˚OüŒåoÌ,FroöΩ¿ˆäı‡+Û6~oP«-Óò√ÅÔ¬Ê≠l~≈|≤÷•Á≠°#iøÒ⁄Y"ÀM“p°, T.ö±Ö∂P> öí—ƒ—MπKƒ`‚≤ü⁄É∂PÙ¢øNù:†m€∫–°›€À–ãı#ı>RÍ=ò@?9ü‰Tz	Œ∫zëâ÷û¥@gÁ8'œ>h´«Ä} ß£m–Hdn#*}∞Ó$°‡KË6ïÁ@óÈ|<ˇ’¸˚`ÍÅtD9°CÇJPÈ+B5.ıäËïÌ5ºÆ‹î*D÷üŒ/ŒÆå≥Av9í.BDÙ`qU27ù¬⁄(±ûÜ≈s@Ô®–ÅxéxçCp^(∫UΩ"¯ÛÀùùﬁYî>xı‡ ˇ]ûµ+6≠ï˙ÚK^¨d;PàP.ÆÏtë«Û}BΩ¿*¯∑2O˝À˚„æx9y\UƒöDI¡Ìm∏Ëb	‹T0kïEa¢∫˚j	 ª˚ñAq”vi∆ÉhUõœ/ç+A,êrd@€=›¡ÕÆ%Œµ˙P?áw)“d—êT9¶/÷¢πÛ¬”ÁÛ€õß›ΩΩÉ6ˆ•ß(}Àœfò©…±;∆ﬂ&ª˜Ö,∞†≥”}@}”hà˙≤Â–ΩüJ[íÓÉ{ä¥∏–Qk±Z„„â&µëª~´]≥	0÷¸Ø)†≥«ãÿu0Ú.÷»ª;]SIlZ´ÓŒ>n’Õ6U∫ëe˘˝ﬁ ób%{àïÏ·éî¨≥I—W>âuo∑;o“£√ùÔ»©Hñﬂ≤Æ©áµ¯V/{ö^∫Ø|´ò=M1[È9r›-øÅS≠˚ë˘∫#©˜6©æ9ıMﬁ†èUŸæ¶≤≠tb3ª√„G¿õ °qr_Û¶Ä	Kg
+ÄÎ£Â◊«Ê§Œ∆Q‘ﬂuˆ‹¨qOÏ~≠IˇÿÅ˚ÒN´5.Ñ&°«XowlÓÌêãÔ§πù=ÙÚ+DË˙+D®(DlbèJ/–=ä8¢ã9åàñc˜-Gh~KRÑ¶aÑ'Û∞Vû~S$Bx2kÖuNÂ–6
+Ìt4OÍûÍ†\}†ÒÚCóÀ•∞’—+[ iPmÏÙªy0"÷ÈÅKp¥,RI[πÄç.•vQ›ùû∂ ≈ÈiÀÅÑÊL¥*}”êæaUé¡x¯Ωã~	o¯èø ‘¶#O∑ K“¡˚ÇD;àé9⁄ÕÍ‘˜“∑Œ>xﬁ_ÚÈÌ‰±QıRÆRzu§åeAêÚp)ï’›Í˜¡õœ>xÛŸ7èètÒH€Ã<“¥ª"‘∏¯è∞ˇ8¿W:ZN–J∏‡ ¨`Ö? +¸¡6.:ÿìiÖ¡’dÖ(wÑ÷Ù¡ÖéÉl<HvlBΩêÀQ~Áp«ò¸F+?{5pØÕªçÉªàﬂvÎ.«˘y>·°”Fî±ªÉ“ªxÿ¢ÑEõ¿FÔÅ∑µ8›ÔÅ›;È¥±áÑ∫wóFãuZÄ£nFƒZ#bÉÜ#p(|ﬁ4év‡´r _„çh£ﬂ8Z*f∫{JFDkbÆâ=ÛÍ>\öù:‡n'¬3Ó6Ÿ®T}Ûú*\ó˛èµWà:2†D•∑W@ ±±»±ypªq˘è¡)˚±€@h<4Ãÿº_´	P&Dò9ÔH£Ï∫4îu©-G•Û&ExPèGx˚ÿ–A!B∑QÖË¢<"@¨À>ˆ˙í‚Ωø§°ò"ÙìBÑ^a"DË¶Cx∆Óhì«$<„∆°<hùò¯Aœœ	Z/%<Ïû»Ähümæ…6Ó`ˆr52ÂΩ˘&Ì…ÜwÁwı:›‡cú÷'XÛÒ¿Ã∏ÜîˆÔê‘ò“†0°›95S=©Eq’_q®2r¿° ËÖ*Ω"
+SzF&–;÷:’—´Ä0™z)ÎCH2Ü≤∂ö»%ì—$ê≠)Å∞2Æ¬ ‡+s2Ë>∞πPÉ}`ER¢JSpKß$™¥™4™¥™π4Üé*}h”›ÃËµyÎ´¥í% ¥» Qe∏‡,Ûö´‹-p®P©πB-§FÖZHç
+µêUZnµ‰>ÅC5~LÂª©æ¥ÇØ∞£DùxAuˇQër÷:êz·:ıÇ˙ª‘ÃjÓµÇ:ÛÇ˙‚ı’æ©[_@õª∫Ñ<9ê®¯M{øm¡Ÿ¸%QÒà~◊Õ=GQûWø≈÷÷*¶≤»c*+ÌÌ@·vl}ÁhÆo»{GLô∑
+ü‡Ç±ncûOŸzº¿§K¨}YÊk%ú∆(ê⁄ö«>p©^‡Ö/·z·{‡â/·z·{Ëâ/·z·+˝(Jw•Ea Ú<
+S⁄◊ñ‹Ωu?˝‹!{Íò€w˜÷mÕÛIX<"◊Ëñëç√û≤¡
+£⁄ÿ‚Sã&bx`›∞:ü≤iuÅâºâ"QÒ…=à=âPπE´m£πıwêÔ.§zËe˛r◊k∑õ¥¿±ñìa•^¡`±g”ï^i›;8™∆[\ã’≤x∞¢™lxiµA¿ùÆu#˚‹Ë∞ØJT©»≠Ñ”(qÏªÜí+˛»àπ‚èåd§ﬂ?@≠>z:vò.Vﬂ«VF&Ã∑2∏s Øøπ·∞—‚ËµΩŒ√ﬁ#ó∏x)qç›rK9»z)∆JJæ¯TøƒïÅí/>Â'æ^îÃãÜ!ÔÄŒ›	¿"ák£∑RiAAëı¢≤^Ù’XYÒnÿΩØ˘nh≠rÙÂG¶ß£Õ
+ßøH
+Ú:–WI≈¸}ÿF«ámt¥é0©€Fõıó≈€VLÒÁ|Êé}˘µ÷8:«[úÕâ3^‰Œ«£–wkâ/?ŒÿJ!õµ|˘ÅF ,æ%Å$+„ T@!˙®Å[=¬ÒïÓ∂b∆ëﬁˆ\.É©ZΩˇÊ£«H¡‚À@Î¡ç“≥âö:ÉÑaΩà@7>[›ˆÄ∞¸ΩL©›j≈o~Œ0Ùxúºãrx»'¯Í˘ü ï%‹¸•√«°Í◊G[)]sDA_/Ë√O0¨ÀcX|ÕúÏ†Á°hN∞∆ïºópn(Åæ“XõÚª®8AÇ¸F¡T˙S„†∞ŸAXºﬂàWbÁÊ~ÿüS˚èèÿça=ƒn»W	kE¶Œ"rï÷Å⁄AÈ˝?Tç}|≥ÕiO≤¥õ?ﬁËú´¯9@ˆ¡∞ÏÉa=ƒ,Î!fA>çX[3Ú˚`®A≠`¬ò€ôH≥·—◊√˙QX/A6≥ı¢∞^ÇÏæy4‹f¡åœé“πjÈiOP8®∑◊¥3∏pÏ_Wú˚~ØoÍÑä/Ê®üÎ)%∞á˚Ï¡è*>*"P≠ùt[
+Ì|™ﬁıq™N†ÙŸ«©:1≈«*ı„A	ü1®€Ëhl˙∆gÍç;6M_≥bU≠+á™'¯Ì|N+!Ë)~;`¸ÓÏ‹±–ıÙL √‚s<b´/(HQ÷[|ÄOB¿óI	‘ÉWßo»ıêèWã6Èf´¶ÔﬂÅj+’j¥h€g`ˇ˛˜ÓﬁûÃçJ≥π/ª˘!ÿ6ÿ≥}3l1û0_ä+ q∂≠Å¢,[EŸµ EYµÄƒùˆk†$jlzﬂ±g¡ß	»Uã|∑ªŸ&õi¢Ç4A”<òjtdjçè÷,ì≈xsˇÇûÇekb=Ö˝¿8£√N°XûªUS†ÒÊ´∞Yﬂ“X*Õê“s˛–PºñîÌù)Äóug/l¬î“n%5- a¢ÇO)OYQhß-àÔShõ¶;….;N7ËX8¶F¡Ï{–ä˝ æ®Ÿ[Ù*bqüL›ei<⁄Y0§±]£•bySŸ¸~p¨π;Ñ…3Êñ≈rX6äVb°ÒheaH.Œê[Ùa`yÔπ4çp˝(8ﬂ*ôÇ3XïJÅ0?∆4÷äÕ{CÇÉÜî± &bH„H£y‚‡åòY å4qpBÃ,ag“,q?tT÷é˚Z	ù+™3J¢z0œÆ-ô‚ –◊√§£˙–+\ìŒ’á^·.	Ë\Q/ÎHT>∞k\±«∆˜3∫d=4øswÒ;wøss%z⁄¬≤î*Ü	÷(ªﬁ<a†¢j¢jq@ç6∑ReLËÃé!·ßp%(|˜ÅóúòßqÏÅV	ÀÆ˝zÔËõ´z
+ÀãÂı:ÇI∏.DÁœ∞n5*k+—Œ£cı©Á6–xmÄ$ï!e©)+€ë¥€~‘„˝÷ÔSyÉºyî†‡X	jú∏†≠≈Õ˘ˆﬂªπƒêpk9@◊ô•ÒÊﬂ<qp]êYÇÎÇ	Œ.“∏.à∂∑Sìüö‡}¸‹Ñy }≤‚-·–\m—
+a˘íBΩıa«6–ºæêÌ·!çΩvÌ∏…•rD„—k«ê∆káñä[=ç:±Ã•ÇûÇ[¥rDç±˜CO¡m£9Ú±—î†‡†ôA·µ°‘Spx_25Ô7áà™79µK¸⁄†J°∂C≈ZFﬂ±üÇ∆o€?ıi3uŸxhº˘6Ø-CªºfH„†≠+n^¥Ô√ãñ†“å —u	
+ˆM∫ÂhÑ˚‰\LÖ∆£MÖ!∑.7Ω>fΩ6çÁ±¶yLôõ€¬¬≥¢ÑˆÅπeHf∏•9Ä/ZT®`7®Pç˜1¨fwzé
+†Qan[Ÿb]lû&?!Qò∆≥9ÚQò∆¬nÅ)&€àΩibn€1òÔ<çí—7‰≠HÊ»’Ë	 .∆DÎ6cJ=lºÇ=¨kHáËxa3¶q\ÿ†⁄åâ^@∆D;'∆‹æR8Ó.˝ÌW.I1›J`ÓF‡ÊÈvCò&aqE<	◊Ãìz\,∂:Ï$∫ÆªxPßÜÁKNvœ—‡k˛PdQ¥0“Œã∞x»£¢àìß\ˇçì›aXÑãüùÏÍøG£”d?Õ≤∞à”§¸≈Úâ1(	'—˚q¸x≤´˛Ù˚i˛Ádèó(ù®ﬂ¯ÎıÕ’ø>ûﬂ¸ıÀŒŒ˘eêN&i≤Ûº±´c@~çﬁ”0Ó|Ä"ô^ú~Ñíd<$øóp¸ΩÉRTêPíø˛¸·JQ"≈¯Ég(≈q#GÕGÆ∑‹€ªœ˝ãŒ·∑á€bxeÒÙ˘·cøDŸä›Ë∂®L|ç=ìI”ˇ.‚«,Ã‚(ˇÚ]¸/y6¯íì˛ò?=`¬±•Â€¶E”msåønùB:Ÿ∫Ü·÷r8	∑Ω—∑"ﬁ6á—8Ãqû”“9<M„t€Çàª[W…8+‚…÷ÂPl_Ø√ßmãa<¿E∑ñV1}Õ∂-Ö,/∂Na˚˙òO∑Ó¶Û∑|0⁄∫Qê{Íl[àC˜O¿aˇO¿·‡O¿·p€fyòm›IΩé¢mÀ·µq”lëØﬁÁ÷©È$åòÍÃ5nX⁄zNT À“ˇFÉ‚˝Oˇdïs                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Pane-34096>
                 <IsVisible>1</IsVisible>
             </BasePane-34096>
             <DockingManager-256>
-                <DockingPaneAndPaneDividers>000000004A000000000000000010000001000000FFFFFFFFFFFFFFFF500100003200000054010000310300000100000002000010040000000100000001000000C5030000308500000000000000000000000000000000000001000000308500000100000030850000000000000040000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000002000000040000000100000000000000000000002F85000000000000000000000000000000000000010000002F850000010000002F850000000000000040000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000002000000040000000100000000000000000000002E85000000000000000000000000000000000000010000002E850000010000002E850000000000000040000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000002000000040000000100000000000000000000002D85000000000000000000000000000000000000010000002D850000010000002D850000000000000040000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000002000000040000000100000000000000000000002C85000000000000000000000000000000000000010000002C850000010000002C850000000000000080000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000001000000040000000100000000000000000000002B85000000000000000000000000000000000000010000002B850000010000002B850000000000000040000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000200000004000000010000000000000000000000298500000000000000000000000000000000000001000000298500000100000029850000000000000040000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000200000004000000010000000000000000000000288500000000000000000000000000000000000001000000288500000100000028850000000000000020000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000100000004000000010000000000000000000000278500000000000000000000000000000000000001000000278500000100000027850000000000000040000001000000FFFFFFFFFFFFFFFF64040000320000006804000031030000010000000200001004000000010000006FFBFFFFFFFFFFFF268500000000000000000000000000000000000001000000268500000100000026850000000000000040000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000200000004000000010000000000000000000000258500000000000000000000000000000000000001000000258500000100000025850000000000000010000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000200000004000000010000000000000000000000248500000000000000000000000000000000000001000000248500000100000024850000000000000010000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000200000004000000010000000000000000000000238500000000000000000000000000000000000001000000238500000100000023850000000000000080000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000100000004000000010000000000000000000000228500000000000000000000000000000000000001000000228500000100000022850000000000000080000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000100000004000000010000000000000000000000218500000000000000000000000000000000000001000000218500000100000021850000000000000040000000000000FFFFFFFFFFFFFFFF450100003200000049010000F90100000000000002000000040000000100000000000000000000001F85000000000000000000000000000000000000010000001F850000010000001F850000000000000040000000000000FFFFFFFFFFFFFFFF450100003200000049010000F90100000000000002000000040000000100000000000000000000001E85000000000000000000000000000000000000010000001E850000010000001E850000000000000040000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000002000000040000000100000000000000000000001D85000000000000000000000000000000000000010000001D850000010000001D850000000000000040000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000002000000040000000100000000000000000000001C85000000000000000000000000000000000000010000001C850000010000001C850000000000000040000001000000FFFFFFFFFFFFFFFF84050000320000008805000031030000010000000200001004000000010000008CFFFFFF400000001B85000000000000000000000000000000000000010000001B850000010000001B850000000000000040000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000002000000040000000100000000000000000000001A85000000000000000000000000000000000000010000001A850000010000001A850000000000000080000000000000FFFFFFFFFFFFFFFF00000000340100005605000038010000000000000100000004000000010000000000000000000000FFFFFFFF0400000016850000178500001885000019850000FFFF02000B004354616262656450616E650080000000000000000000004F0100005605000010020000000000003801000056050000F9010000000000004080004604000000FFFEFF084D0065006D006F007200790020003100000000001685000001000000FFFFFFFFFFFFFFFFFFFEFF084D0065006D006F007200790020003200000000001785000001000000FFFFFFFFFFFFFFFFFFFEFF084D0065006D006F007200790020003300000000001885000001000000FFFFFFFFFFFFFFFFFFFEFF084D0065006D006F007200790020003400000000001985000001000000FFFFFFFFFFFFFFFFFFFFFFFF000000000000000000000000000000000000000001000000FFFFFFFF1685000001000000FFFFFFFF16850000000000000040000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000200000004000000010000000000000000000000158500000000000000000000000000000000000001000000158500000100000015850000000000000040000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000200000004000000010000000000000000000000148500000000000000000000000000000000000001000000148500000100000014850000000000000040000000000000FFFFFFFFFFFFFFFF950000003200000099000000E90100000000000002000000040000000100000046FDFFFFB5000000138500000000000000000000000000000000000001000000138500000100000013850000000000000020000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000100000004000000010000000000000000000000128500000000000000000000000000000000000001000000128500000100000012850000000000000040000001000000FFFFFFFFFFFFFFFF8D06000032000000910600003103000001000000020000100400000001000000C3FCFFFFB50000000E85000000000000000000000000000000000000010000000E850000010000000E850000000000000040000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000002000000040000000100000000000000000000000C85000000000000000000000000000000000000010000000C850000010000000C850000000000000080000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000001000000040000000100000000000000000000000B85000000000000000000000000000000000000010000000B850000010000000B850000000000000080000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000001000000040000000100000000000000000000000A85000000000000000000000000000000000000010000000A850000010000000A850000000000000080000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000100000004000000010000000000000000000000098500000000000000000000000000000000000001000000098500000100000009850000000000000080000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000100000004000000010000000000000000000000088500000000000000000000000000000000000001000000088500000100000008850000000000000020000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000100000004000000010000000000000000000000078500000000000000000000000000000000000001000000078500000100000007850000000000000010000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000200000004000000010000000000000000000000068500000000000000000000000000000000000001000000068500000100000006850000000000000080000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000100000004000000010000000000000000000000058500000000000000000000000000000000000001000000058500000100000005850000000000000080000001000000FFFFFFFFFFFFFFFF00000000310300008007000035030000010000000100001004000000010000000000000000000000FFFFFFFF0800000003850000048500000D8500000F8500001085000011850000208500002A85000001800080000001000000000000004C03000080070000FD030000000000003503000080070000E6030000000000004080005608000000FFFEFF0B42007200650061006B0070006F0069006E0074007300000000000385000001000000FFFFFFFFFFFFFFFFFFFEFF054200750069006C006400010000000485000001000000FFFFFFFFFFFFFFFFFFFEFF094400650062007500670020004C006F006700010000000D85000001000000FFFFFFFFFFFFFFFFFFFEFF0C4400650063006C00610072006100740069006F006E007300000000000F85000001000000FFFFFFFFFFFFFFFFFFFEFF0A5200650066006500720065006E00630065007300000000001085000001000000FFFFFFFFFFFFFFFFFFFEFF0D460069006E006400200069006E002000460069006C0065007300000000001185000001000000FFFFFFFFFFFFFFFFFFFEFF1541006D0062006900670075006F0075007300200044006500660069006E006900740069006F006E007300000000002085000001000000FFFFFFFFFFFFFFFFFFFEFF0B54006F006F006C0020004F0075007400700075007400000000002A85000001000000FFFFFFFFFFFFFFFF02000000000000000000000000000000000000000000000001000000FFFFFFFF0385000001000000FFFFFFFF03850000000000000040000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000200000004000000010000000000000000000000028500000000000000000000000000000000000001000000028500000100000002850000000000000000000000000000</DockingPaneAndPaneDividers>
+                <DockingPaneAndPaneDividers>000000004A000000000000000010000001000000FFFFFFFFFFFFFFFF500100003200000054010000310300000100000002000010040000000100000001000000C5030000308500000000000000000000000000000000000001000000308500000100000030850000000000000040000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000002000000040000000100000000000000000000002F85000000000000000000000000000000000000010000002F850000010000002F850000000000000040000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000002000000040000000100000000000000000000002E85000000000000000000000000000000000000010000002E850000010000002E850000000000000040000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000002000000040000000100000000000000000000002D85000000000000000000000000000000000000010000002D850000010000002D850000000000000040000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000002000000040000000100000000000000000000002C85000000000000000000000000000000000000010000002C850000010000002C850000000000000080000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000001000000040000000100000000000000000000002B85000000000000000000000000000000000000010000002B850000010000002B850000000000000040000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000200000004000000010000000000000000000000298500000000000000000000000000000000000001000000298500000100000029850000000000000040000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000200000004000000010000000000000000000000288500000000000000000000000000000000000001000000288500000100000028850000000000000020000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000100000004000000010000000000000000000000278500000000000000000000000000000000000001000000278500000100000027850000000000000040000001000000FFFFFFFFFFFFFFFF51030000320000005503000031030000010000000200001004000000010000006FFBFFFFFFFFFFFF268500000000000000000000000000000000000001000000268500000100000026850000000000000040000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000200000004000000010000000000000000000000258500000000000000000000000000000000000001000000258500000100000025850000000000000010000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000200000004000000010000000000000000000000248500000000000000000000000000000000000001000000248500000100000024850000000000000010000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000200000004000000010000000000000000000000238500000000000000000000000000000000000001000000238500000100000023850000000000000080000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000100000004000000010000000000000000000000228500000000000000000000000000000000000001000000228500000100000022850000000000000080000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000100000004000000010000000000000000000000218500000000000000000000000000000000000001000000218500000100000021850000000000000040000000000000FFFFFFFFFFFFFFFF450100003200000049010000F90100000000000002000000040000000100000000000000000000001F85000000000000000000000000000000000000010000001F850000010000001F850000000000000040000000000000FFFFFFFFFFFFFFFF450100003200000049010000F90100000000000002000000040000000100000000000000000000001E85000000000000000000000000000000000000010000001E850000010000001E850000000000000040000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000002000000040000000100000000000000000000001D85000000000000000000000000000000000000010000001D850000010000001D850000000000000040000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000002000000040000000100000000000000000000001C85000000000000000000000000000000000000010000001C850000010000001C850000000000000040000001000000FFFFFFFFFFFFFFFF71040000320000007504000031030000010000000200001004000000010000008CFFFFFF400000001B85000000000000000000000000000000000000010000001B850000010000001B850000000000000040000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000002000000040000000100000000000000000000001A85000000000000000000000000000000000000010000001A850000010000001A850000000000000080000000000000FFFFFFFFFFFFFFFF00000000340100005605000038010000000000000100000004000000010000000000000000000000FFFFFFFF0400000016850000178500001885000019850000FFFF02000B004354616262656450616E650080000000000000000000004F0100005605000010020000000000003801000056050000F9010000000000004080004604000000FFFEFF084D0065006D006F007200790020003100000000001685000001000000FFFFFFFFFFFFFFFFFFFEFF084D0065006D006F007200790020003200000000001785000001000000FFFFFFFFFFFFFFFFFFFEFF084D0065006D006F007200790020003300000000001885000001000000FFFFFFFFFFFFFFFFFFFEFF084D0065006D006F007200790020003400000000001985000001000000FFFFFFFFFFFFFFFFFFFFFFFF000000000000000000000000000000000000000001000000FFFFFFFF1685000001000000FFFFFFFF16850000000000000040000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000200000004000000010000000000000000000000158500000000000000000000000000000000000001000000158500000100000015850000000000000040000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000200000004000000010000000000000000000000148500000000000000000000000000000000000001000000148500000100000014850000000000000040000001000000FFFFFFFFFFFFFFFF7A050000320000007E050000310300000100000002000010040000000100000046FDFFFFB5000000138500000000000000000000000000000000000001000000138500000100000013850000000000000020000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000100000004000000010000000000000000000000128500000000000000000000000000000000000001000000128500000100000012850000000000000040000001000000FFFFFFFFFFFFFFFF8D06000032000000910600003103000001000000020000100400000001000000C3FCFFFFB50000000E85000000000000000000000000000000000000010000000E850000010000000E850000000000000040000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000002000000040000000100000000000000000000000C85000000000000000000000000000000000000010000000C850000010000000C850000000000000080000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000001000000040000000100000000000000000000000B85000000000000000000000000000000000000010000000B850000010000000B850000000000000080000000000000FFFFFFFFFFFFFFFF000000000000000004000000040000000000000001000000040000000100000000000000000000000A85000000000000000000000000000000000000010000000A850000010000000A850000000000000080000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000100000004000000010000000000000000000000098500000000000000000000000000000000000001000000098500000100000009850000000000000080000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000100000004000000010000000000000000000000088500000000000000000000000000000000000001000000088500000100000008850000000000000020000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000100000004000000010000000000000000000000078500000000000000000000000000000000000001000000078500000100000007850000000000000010000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000200000004000000010000000000000000000000068500000000000000000000000000000000000001000000068500000100000006850000000000000080000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000100000004000000010000000000000000000000058500000000000000000000000000000000000001000000058500000100000005850000000000000080000001000000FFFFFFFFFFFFFFFF00000000310300008007000035030000010000000100001004000000010000000000000000000000FFFFFFFF0800000003850000048500000D8500000F8500001085000011850000208500002A85000001800080000001000000000000004C03000080070000FD030000000000003503000080070000E6030000000000004080005608000000FFFEFF0B42007200650061006B0070006F0069006E0074007300000000000385000001000000FFFFFFFFFFFFFFFFFFFEFF054200750069006C006400010000000485000001000000FFFFFFFFFFFFFFFFFFFEFF094400650062007500670020004C006F006700010000000D85000001000000FFFFFFFFFFFFFFFFFFFEFF0C4400650063006C00610072006100740069006F006E007300000000000F85000001000000FFFFFFFFFFFFFFFFFFFEFF0A5200650066006500720065006E00630065007300000000001085000001000000FFFFFFFFFFFFFFFFFFFEFF0D460069006E006400200069006E002000460069006C0065007300000000001185000001000000FFFFFFFFFFFFFFFFFFFEFF1541006D0062006900670075006F0075007300200044006500660069006E006900740069006F006E007300000000002085000001000000FFFFFFFFFFFFFFFFFFFEFF0B54006F006F006C0020004F0075007400700075007400000000002A85000001000000FFFFFFFFFFFFFFFF02000000000000000000000000000000000000000000000001000000FFFFFFFF0385000001000000FFFFFFFF03850000000000000040000000000000FFFFFFFFFFFFFFFF00000000000000000400000004000000000000000200000004000000010000000000000000000000028500000000000000000000000000000000000001000000028500000100000002850000000000000000000000000000</DockingPaneAndPaneDividers>
             </DockingManager-256>
             <MFCToolBar-34048>
                 <Name>Debug</Name>
@@ -897,7 +525,7 @@
             </BasePane-34048>
             <MFCToolBar-34049>
                 <Name>Main</Name>
-                <Buttons>00200000010000002100FFFF01001100434D4643546F6F6C426172427574746F6E00E10000000000005B000000FFFEFF000000000000000000000000000100000001000000018001E10000000000005C000000FFFEFF000000000000000000000000000100000001000000018003E10000000000005E000000FFFEFF000000000000000000000000000100000001000000018000810000000000003F000000FFFEFF00000000000000000000000000010000000100000001800000000001000000FFFFFFFFFFFEFF000000000000000000000000000100000001000000018007E100000000000061000000FFFEFF00000000000000000000000000010000000100000001800000000001000000FFFFFFFFFFFEFF000000000000000000000000000100000001000000018023E100000000040063000000FFFEFF000000000000000000000000000100000001000000018022E100000000040062000000FFFEFF000000000000000000000000000100000001000000018025E100000000000065000000FFFEFF00000000000000000000000000010000000100000001800000000001000000FFFFFFFFFFFEFF00000000000000000000000000010000000100000001802BE100000000000068000000FFFEFF00000000000000000000000000010000000100000001802CE100000000040069000000FFFEFF00000000000000000000000000010000000100000001800000000001000000FFFFFFFFFFFEFF000000000000000000000000000100000001000000FFFF01001900434D4643546F6F6C426172436F6D626F426F78427574746F6E4281000000000000FFFFFFFFFFFEFF0001000000000000000100000000000000010000007800000002002050FFFFFFFFFFFEFF0096000000000000000200FFFEFF0954006F00670067006C00650043004F004D00FFFEFF15540069006D0069006E006700440065006C00610079005F00440065006300720065006D0065006E00740000000000000000000180218100000000040052000000FFFEFF000000000000000000000000000100000001000000018024E100000000000064000000FFFEFF000000000000000000000000000100000001000000018028E100000000040066000000FFFEFF000000000000000000000000000100000001000000018029E100000000000067000000FFFEFF0000000000000000000000000001000000010000000180028100000000000041000000FFFEFF0000000000000000000000000001000000010000000180298100000000000056000000FFFEFF0000000000000000000000000001000000010000000180278100000000000054000000FFFEFF0000000000000000000000000001000000010000000180288100000000000055000000FFFEFF00000000000000000000000000010000000100000001801D810000000000004E000000FFFEFF00000000000000000000000000010000000100000001801E810000000004004F000000FFFEFF00000000000000000000000000010000000100000001800000000001000000FFFFFFFFFFFEFF00000000000000000000000000010000000100000001800B8100000000040045000000FFFEFF00000000000000000000000000010000000100000001800C8100000000000046000000FFFEFF00000000000000000000000000010000000100000001805F860000000000005A000000FFFEFF00000000000000000000000000010000000100000001800000000001000000FFFFFFFFFFFEFF00000000000000000000000000010000000100000001801F8100000000000050000000FFFEFF0000000000000000000000000001000000010000000180208100000000000051000000FFFEFF0000000000000000000000000001000000010000000180468100000000020058000000FFFEFF00000000000000000000000000010000000100000000000000FFFEFF044D00610069006E00FF020000</Buttons>
+                <Buttons>00200000010000002100FFFF01001100434D4643546F6F6C426172427574746F6E00E10000000000005B000000FFFEFF000000000000000000000000000100000001000000018001E10000000000005C000000FFFEFF000000000000000000000000000100000001000000018003E10000000000005E000000FFFEFF000000000000000000000000000100000001000000018000810000000000003F000000FFFEFF00000000000000000000000000010000000100000001800000000001000000FFFFFFFFFFFEFF000000000000000000000000000100000001000000018007E100000000000061000000FFFEFF00000000000000000000000000010000000100000001800000000001000000FFFFFFFFFFFEFF000000000000000000000000000100000001000000018023E100000000040063000000FFFEFF000000000000000000000000000100000001000000018022E100000000040062000000FFFEFF000000000000000000000000000100000001000000018025E100000000000065000000FFFEFF00000000000000000000000000010000000100000001800000000001000000FFFFFFFFFFFEFF00000000000000000000000000010000000100000001802BE100000000040068000000FFFEFF00000000000000000000000000010000000100000001802CE100000000040069000000FFFEFF00000000000000000000000000010000000100000001800000000001000000FFFFFFFFFFFEFF000000000000000000000000000100000001000000FFFF01001900434D4643546F6F6C426172436F6D626F426F78427574746F6E4281000000000000FFFFFFFFFFFEFF0000000000000000000100000000000000010000007800000002002050FFFFFFFFFFFEFF0096000000000000000200FFFEFF0954006F00670067006C00650043004F004D00FFFEFF15540069006D0069006E006700440065006C00610079005F00440065006300720065006D0065006E00740000000000000000000180218100000000040052000000FFFEFF000000000000000000000000000100000001000000018024E100000000000064000000FFFEFF000000000000000000000000000100000001000000018028E100000000040066000000FFFEFF000000000000000000000000000100000001000000018029E100000000000067000000FFFEFF0000000000000000000000000001000000010000000180028100000000000041000000FFFEFF0000000000000000000000000001000000010000000180298100000000000056000000FFFEFF0000000000000000000000000001000000010000000180278100000000000054000000FFFEFF0000000000000000000000000001000000010000000180288100000000000055000000FFFEFF00000000000000000000000000010000000100000001801D810000000000004E000000FFFEFF00000000000000000000000000010000000100000001801E810000000004004F000000FFFEFF00000000000000000000000000010000000100000001800000000001000000FFFFFFFFFFFEFF00000000000000000000000000010000000100000001800B8100000000000045000000FFFEFF00000000000000000000000000010000000100000001800C8100000000000046000000FFFEFF00000000000000000000000000010000000100000001805F860000000000005A000000FFFEFF00000000000000000000000000010000000100000001800000000001000000FFFFFFFFFFFEFF00000000000000000000000000010000000100000001801F8100000000000050000000FFFEFF0000000000000000000000000001000000010000000180208100000000000051000000FFFEFF0000000000000000000000000001000000010000000180468100000000020058000000FFFEFF00000000000000000000000000010000000100000000000000FFFEFF044D00610069006E00FF020000</Buttons>
             </MFCToolBar-34049>
             <Pane-34049>
                 <ID>34049</ID>
