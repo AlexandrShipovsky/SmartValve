@@ -1093,7 +1093,7 @@ void SetHowLong(RTC_TimeTypeDef Now)
     d -= RTC_Weekday_Sunday;
   }
 
-  StopTime.RTC_Seconds = watch.RTC_Seconds;
+  StopTime.RTC_Seconds = 0;//watch.RTC_Seconds;
   AlarmWhenStop.RTC_AlarmTime = StopTime;
   AlarmWhenStop.RTC_AlarmDateWeekDaySel = RTC_AlarmDateWeekDaySel_WeekDay;
   AlarmWhenStop.RTC_AlarmMask = RTC_AlarmMask_DateWeekDay;
