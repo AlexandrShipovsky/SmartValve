@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).general.xcl" --backend -f "C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).general.xcl" --backend -f "C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L15X_MD(STM8L15xx4_6).driver.xcl" 
 
 @echo off 
 :end

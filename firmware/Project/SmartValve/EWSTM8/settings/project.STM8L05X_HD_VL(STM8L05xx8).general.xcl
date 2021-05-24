@@ -1,10 +1,10 @@
-"G:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\bin\stm8proc.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\bin\stm8proc.dll" 
 
-"G:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\bin\stm8stlink.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\bin\stm8stlink.dll" 
 
-"G:\Drone John\SmartValve\firmware\Project\SmartValve\EWSTM8\STM8L05X_HD_VL(STM8L05xx8)\Exe\project.out" 
+"C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\STM8L05X_HD_VL(STM8L05xx8)\Exe\project.out" 
 
---plugin="G:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\bin\stm8bat.dll" 
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\bin\stm8bat.dll" 
 
 
 

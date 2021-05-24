@@ -51,10 +51,52 @@ static enum CurrentSetting CurSet = NONESET;
 void lcd_BlinkSegments(void);
 static void SevenSegmentCalc(uint8_t i, SevenSegmentTypeDef *ind);
 
+void lcd_childlock(uint8_t state)
+{
+  T8(0);
+  if (state)
+  {
+    T8(1);
+  }
+}
+
+void lcd_raindelay(uint8_t state)
+{
+  T5(0);
+  if (state)
+  {
+    T5(1);
+  }
+}
+
+void lcd_irrigation(uint8_t state)
+{
+  T4(0);
+  if (!state)
+  {
+    T4(1);
+  }
+}
+
+void lcd_automode(uint8_t state)
+{
+  T6(0);
+  T7(0);
+  if (state == 1)
+  {
+    T6(1);
+  }
+  else if (state == 0)
+  {
+    T7(1);
+  }
+}
+
 void lcd_SetSevSegmentBlink(enum CurrentSetting CurrentSetting)
 {
   CurSet = CurrentSetting;
 }
+
 void lcd_BlinkSegments(void)
 {
   if (BlinkState)
@@ -97,6 +139,7 @@ void lcd_BlinkSegments(void)
 
     COL1(0);
     COL2(0);
+    T5(0);
   }
 }
 void lcd_SetBattery(enum BatteryState BatteryState)
@@ -204,6 +247,10 @@ void lcd_SetHowFreq(uint8_t value, enum HoursDay HoursDay)
 
 void lcd_SetNextIrrigation(uint8_t value, enum HoursDay HoursDay)
 {
+  T19(0);
+  T18(0);
+  SevenSegmentSet(14, 10);
+  SevenSegmentSet(15, 10);
   switch (HoursDay)
   {
   case HRS:
@@ -498,7 +545,10 @@ void lcd_clear(void)
 
     SevenSegmentSet(i, 10);
   }
+  lcd_automode(10);
   lcd_SetBattery(BatNONE);
+  T5(0);
+  T8(0);
   T9(0);
   T10(0);
   T11(0);

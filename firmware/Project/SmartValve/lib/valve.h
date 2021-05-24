@@ -20,9 +20,9 @@
 
 enum ValveState
 {
-  NONE,
   OPEN,
-  CLOSED
+  CLOSED,
+  NONE
 };
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/

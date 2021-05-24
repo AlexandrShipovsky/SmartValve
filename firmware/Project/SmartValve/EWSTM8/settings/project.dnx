@@ -12,7 +12,7 @@
         <ByteLimit>50</ByteLimit>
     </Stack>
     <DebugChecksum>
-        <Checksum>583349705</Checksum>
+        <Checksum>3570798512</Checksum>
     </DebugChecksum>
     <CallStack>
         <ShowArgs>0</ShowArgs>
@@ -24,14 +24,21 @@
         <regBase0>LCD_RAM0 2</regBase0>
     </Registers>
     <struct_types>
-        <Fmt0>RTC_TimeTypeDef-RTC_Hours	3	0</Fmt0>
-        <Fmt1>RTC_TimeTypeDef-RTC_Minutes	3	0</Fmt1>
+        <Fmt0>GPIO_TypeDef-IDR	1	0</Fmt0>
+        <Fmt1>RTC_DateTypeDef-RTC_WeekDay	3	0</Fmt1>
+        <Fmt2>RTC_TimeTypeDef-RTC_Hours	3	0</Fmt2>
+        <Fmt3>RTC_TimeTypeDef-RTC_Minutes	3	0</Fmt3>
     </struct_types>
     <DataSample>
         <LogEnabled>0</LogEnabled>
         <GraphEnabled>0</GraphEnabled>
         <ShowTimeLog>1</ShowTimeLog>
     </DataSample>
+    <Breakpoints>
+        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\..\stm8l15x_it.c}.238.1" 1 0 0 0 "" 0 ""</Bp0>
+        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\..\stm8l15x_it.c}.335.1" 1 0 0 0 "" 0 ""</Bp1>
+        <Count>2</Count>
+    </Breakpoints>
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
@@ -41,9 +48,6 @@
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
-    <Breakpoints>
-        <Count>0</Count>
-    </Breakpoints>
     <Aliases>
         <A0>_ "C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c" ""</A0>
         <A1>_ "C:\Users\Чистое небо\YandexDisk\smart valve\firmware\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_exti.c" "C:\SmartValve\firmware\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_exti.c"</A1>

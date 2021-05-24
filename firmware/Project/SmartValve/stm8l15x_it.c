@@ -30,6 +30,7 @@
 #include "stm8l15x_it.h"
 #include "keyboard.h"
 #include "LCD.h"
+#include "valve.h"
 #include "common.h"
 
 /** @addtogroup STM8L15x_StdPeriph_Template
@@ -38,8 +39,8 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* Private define ------------------------------------------------------------*/
-#define DELAYBUTTON (uint32_t)10000
-#define SLEEPTIME (uint8_t)60
+#define DELAYBUTTON (uint32_t)40000
+#define BUTTONHOLD (uint16_t)2000
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
 extern enum buttons PutButton;
@@ -47,8 +48,11 @@ extern enum com SelectCOM;
 extern uint8_t BlinkState;
 extern enum ProgramMode ProgramState;
 
+extern enum ValveState VALVESTATE;
+
 uint16_t intforblink = 0;
 uint8_t SleepTime = SLEEPTIME;
+uint16_t ButtomHoldInc = BUTTONHOLD;
 /* Private function prototypes -----------------------------------------------*/
 extern void TimingDelay_Decrement(void);
 /* Private functions ---------------------------------------------------------*/
@@ -56,7 +60,8 @@ void DelayInInterrupt(uint32_t time);
 void DelayInInterrupt(uint32_t time)
 {
   uint32_t i = 0;
-  for(i = time; i != 0; i--);
+  for (i = time; i != 0; i--)
+    ;
 }
 /* Public functions ----------------------------------------------------------*/
 
@@ -129,7 +134,14 @@ INTERRUPT_HANDLER(DMA1_CHANNEL2_3_IRQHandler, 3)
   */
 INTERRUPT_HANDLER(RTC_CSSLSE_IRQHandler, 4)
 {
-  ProgramState = VALVEOPEN;
+  if (VALVESTATE == OPEN)
+  {
+    ProgramState = VALVECLOSE;
+  }
+  else
+  {
+    ProgramState = VALVEOPEN;
+  }
   RTC_ClearITPendingBit(RTC_IT_ALRA);
   /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
@@ -181,19 +193,8 @@ INTERRUPT_HANDLER(EXTI0_IRQHandler, 8)
   /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
-  //disableInterrupts();
-  if (SelectCOM == COMSTATE1)
-  {
-    PutButton = OK;
-  }
-  else
-  {
-    PutButton = DELAY;
-  }
   
-  
-  DelayInInterrupt(DELAYBUTTON);
-  //enableInterrupts();
+
   EXTI_ClearITPendingBit(EXTI_IT_Pin0);
   SleepTime = SLEEPTIME;
 }
@@ -208,19 +209,6 @@ INTERRUPT_HANDLER(EXTI1_IRQHandler, 9)
   /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
-   //disableInterrupts();
-  if (SelectCOM == COMSTATE1)
-  {
-    PutButton = MANUAL;
-  }
-  else
-  {
-    PutButton = OFF;
-  }
-
-  
-  DelayInInterrupt(DELAYBUTTON);
-  //enableInterrupts();
   EXTI_ClearITPendingBit(EXTI_IT_Pin1);
   SleepTime = SLEEPTIME;
 }
@@ -295,17 +283,7 @@ INTERRUPT_HANDLER(EXTI7_IRQHandler, 15)
   /* In order to detect unexpected events during development,
        it is recommended to set a breakpoint on the following instruction.
     */
-   //disableInterrupts();
-  if (SelectCOM == COMSTATE1)
-  {
-    PutButton = MINUS;
-  }
-  else
-  {
-    PutButton = PLUS;
-  }
-  DelayInInterrupt(DELAYBUTTON);
-  //enableInterrupts();
+
   EXTI_ClearITPendingBit(EXTI_IT_Pin7);
   SleepTime = SLEEPTIME;
 }
@@ -435,7 +413,7 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_TRG_IRQHandler, 25)
       BlinkState = 1;
     }
 
-    if(SleepTime == 0)
+    if (SleepTime == 0)
     {
       ProgramState = SLEEP;
       SleepTime = SLEEPTIME;

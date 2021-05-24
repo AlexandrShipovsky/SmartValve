@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"G:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "G:\Drone John\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L05X_HD_VL(STM8L05xx8).general.xcl" --backend -f "G:\Drone John\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L05X_HD_VL(STM8L05xx8).driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L05X_HD_VL(STM8L05xx8).general.xcl" --backend -f "C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L05X_HD_VL(STM8L05xx8).driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"G:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "G:\Drone John\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L05X_HD_VL(STM8L05xx8).general.xcl" "--debug_file=%~1" --backend -f "G:\Drone John\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L05X_HD_VL(STM8L05xx8).driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L05X_HD_VL(STM8L05xx8).general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\settings\project.STM8L05X_HD_VL(STM8L05xx8).driver.xcl" 
 
 @echo off 
 :end

@@ -518,7 +518,8 @@ enum BatteryState
 enum HoursDay
 {
   HRS,
-  DAY
+  DAY,
+  NONEHD
 };
 
 enum CurrentSetting
@@ -546,4 +547,8 @@ void lcd_SetSevSegmentBlink(enum CurrentSetting CurrentSetting); // if 0 then al
 void lcd_SetHowFreq(uint8_t value, enum HoursDay HoursDay);
 void lcd_SetNextIrrigation(uint8_t value, enum HoursDay HoursDay);
 void lcd_SetHowLong(uint16_t value);
+void lcd_irrigation(uint8_t state);
+void lcd_automode(uint8_t state);
+void lcd_raindelay(uint8_t state);
+void lcd_childlock(uint8_t state);
 #endif /*__VALVE_H */
