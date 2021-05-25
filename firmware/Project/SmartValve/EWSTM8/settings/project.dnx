@@ -12,7 +12,7 @@
         <ByteLimit>50</ByteLimit>
     </Stack>
     <DebugChecksum>
-        <Checksum>1540842279</Checksum>
+        <Checksum>2793387085</Checksum>
     </DebugChecksum>
     <CallStack>
         <ShowArgs>0</ShowArgs>
@@ -44,8 +44,8 @@
         <Category>_ 0</Category>
     </LogFile>
     <Breakpoints>
-        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\..\stm8l15x_it.c}.238.1" 1 0 0 0 "" 0 ""</Bp0>
-        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\..\stm8l15x_it.c}.335.1" 1 0 0 0 "" 0 ""</Bp1>
+        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\..\stm8l15x_it.c}.240.1" 1 0 0 0 "" 0 ""</Bp0>
+        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\..\stm8l15x_it.c}.337.1" 1 0 0 0 "" 0 ""</Bp1>
         <Count>2</Count>
     </Breakpoints>
     <Aliases>

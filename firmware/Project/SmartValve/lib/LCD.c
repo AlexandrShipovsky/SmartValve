@@ -135,6 +135,9 @@ void lcd_BlinkSegments(void)
       SevenSegmentSet(12, 10);
       SevenSegmentSet(13, 10);
       break;
+    case BATTERYLOWBLINK:
+      T1(0);
+      break;
     }
 
     COL1(0);

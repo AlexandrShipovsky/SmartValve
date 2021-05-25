@@ -531,7 +531,8 @@ enum CurrentSetting
   HowLong,
   StartTimeHours,
   StartTimeMin,
-  NONESET
+  NONESET,
+  BATTERYLOWBLINK
 };
 
 /* Public function prototypes -----------------------------------------------*/

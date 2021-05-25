@@ -85,6 +85,7 @@ uint16_t HowLongVal = 0;
 /* Private function prototypes -----------------------------------------------*/
 static void clk_init(void);
 static void gpio_init(void);
+static void pwr_init(void);
 static void gpio_init_interrupt(void);
 static void rtc_init(void);
 static void error(void);
@@ -216,6 +217,7 @@ void main(void)
   /* Infinite loop */
 
   clk_init();
+  pwr_init();
   rtc_init();
   TIM4_Config();
   gpio_init();
@@ -229,6 +231,17 @@ void main(void)
     lcd_clear();
     switch (ProgramState)
     {
+      case BATTERYLOW:
+      {
+        ValveClose();
+        while(1)
+        {
+          lcd_SetBattery(BatLow);
+          lcd_SetSevSegmentBlink(BATTERYLOWBLINK);
+          lcd_update();
+        }
+        break;
+      }
     case SET_ALARM_AFTRCONF:
     {
       SetAlarmForIrrig();
@@ -387,11 +400,11 @@ void main(void)
     {
       GetKeyboard();
       VBAT = GetVBAT();
-      if (VBAT < 3800)
+      if ((VBAT/100) < 36)
       {
         lcd_SetBattery(BatLow);
       }
-      else if (VBAT < 4300)
+      else if ((VBAT/100) < 42)
       {
         lcd_SetBattery(BatMiddle);
       }
@@ -595,13 +608,19 @@ void main(void)
     }
     case SLEEP:
     {
-      ProgramState = NORMAL;
+      if(ProgramState != BATTERYLOW)
+      {
+          ProgramState = NORMAL;
+      }
+      
       gpio_init_interrupt();
       Delay(2);
       EnableCOM();
       lcd_clear();
       lcd_update();
+      PWR_UltraLowPowerCmd(ENABLE);
       halt();
+      PWR_UltraLowPowerCmd(DISABLE);
       gpio_init();
       COMFromHalt();
       Delay(50);
@@ -650,6 +669,14 @@ void clk_init(void)
   while (CLK_GetFlagStatus(CLK_FLAG_RTCSWBSY) != SET)
     ;
   CLK_ClearFlag();
+}
+
+void pwr_init(void)
+{
+  PWR_DeInit();
+  PWR_PVDLevelConfig(PWR_PVDLevel_3V05);
+  PWR_PVDCmd(ENABLE);
+  
 }
 
 /**
