@@ -94436,7 +94436,7 @@
     "display": "void clk_init(void)",
     "location": {
       "column": "6",
-      "line": "649",
+      "line": "653",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "clk_init",
@@ -94444,13 +94444,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@14815@F@clk_init@i",
+    "ID": "c:main.c@14878@F@clk_init@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "12",
-      "line": "651",
+      "line": "655",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "i",
@@ -94464,7 +94464,7 @@
     "display": "void pwr_init(void)",
     "location": {
       "column": "6",
-      "line": "675",
+      "line": "679",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "pwr_init",
@@ -94478,7 +94478,7 @@
     "display": "void TIM4_Config(void)",
     "location": {
       "column": "13",
-      "line": "688",
+      "line": "692",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "TIM4_Config",
@@ -94492,7 +94492,7 @@
     "display": "void Delay(volatile uint32_t)",
     "location": {
       "column": "6",
-      "line": "718",
+      "line": "722",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "Delay",
@@ -94506,7 +94506,7 @@
     "display": "void TimingDelay_Decrement(void)",
     "location": {
       "column": "6",
-      "line": "731",
+      "line": "735",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "TimingDelay_Decrement",
@@ -94520,7 +94520,7 @@
     "display": "void rtc_init(void)",
     "location": {
       "column": "6",
-      "line": "739",
+      "line": "743",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "rtc_init",
@@ -94528,13 +94528,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@17081@F@rtc_init@RTC_Struct",
+    "ID": "c:main.c@17144@F@rtc_init@RTC_Struct",
     "What": "Variable",
     "defdec": "Def",
     "display": "RTC_Struct",
     "location": {
       "column": "19",
-      "line": "748",
+      "line": "752",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "RTC_Struct",
@@ -94548,7 +94548,7 @@
     "display": "void gpio_init(void)",
     "location": {
       "column": "6",
-      "line": "764",
+      "line": "768",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "gpio_init",
@@ -94562,7 +94562,7 @@
     "display": "void gpio_init_interrupt(void)",
     "location": {
       "column": "6",
-      "line": "778",
+      "line": "804",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "gpio_init_interrupt",
@@ -94576,7 +94576,7 @@
     "display": "void PlusSegment(enum CurrentSetting)",
     "location": {
       "column": "6",
-      "line": "800",
+      "line": "827",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "PlusSegment",
@@ -94590,7 +94590,7 @@
     "display": "void MinusSegment(enum CurrentSetting)",
     "location": {
       "column": "6",
-      "line": "895",
+      "line": "922",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "MinusSegment",
@@ -94604,7 +94604,7 @@
     "display": "void SetAlarmForIrrig(void)",
     "location": {
       "column": "6",
-      "line": "990",
+      "line": "1017",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "SetAlarmForIrrig",
@@ -94618,7 +94618,7 @@
     "display": "void CalcNexIrrig(void)",
     "location": {
       "column": "6",
-      "line": "1054",
+      "line": "1081",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "CalcNexIrrig",
@@ -94626,13 +94626,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@23748@F@CalcNexIrrig@days",
+    "ID": "c:main.c@24785@F@CalcNexIrrig@days",
     "What": "Variable",
     "defdec": "Def",
     "display": "days",
     "location": {
       "column": "10",
-      "line": "1056",
+      "line": "1083",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "days",
@@ -94640,13 +94640,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@23768@F@CalcNexIrrig@hours",
+    "ID": "c:main.c@24805@F@CalcNexIrrig@hours",
     "What": "Variable",
     "defdec": "Def",
     "display": "hours",
     "location": {
       "column": "10",
-      "line": "1057",
+      "line": "1084",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "hours",
@@ -94660,7 +94660,7 @@
     "display": "void SetHowLong(RTC_TimeTypeDef)",
     "location": {
       "column": "6",
-      "line": "1093",
+      "line": "1120",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "SetHowLong",
@@ -94668,13 +94668,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@24738@F@SetHowLong@d",
+    "ID": "c:main.c@25775@F@SetHowLong@d",
     "What": "Variable",
     "defdec": "Def",
     "display": "d",
     "location": {
       "column": "11",
-      "line": "1096",
+      "line": "1123",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "d",
@@ -94682,13 +94682,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@24738@F@SetHowLong@h",
+    "ID": "c:main.c@25775@F@SetHowLong@h",
     "What": "Variable",
     "defdec": "Dec",
     "display": "h",
     "location": {
       "column": "14",
-      "line": "1096",
+      "line": "1123",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "h",
@@ -94696,13 +94696,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@24738@F@SetHowLong@m",
+    "ID": "c:main.c@25775@F@SetHowLong@m",
     "What": "Variable",
     "defdec": "Dec",
     "display": "m",
     "location": {
       "column": "17",
-      "line": "1096",
+      "line": "1123",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "m",
@@ -94716,7 +94716,7 @@
     "display": "void error(void)",
     "location": {
       "column": "6",
-      "line": "1136",
+      "line": "1163",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "error",
@@ -94724,16 +94724,198 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@25727@F@error@i",
+    "ID": "c:main.c@26764@F@error@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "12",
-      "line": "1138",
+      "line": "1165",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WFE_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WFE_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "95",
+      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wfe.c"
+    },
+    "name": "WFE_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WFE_WakeUpSourceEventCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WFE_WakeUpSourceEventCmd(WFE_Source_TypeDef, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "141",
+      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wfe.c"
+    },
+    "name": "WFE_WakeUpSourceEventCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_wfe.c@6904@F@WFE_WakeUpSourceEventCmd@register_index",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "register_index",
+    "location": {
+      "column": "11",
+      "line": "143",
+      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wfe.c"
+    },
+    "name": "register_index",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WFE_GetWakeUpSourceEventStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "FunctionalState WFE_GetWakeUpSourceEventStatus(WFE_Source_TypeDef)",
+    "location": {
+      "column": "17",
+      "line": "237",
+      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wfe.c"
+    },
+    "name": "WFE_GetWakeUpSourceEventStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_wfe.c@10590@F@WFE_GetWakeUpSourceEventStatus@status",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "status",
+    "location": {
+      "column": "19",
+      "line": "239",
+      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wfe.c"
+    },
+    "name": "status",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_wwdg.c@4310@macro@BIT_MASK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BIT_MASK",
+    "location": {
+      "column": "9",
+      "line": "89",
+      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+    },
+    "name": "BIT_MASK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WWDG_Init(uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "119",
+      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+    },
+    "name": "WWDG_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SetWindowValue",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WWDG_SetWindowValue(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "135",
+      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+    },
+    "name": "WWDG_SetWindowValue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_wwdg.c@6072@F@WWDG_SetWindowValue@tmpreg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "tmpreg",
+    "location": {
+      "column": "16",
+      "line": "137",
+      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+    },
+    "name": "tmpreg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SetCounter",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WWDG_SetCounter(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "156",
+      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+    },
+    "name": "WWDG_SetCounter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_Enable",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WWDG_Enable(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "187",
+      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+    },
+    "name": "WWDG_Enable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_GetCounter",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t WWDG_GetCounter(void)",
+    "location": {
+      "column": "9",
+      "line": "216",
+      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+    },
+    "name": "WWDG_GetCounter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SWReset",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WWDG_SWReset(void)",
+    "location": {
+      "column": "6",
+      "line": "226",
+      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
+    },
+    "name": "WWDG_SWReset",
     "origin": "project_file",
     "scope": null
   },
@@ -94975,188 +95157,6 @@
     },
     "name": "ProgramMode",
     "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WFE_DeInit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void WFE_DeInit(void)",
-    "location": {
-      "column": "6",
-      "line": "95",
-      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wfe.c"
-    },
-    "name": "WFE_DeInit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WFE_WakeUpSourceEventCmd",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void WFE_WakeUpSourceEventCmd(WFE_Source_TypeDef, FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "141",
-      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wfe.c"
-    },
-    "name": "WFE_WakeUpSourceEventCmd",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_wfe.c@6904@F@WFE_WakeUpSourceEventCmd@register_index",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "register_index",
-    "location": {
-      "column": "11",
-      "line": "143",
-      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wfe.c"
-    },
-    "name": "register_index",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WFE_GetWakeUpSourceEventStatus",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "FunctionalState WFE_GetWakeUpSourceEventStatus(WFE_Source_TypeDef)",
-    "location": {
-      "column": "17",
-      "line": "237",
-      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wfe.c"
-    },
-    "name": "WFE_GetWakeUpSourceEventStatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_wfe.c@10590@F@WFE_GetWakeUpSourceEventStatus@status",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "status",
-    "location": {
-      "column": "19",
-      "line": "239",
-      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wfe.c"
-    },
-    "name": "status",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_wwdg.c@4310@macro@BIT_MASK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BIT_MASK",
-    "location": {
-      "column": "9",
-      "line": "89",
-      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
-    },
-    "name": "BIT_MASK",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void WWDG_Init(uint8_t, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "119",
-      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
-    },
-    "name": "WWDG_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SetWindowValue",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void WWDG_SetWindowValue(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "135",
-      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
-    },
-    "name": "WWDG_SetWindowValue",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_wwdg.c@6072@F@WWDG_SetWindowValue@tmpreg",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "tmpreg",
-    "location": {
-      "column": "16",
-      "line": "137",
-      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
-    },
-    "name": "tmpreg",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SetCounter",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void WWDG_SetCounter(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "156",
-      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
-    },
-    "name": "WWDG_SetCounter",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_Enable",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void WWDG_Enable(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "187",
-      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
-    },
-    "name": "WWDG_Enable",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_GetCounter",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint8_t WWDG_GetCounter(void)",
-    "location": {
-      "column": "9",
-      "line": "216",
-      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
-    },
-    "name": "WWDG_GetCounter",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SWReset",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void WWDG_SWReset(void)",
-    "location": {
-      "column": "6",
-      "line": "226",
-      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_wwdg.c"
-    },
-    "name": "WWDG_SWReset",
-    "origin": "project_file",
     "scope": null
   },
   {

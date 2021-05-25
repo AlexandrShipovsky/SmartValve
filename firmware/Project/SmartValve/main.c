@@ -619,8 +619,12 @@ void main(void)
       lcd_clear();
       lcd_update();
       PWR_UltraLowPowerCmd(ENABLE);
+
+      ADC_Cmd(ADC1,DISABLE);
       halt();
       PWR_UltraLowPowerCmd(DISABLE);
+      ADC_Cmd(ADC1,ENABLE);
+
       gpio_init();
       COMFromHalt();
       Delay(50);
@@ -771,6 +775,28 @@ void gpio_init(void)
 
   GPIO_Init(BUTTONGPIO2, COM1, GPIO_Mode_Out_PP_High_Slow);
   GPIO_Init(BUTTONGPIO2, COM2, GPIO_Mode_Out_PP_Low_Slow);
+
+  GPIO_Init(GPIOA, GPIO_Pin_0, GPIO_Mode_Out_PP_Low_Slow);
+  GPIO_Init(GPIOA, GPIO_Pin_1, GPIO_Mode_Out_PP_Low_Slow);
+  GPIO_Init(GPIOA, GPIO_Pin_7, GPIO_Mode_Out_PP_Low_Slow);
+
+  GPIO_Init(GPIOG, GPIO_Pin_0, GPIO_Mode_Out_PP_Low_Slow);
+  GPIO_Init(GPIOG, GPIO_Pin_1, GPIO_Mode_Out_PP_Low_Slow);
+  GPIO_Init(GPIOG, GPIO_Pin_2, GPIO_Mode_Out_PP_Low_Slow);
+  GPIO_Init(GPIOG, GPIO_Pin_3, GPIO_Mode_Out_PP_Low_Slow);
+  GPIO_Init(GPIOG, GPIO_Pin_4, GPIO_Mode_Out_PP_Low_Slow);
+
+  GPIO_Init(GPIOD, GPIO_Pin_3, GPIO_Mode_Out_PP_Low_Slow);
+
+  GPIO_Init(GPIOF, GPIO_Pin_0, GPIO_Mode_Out_PP_Low_Slow);
+  GPIO_Init(GPIOF, GPIO_Pin_1, GPIO_Mode_Out_PP_Low_Slow);
+
+  GPIO_Init(GPIOC, GPIO_Pin_2, GPIO_Mode_Out_PP_Low_Slow);
+  GPIO_Init(GPIOC, GPIO_Pin_3, GPIO_Mode_Out_PP_Low_Slow);
+  GPIO_Init(GPIOC, GPIO_Pin_4, GPIO_Mode_Out_PP_Low_Slow);
+
+  GPIO_Init(GPIOE, GPIO_Pin_6, GPIO_Mode_Out_PP_Low_Slow);
+  GPIO_Init(GPIOE, GPIO_Pin_7, GPIO_Mode_Out_PP_Low_Slow);
   EXTI_DeInit();
   enableInterrupts();
 }
@@ -781,6 +807,7 @@ void gpio_init_interrupt(void)
   GPIO_Init(BUTTONGPIO1, OFF_MAN, GPIO_Mode_In_FL_IT);
   GPIO_Init(BUTTONGPIO1, RAIN_SETUP, GPIO_Mode_In_FL_IT);
   GPIO_Init(BUTTONGPIO2, PLUS_MINUS, GPIO_Mode_In_FL_IT);
+
   //GPIO_ExternalPullUpConfig(BUTTONGPIO2,PLUS_MINUS, ENABLE);
 
   //GPIO_Init(BUTTONGPIO2, COM1, GPIO_Mode_Out_PP_High_Slow);
