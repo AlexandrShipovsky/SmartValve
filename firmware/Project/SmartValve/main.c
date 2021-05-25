@@ -56,6 +56,7 @@ extern enum ValveState VALVESTATE;
 __IO uint32_t TimingDelay;
 RTC_Weekday_TypeDef test = RTC_Weekday_Monday;
 enum ProgramMode ProgramState = NORMAL;
+enum ProgramMode ProgramStatePrevios = NORMAL;
 FunctionalState AlarmState = DISABLE;
 uint8_t RainDelay = 0;
 extern enum com SelectCOM;
@@ -234,6 +235,7 @@ void main(void)
       case BATTERYLOW:
       {
         ValveClose();
+        ProgramStatePrevios = BATTERYLOW;
         while(1)
         {
           lcd_SetBattery(BatLow);
@@ -398,6 +400,7 @@ void main(void)
       }
     case NORMAL:
     {
+      ProgramStatePrevios = NORMAL;
       GetKeyboard();
       VBAT = GetVBAT();
       if ((VBAT/100) < 36)
@@ -608,10 +611,7 @@ void main(void)
     }
     case SLEEP:
     {
-      if(ProgramState != BATTERYLOW)
-      {
-          ProgramState = NORMAL;
-      }
+      ProgramState = ProgramStatePrevios;
       
       gpio_init_interrupt();
       Delay(2);
@@ -629,6 +629,7 @@ void main(void)
     }
     case OFFMODE:
     {
+      ProgramStatePrevios = OFFMODE;
       GetKeyboard();
       if (RTC_WaitForSynchro() == SUCCESS)
       {
