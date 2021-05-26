@@ -518,7 +518,8 @@ enum BatteryState
 enum HoursDay
 {
   HRS,
-  DAY
+  DAY,
+  NONEHD
 };
 
 enum CurrentSetting
@@ -530,7 +531,8 @@ enum CurrentSetting
   HowLong,
   StartTimeHours,
   StartTimeMin,
-  NONESET
+  NONESET,
+  BATTERYLOWBLINK
 };
 
 /* Public function prototypes -----------------------------------------------*/
@@ -538,12 +540,16 @@ void lcd_init(void);
 void lcd_update(void);
 void lcd_clear(void);
 void SevenSegmentSet(uint8_t NumberSegment,uint8_t val);
-void lcd_set_time(RTC_TimeTypeDef watch);
-void lcd_set_StartTime(RTC_TimeTypeDef watch);
+void lcd_set_time(RTC_TimeTypeDef *watch);
+void lcd_set_StartTime(RTC_TimeTypeDef *watch);
 void lcd_SetStaticSegment(uint8_t state);
 void lcd_SetBattery(enum BatteryState);
 void lcd_SetSevSegmentBlink(enum CurrentSetting CurrentSetting); // if 0 then all segment not blink
 void lcd_SetHowFreq(uint8_t value, enum HoursDay HoursDay);
 void lcd_SetNextIrrigation(uint8_t value, enum HoursDay HoursDay);
 void lcd_SetHowLong(uint16_t value);
+void lcd_irrigation(uint8_t state);
+void lcd_automode(uint8_t state);
+void lcd_raindelay(uint8_t state);
+void lcd_childlock(uint8_t state);
 #endif /*__VALVE_H */

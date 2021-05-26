@@ -51,10 +51,52 @@ static enum CurrentSetting CurSet = NONESET;
 void lcd_BlinkSegments(void);
 static void SevenSegmentCalc(uint8_t i, SevenSegmentTypeDef *ind);
 
+void lcd_childlock(uint8_t state)
+{
+  T8(0);
+  if (state)
+  {
+    T8(1);
+  }
+}
+
+void lcd_raindelay(uint8_t state)
+{
+  T5(0);
+  if (state)
+  {
+    T5(1);
+  }
+}
+
+void lcd_irrigation(uint8_t state)
+{
+  T4(0);
+  if (!state)
+  {
+    T4(1);
+  }
+}
+
+void lcd_automode(uint8_t state)
+{
+  T6(0);
+  T7(0);
+  if (state == 1)
+  {
+    T6(1);
+  }
+  else if (state == 0)
+  {
+    T7(1);
+  }
+}
+
 void lcd_SetSevSegmentBlink(enum CurrentSetting CurrentSetting)
 {
   CurSet = CurrentSetting;
 }
+
 void lcd_BlinkSegments(void)
 {
   if (BlinkState)
@@ -93,10 +135,14 @@ void lcd_BlinkSegments(void)
       SevenSegmentSet(12, 10);
       SevenSegmentSet(13, 10);
       break;
+    case BATTERYLOWBLINK:
+      T1(0);
+      break;
     }
 
     COL1(0);
     COL2(0);
+    T5(0);
   }
 }
 void lcd_SetBattery(enum BatteryState BatteryState)
@@ -147,33 +193,33 @@ void lcd_SetStaticSegment(uint8_t state)
     T20(0);
   }
 }
-void lcd_set_time(RTC_TimeTypeDef watch)
+void lcd_set_time(RTC_TimeTypeDef *watch)
 {
   uint8_t integer = 0;
-  integer = watch.RTC_Hours / 10;
+  integer = watch->RTC_Hours / 10;
   SevenSegmentSet(1, integer);
-  integer = watch.RTC_Hours % 10;
+  integer = watch->RTC_Hours % 10;
   SevenSegmentSet(2, integer);
 
-  integer = watch.RTC_Minutes / 10;
+  integer = watch->RTC_Minutes / 10;
   SevenSegmentSet(3, integer);
-  integer = watch.RTC_Minutes % 10;
+  integer = watch->RTC_Minutes % 10;
   SevenSegmentSet(4, integer);
   T10(1);
   COL1(1);
 }
 
-void lcd_set_StartTime(RTC_TimeTypeDef watch)
+void lcd_set_StartTime(RTC_TimeTypeDef *watch)
 {
   uint8_t integer = 0;
-  integer = watch.RTC_Hours / 10;
+  integer = watch->RTC_Hours / 10;
   SevenSegmentSet(10, integer);
-  integer = watch.RTC_Hours % 10;
+  integer = watch->RTC_Hours % 10;
   SevenSegmentSet(11, integer);
 
-  integer = watch.RTC_Minutes / 10;
+  integer = watch->RTC_Minutes / 10;
   SevenSegmentSet(12, integer);
-  integer = watch.RTC_Minutes % 10;
+  integer = watch->RTC_Minutes % 10;
   SevenSegmentSet(13, integer);
   COL2(1);
 }
@@ -204,6 +250,10 @@ void lcd_SetHowFreq(uint8_t value, enum HoursDay HoursDay)
 
 void lcd_SetNextIrrigation(uint8_t value, enum HoursDay HoursDay)
 {
+  T19(0);
+  T18(0);
+  SevenSegmentSet(14, 10);
+  SevenSegmentSet(15, 10);
   switch (HoursDay)
   {
   case HRS:
@@ -498,7 +548,10 @@ void lcd_clear(void)
 
     SevenSegmentSet(i, 10);
   }
+  lcd_automode(10);
   lcd_SetBattery(BatNONE);
+  T5(0);
+  T8(0);
   T9(0);
   T10(0);
   T11(0);
