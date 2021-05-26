@@ -39697,7 +39697,7 @@
     "ID": "c:@F@lcd_set_time",
     "What": "Function",
     "defdec": "Def",
-    "display": "void lcd_set_time(RTC_TimeTypeDef)",
+    "display": "void lcd_set_time(RTC_TimeTypeDef *)",
     "location": {
       "column": "6",
       "line": "196",
@@ -39708,7 +39708,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.c@3579@F@lcd_set_time@integer",
+    "ID": "c:LCD.c@3383@F@lcd_set_time@integer",
     "What": "Variable",
     "defdec": "Def",
     "display": "integer",
@@ -39725,7 +39725,7 @@
     "ID": "c:@F@lcd_set_StartTime",
     "What": "Function",
     "defdec": "Def",
-    "display": "void lcd_set_StartTime(RTC_TimeTypeDef)",
+    "display": "void lcd_set_StartTime(RTC_TimeTypeDef *)",
     "location": {
       "column": "6",
       "line": "212",
@@ -39736,7 +39736,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.c@3955@F@lcd_set_StartTime@integer",
+    "ID": "c:LCD.c@3748@F@lcd_set_StartTime@integer",
     "What": "Variable",
     "defdec": "Def",
     "display": "integer",
@@ -39764,7 +39764,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.c@4499@F@lcd_SetHowFreq@buf",
+    "ID": "c:LCD.c@4267@F@lcd_SetHowFreq@buf",
     "What": "Variable",
     "defdec": "Def",
     "display": "buf",
@@ -39792,7 +39792,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.c@4939@F@lcd_SetNextIrrigation@buf",
+    "ID": "c:LCD.c@4680@F@lcd_SetNextIrrigation@buf",
     "What": "Variable",
     "defdec": "Def",
     "display": "buf",
@@ -39820,7 +39820,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.c@5113@F@lcd_SetHowLong@buf",
+    "ID": "c:LCD.c@4844@F@lcd_SetHowLong@buf",
     "What": "Variable",
     "defdec": "Def",
     "display": "buf",
@@ -39890,7 +39890,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.c@9570@F@lcd_clear@i",
+    "ID": "c:LCD.c@9036@F@lcd_clear@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
@@ -39918,7 +39918,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@107@macro@__LCD_H",
+    "ID": "c:LCD.h@105@macro@__LCD_H",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "__LCD_H",
@@ -39932,7 +39932,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@315@macro@A13",
+    "ID": "c:LCD.h@308@macro@A13",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "A13",
@@ -39946,7 +39946,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@357@macro@A12",
+    "ID": "c:LCD.h@349@macro@A12",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "A12",
@@ -39960,7 +39960,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@399@macro@A11",
+    "ID": "c:LCD.h@390@macro@A11",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "A11",
@@ -39974,7 +39974,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@441@macro@A10",
+    "ID": "c:LCD.h@431@macro@A10",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "A10",
@@ -39988,7 +39988,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@485@macro@A14",
+    "ID": "c:LCD.h@473@macro@A14",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "A14",
@@ -40002,7 +40002,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@527@macro@A15",
+    "ID": "c:LCD.h@514@macro@A15",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "A15",
@@ -40016,7 +40016,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@568@macro@A7",
+    "ID": "c:LCD.h@554@macro@A7",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "A7",
@@ -40030,7 +40030,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@608@macro@A8",
+    "ID": "c:LCD.h@593@macro@A8",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "A8",
@@ -40044,7 +40044,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@648@macro@A9",
+    "ID": "c:LCD.h@632@macro@A9",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "A9",
@@ -40058,7 +40058,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@688@macro@A5",
+    "ID": "c:LCD.h@671@macro@A5",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "A5",
@@ -40072,7 +40072,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@730@macro@A6",
+    "ID": "c:LCD.h@711@macro@A6",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "A6",
@@ -40086,7 +40086,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@770@macro@A1",
+    "ID": "c:LCD.h@750@macro@A1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "A1",
@@ -40100,7 +40100,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@810@macro@A2",
+    "ID": "c:LCD.h@789@macro@A2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "A2",
@@ -40114,7 +40114,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@850@macro@A3",
+    "ID": "c:LCD.h@828@macro@A3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "A3",
@@ -40128,7 +40128,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@890@macro@A4",
+    "ID": "c:LCD.h@867@macro@A4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "A4",
@@ -40142,7 +40142,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@930@macro@T3",
+    "ID": "c:LCD.h@906@macro@T3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T3",
@@ -40156,7 +40156,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@973@macro@F13",
+    "ID": "c:LCD.h@947@macro@F13",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "F13",
@@ -40170,7 +40170,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1015@macro@F12",
+    "ID": "c:LCD.h@988@macro@F12",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "F12",
@@ -40184,7 +40184,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1057@macro@F11",
+    "ID": "c:LCD.h@1029@macro@F11",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "F11",
@@ -40198,7 +40198,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1101@macro@F10",
+    "ID": "c:LCD.h@1071@macro@F10",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "F10",
@@ -40212,7 +40212,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1143@macro@F14",
+    "ID": "c:LCD.h@1112@macro@F14",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "F14",
@@ -40226,7 +40226,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1185@macro@F15",
+    "ID": "c:LCD.h@1153@macro@F15",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "F15",
@@ -40240,7 +40240,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1228@macro@F7",
+    "ID": "c:LCD.h@1194@macro@F7",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "F7",
@@ -40254,7 +40254,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1268@macro@F8",
+    "ID": "c:LCD.h@1233@macro@F8",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "F8",
@@ -40268,7 +40268,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1308@macro@F9",
+    "ID": "c:LCD.h@1272@macro@F9",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "F9",
@@ -40282,7 +40282,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1348@macro@F5",
+    "ID": "c:LCD.h@1311@macro@F5",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "F5",
@@ -40296,7 +40296,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1388@macro@F6",
+    "ID": "c:LCD.h@1350@macro@F6",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "F6",
@@ -40310,7 +40310,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1428@macro@F1",
+    "ID": "c:LCD.h@1389@macro@F1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "F1",
@@ -40324,7 +40324,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1468@macro@F2",
+    "ID": "c:LCD.h@1428@macro@F2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "F2",
@@ -40338,7 +40338,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1508@macro@F3",
+    "ID": "c:LCD.h@1467@macro@F3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "F3",
@@ -40352,7 +40352,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1550@macro@F4",
+    "ID": "c:LCD.h@1507@macro@F4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "F4",
@@ -40366,7 +40366,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1590@macro@T2",
+    "ID": "c:LCD.h@1546@macro@T2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T2",
@@ -40380,7 +40380,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1633@macro@B13",
+    "ID": "c:LCD.h@1587@macro@B13",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "B13",
@@ -40394,7 +40394,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1675@macro@B12",
+    "ID": "c:LCD.h@1628@macro@B12",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "B12",
@@ -40408,7 +40408,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1717@macro@B11",
+    "ID": "c:LCD.h@1669@macro@B11",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "B11",
@@ -40422,7 +40422,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1759@macro@B10",
+    "ID": "c:LCD.h@1710@macro@B10",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "B10",
@@ -40436,7 +40436,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1803@macro@B14",
+    "ID": "c:LCD.h@1752@macro@B14",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "B14",
@@ -40450,7 +40450,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1845@macro@B15",
+    "ID": "c:LCD.h@1793@macro@B15",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "B15",
@@ -40464,7 +40464,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1887@macro@B5",
+    "ID": "c:LCD.h@1834@macro@B5",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "B5",
@@ -40478,7 +40478,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1924@macro@B8",
+    "ID": "c:LCD.h@1870@macro@B8",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "B8",
@@ -40492,7 +40492,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@1964@macro@B7",
+    "ID": "c:LCD.h@1909@macro@B7",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "B7",
@@ -40506,7 +40506,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2004@macro@B9",
+    "ID": "c:LCD.h@1948@macro@B9",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "B9",
@@ -40520,7 +40520,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2045@macro@B6",
+    "ID": "c:LCD.h@1987@macro@B6",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "B6",
@@ -40534,7 +40534,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2085@macro@B1",
+    "ID": "c:LCD.h@2026@macro@B1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "B1",
@@ -40548,7 +40548,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2125@macro@B2",
+    "ID": "c:LCD.h@2065@macro@B2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "B2",
@@ -40562,7 +40562,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2165@macro@B3",
+    "ID": "c:LCD.h@2104@macro@B3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "B3",
@@ -40576,7 +40576,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2205@macro@B4",
+    "ID": "c:LCD.h@2143@macro@B4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "B4",
@@ -40590,7 +40590,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2245@macro@T1",
+    "ID": "c:LCD.h@2182@macro@T1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T1",
@@ -40604,7 +40604,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2288@macro@G13",
+    "ID": "c:LCD.h@2223@macro@G13",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "G13",
@@ -40618,7 +40618,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2331@macro@G12",
+    "ID": "c:LCD.h@2265@macro@G12",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "G12",
@@ -40632,7 +40632,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2374@macro@G11",
+    "ID": "c:LCD.h@2307@macro@G11",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "G11",
@@ -40646,7 +40646,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2419@macro@G10",
+    "ID": "c:LCD.h@2350@macro@G10",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "G10",
@@ -40660,7 +40660,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2462@macro@G14",
+    "ID": "c:LCD.h@2392@macro@G14",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "G14",
@@ -40674,7 +40674,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2505@macro@G15",
+    "ID": "c:LCD.h@2434@macro@G15",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "G15",
@@ -40688,7 +40688,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2550@macro@G7",
+    "ID": "c:LCD.h@2477@macro@G7",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "G7",
@@ -40702,7 +40702,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2591@macro@G8",
+    "ID": "c:LCD.h@2517@macro@G8",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "G8",
@@ -40716,7 +40716,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2632@macro@G9",
+    "ID": "c:LCD.h@2557@macro@G9",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "G9",
@@ -40730,7 +40730,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2673@macro@G5",
+    "ID": "c:LCD.h@2597@macro@G5",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "G5",
@@ -40744,7 +40744,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2714@macro@G6",
+    "ID": "c:LCD.h@2637@macro@G6",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "G6",
@@ -40758,7 +40758,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2755@macro@G1",
+    "ID": "c:LCD.h@2677@macro@G1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "G1",
@@ -40772,7 +40772,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2796@macro@G2",
+    "ID": "c:LCD.h@2717@macro@G2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "G2",
@@ -40786,7 +40786,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2837@macro@G3",
+    "ID": "c:LCD.h@2757@macro@G3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "G3",
@@ -40800,7 +40800,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2880@macro@G4",
+    "ID": "c:LCD.h@2798@macro@G4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "G4",
@@ -40814,7 +40814,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2921@macro@T4",
+    "ID": "c:LCD.h@2838@macro@T4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T4",
@@ -40828,7 +40828,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@2994@macro@E13",
+    "ID": "c:LCD.h@2903@macro@E13",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "E13",
@@ -40842,7 +40842,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3036@macro@E12",
+    "ID": "c:LCD.h@2944@macro@E12",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "E12",
@@ -40856,7 +40856,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3078@macro@E11",
+    "ID": "c:LCD.h@2985@macro@E11",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "E11",
@@ -40870,7 +40870,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3120@macro@E10",
+    "ID": "c:LCD.h@3026@macro@E10",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "E10",
@@ -40884,7 +40884,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3164@macro@E14",
+    "ID": "c:LCD.h@3068@macro@E14",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "E14",
@@ -40898,7 +40898,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3206@macro@E15",
+    "ID": "c:LCD.h@3109@macro@E15",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "E15",
@@ -40912,7 +40912,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3247@macro@E7",
+    "ID": "c:LCD.h@3149@macro@E7",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "E7",
@@ -40926,7 +40926,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3287@macro@E8",
+    "ID": "c:LCD.h@3188@macro@E8",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "E8",
@@ -40940,7 +40940,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3327@macro@E9",
+    "ID": "c:LCD.h@3227@macro@E9",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "E9",
@@ -40954,7 +40954,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3367@macro@E5",
+    "ID": "c:LCD.h@3266@macro@E5",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "E5",
@@ -40968,7 +40968,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3409@macro@E6",
+    "ID": "c:LCD.h@3306@macro@E6",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "E6",
@@ -40982,7 +40982,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3449@macro@E1",
+    "ID": "c:LCD.h@3345@macro@E1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "E1",
@@ -40996,7 +40996,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3489@macro@E2",
+    "ID": "c:LCD.h@3384@macro@E2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "E2",
@@ -41010,7 +41010,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3529@macro@E3",
+    "ID": "c:LCD.h@3423@macro@E3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "E3",
@@ -41024,7 +41024,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3569@macro@E4",
+    "ID": "c:LCD.h@3462@macro@E4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "E4",
@@ -41038,7 +41038,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3609@macro@T5",
+    "ID": "c:LCD.h@3501@macro@T5",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T5",
@@ -41052,7 +41052,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3652@macro@C13",
+    "ID": "c:LCD.h@3542@macro@C13",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "C13",
@@ -41066,7 +41066,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3694@macro@C12",
+    "ID": "c:LCD.h@3583@macro@C12",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "C12",
@@ -41080,7 +41080,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3736@macro@C11",
+    "ID": "c:LCD.h@3624@macro@C11",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "C11",
@@ -41094,7 +41094,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3780@macro@C10",
+    "ID": "c:LCD.h@3666@macro@C10",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "C10",
@@ -41108,7 +41108,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3822@macro@C14",
+    "ID": "c:LCD.h@3707@macro@C14",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "C14",
@@ -41122,7 +41122,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3864@macro@C15",
+    "ID": "c:LCD.h@3748@macro@C15",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "C15",
@@ -41136,7 +41136,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3907@macro@C7",
+    "ID": "c:LCD.h@3789@macro@C7",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "C7",
@@ -41150,7 +41150,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3947@macro@C8",
+    "ID": "c:LCD.h@3828@macro@C8",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "C8",
@@ -41164,7 +41164,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@3987@macro@C9",
+    "ID": "c:LCD.h@3867@macro@C9",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "C9",
@@ -41178,7 +41178,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4027@macro@C5",
+    "ID": "c:LCD.h@3906@macro@C5",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "C5",
@@ -41192,7 +41192,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4067@macro@C6",
+    "ID": "c:LCD.h@3945@macro@C6",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "C6",
@@ -41206,7 +41206,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4107@macro@C1",
+    "ID": "c:LCD.h@3984@macro@C1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "C1",
@@ -41220,7 +41220,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4147@macro@C2",
+    "ID": "c:LCD.h@4023@macro@C2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "C2",
@@ -41234,7 +41234,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4187@macro@C3",
+    "ID": "c:LCD.h@4062@macro@C3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "C3",
@@ -41248,7 +41248,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4229@macro@C4",
+    "ID": "c:LCD.h@4102@macro@C4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "C4",
@@ -41262,7 +41262,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4269@macro@T6",
+    "ID": "c:LCD.h@4141@macro@T6",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T6",
@@ -41276,7 +41276,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4312@macro@D13",
+    "ID": "c:LCD.h@4182@macro@D13",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D13",
@@ -41290,7 +41290,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4354@macro@D12",
+    "ID": "c:LCD.h@4223@macro@D12",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D12",
@@ -41304,7 +41304,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4396@macro@D11",
+    "ID": "c:LCD.h@4264@macro@D11",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D11",
@@ -41318,7 +41318,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4438@macro@D10",
+    "ID": "c:LCD.h@4305@macro@D10",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D10",
@@ -41332,7 +41332,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4482@macro@D14",
+    "ID": "c:LCD.h@4347@macro@D14",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D14",
@@ -41346,7 +41346,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4524@macro@D15",
+    "ID": "c:LCD.h@4388@macro@D15",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D15",
@@ -41360,7 +41360,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4565@macro@D7",
+    "ID": "c:LCD.h@4428@macro@D7",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D7",
@@ -41374,7 +41374,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4605@macro@D8",
+    "ID": "c:LCD.h@4467@macro@D8",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D8",
@@ -41388,7 +41388,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4645@macro@D9",
+    "ID": "c:LCD.h@4506@macro@D9",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D9",
@@ -41402,7 +41402,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4685@macro@D5",
+    "ID": "c:LCD.h@4545@macro@D5",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D5",
@@ -41416,7 +41416,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4727@macro@D6",
+    "ID": "c:LCD.h@4585@macro@D6",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D6",
@@ -41430,7 +41430,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4767@macro@D1",
+    "ID": "c:LCD.h@4624@macro@D1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D1",
@@ -41444,7 +41444,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4807@macro@D2",
+    "ID": "c:LCD.h@4663@macro@D2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D2",
@@ -41458,7 +41458,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4847@macro@D3",
+    "ID": "c:LCD.h@4702@macro@D3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D3",
@@ -41472,7 +41472,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4887@macro@D4",
+    "ID": "c:LCD.h@4741@macro@D4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D4",
@@ -41486,7 +41486,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4927@macro@T7",
+    "ID": "c:LCD.h@4780@macro@T7",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T7",
@@ -41500,7 +41500,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@4969@macro@T20",
+    "ID": "c:LCD.h@4820@macro@T20",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T20",
@@ -41514,7 +41514,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@5012@macro@COL2",
+    "ID": "c:LCD.h@4862@macro@COL2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "COL2",
@@ -41528,7 +41528,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@5059@macro@T17",
+    "ID": "c:LCD.h@4907@macro@T17",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T17",
@@ -41542,7 +41542,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@5102@macro@T19",
+    "ID": "c:LCD.h@4949@macro@T19",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T19",
@@ -41556,7 +41556,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@5145@macro@T18",
+    "ID": "c:LCD.h@4991@macro@T18",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T18",
@@ -41570,7 +41570,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@5190@macro@T15",
+    "ID": "c:LCD.h@5034@macro@T15",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T15",
@@ -41584,7 +41584,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@5233@macro@T16",
+    "ID": "c:LCD.h@5076@macro@T16",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T16",
@@ -41598,7 +41598,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@5276@macro@T14",
+    "ID": "c:LCD.h@5118@macro@T14",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T14",
@@ -41612,7 +41612,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@5319@macro@T13",
+    "ID": "c:LCD.h@5160@macro@T13",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T13",
@@ -41626,7 +41626,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@5362@macro@T12",
+    "ID": "c:LCD.h@5202@macro@T12",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T12",
@@ -41640,7 +41640,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@5405@macro@T11",
+    "ID": "c:LCD.h@5244@macro@T11",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T11",
@@ -41654,7 +41654,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@5448@macro@T10",
+    "ID": "c:LCD.h@5286@macro@T10",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T10",
@@ -41668,7 +41668,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@5491@macro@COL1",
+    "ID": "c:LCD.h@5328@macro@COL1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "COL1",
@@ -41682,7 +41682,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@5538@macro@T9",
+    "ID": "c:LCD.h@5373@macro@T9",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T9",
@@ -41696,7 +41696,7 @@
     "scope": null
   },
   {
-    "ID": "c:LCD.h@5579@macro@T8",
+    "ID": "c:LCD.h@5413@macro@T8",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "T8",
@@ -45681,7 +45681,7 @@
     "ID": "c:@F@lcd_set_time",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void lcd_set_time(RTC_TimeTypeDef)",
+    "display": "void lcd_set_time(RTC_TimeTypeDef *)",
     "location": {
       "column": "6",
       "line": "543",
@@ -45695,7 +45695,7 @@
     "ID": "c:@F@lcd_set_time",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void lcd_set_time(RTC_TimeTypeDef)",
+    "display": "void lcd_set_time(RTC_TimeTypeDef *)",
     "location": {
       "column": "6",
       "line": "543",
@@ -45709,7 +45709,7 @@
     "ID": "c:@F@lcd_set_StartTime",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void lcd_set_StartTime(RTC_TimeTypeDef)",
+    "display": "void lcd_set_StartTime(RTC_TimeTypeDef *)",
     "location": {
       "column": "6",
       "line": "544",
@@ -45723,7 +45723,7 @@
     "ID": "c:@F@lcd_set_StartTime",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void lcd_set_StartTime(RTC_TimeTypeDef)",
+    "display": "void lcd_set_StartTime(RTC_TimeTypeDef *)",
     "location": {
       "column": "6",
       "line": "544",
@@ -93628,7 +93628,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1586@macro@TIM4_PERIOD",
+    "ID": "c:main.c@1544@macro@TIM4_PERIOD",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIM4_PERIOD",
@@ -94265,7 +94265,7 @@
     "ID": "c:main.c@F@SetHowLong",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void SetHowLong(RTC_TimeTypeDef)",
+    "display": "void SetHowLong(RTC_TimeTypeDef *)",
     "location": {
       "column": "13",
       "line": "101",
@@ -94304,7 +94304,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3367@F@GetKeyboard@key",
+    "ID": "c:main.c@3263@F@GetKeyboard@key",
     "What": "Variable",
     "defdec": "Def",
     "display": "key",
@@ -94318,7 +94318,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3385@F@GetKeyboard@ChildLockOut",
+    "ID": "c:main.c@3280@F@GetKeyboard@ChildLockOut",
     "What": "Variable",
     "defdec": "Def",
     "display": "ChildLockOut",
@@ -94332,7 +94332,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3417@F@GetKeyboard@OFFInc",
+    "ID": "c:main.c@3311@F@GetKeyboard@OFFInc",
     "What": "Variable",
     "defdec": "Def",
     "display": "OFFInc",
@@ -94360,44 +94360,16 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@5680@F@main@i",
+    "ID": "c:main.c@5146@F@main@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "11",
-      "line": "229",
+      "line": "211",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@7560@F@main@BufHowLongVal",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "BufHowLongVal",
-    "location": {
-      "column": "16",
-      "line": "318",
-      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
-    },
-    "name": "BufHowLongVal",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@7604@F@main@CurrentSetting",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "CurrentSetting",
-    "location": {
-      "column": "27",
-      "line": "319",
-      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
-    },
-    "name": "CurrentSetting",
     "origin": "project_file",
     "scope": null
   },
@@ -94407,8 +94379,8 @@
     "defdec": "Dec",
     "display": "SleepTime",
     "location": {
-      "column": "22",
-      "line": "372",
+      "column": "18",
+      "line": "212",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "SleepTime",
@@ -94416,7 +94388,35 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@11559@F@main@CurrentSetting",
+    "ID": "c:main.c@7273@F@main@BufHowLongVal",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "BufHowLongVal",
+    "location": {
+      "column": "16",
+      "line": "319",
+      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
+    },
+    "name": "BufHowLongVal",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@7316@F@main@CurrentSetting",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "CurrentSetting",
+    "location": {
+      "column": "27",
+      "line": "320",
+      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
+    },
+    "name": "CurrentSetting",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@11061@F@main@CurrentSetting",
     "What": "Variable",
     "defdec": "Def",
     "display": "CurrentSetting",
@@ -94444,7 +94444,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@14878@F@clk_init@i",
+    "ID": "c:main.c@14228@F@clk_init@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
@@ -94528,7 +94528,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@17144@F@rtc_init@RTC_Struct",
+    "ID": "c:main.c@16397@F@rtc_init@RTC_Struct",
     "What": "Variable",
     "defdec": "Def",
     "display": "RTC_Struct",
@@ -94618,7 +94618,7 @@
     "display": "void CalcNexIrrig(void)",
     "location": {
       "column": "6",
-      "line": "1081",
+      "line": "1094",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "CalcNexIrrig",
@@ -94626,13 +94626,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@24785@F@CalcNexIrrig@days",
+    "ID": "c:main.c@24557@F@CalcNexIrrig@days",
     "What": "Variable",
     "defdec": "Def",
     "display": "days",
     "location": {
       "column": "10",
-      "line": "1083",
+      "line": "1096",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "days",
@@ -94640,13 +94640,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@24805@F@CalcNexIrrig@hours",
+    "ID": "c:main.c@24576@F@CalcNexIrrig@hours",
     "What": "Variable",
     "defdec": "Def",
     "display": "hours",
     "location": {
       "column": "10",
-      "line": "1084",
+      "line": "1097",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "hours",
@@ -94657,10 +94657,10 @@
     "ID": "c:main.c@F@SetHowLong",
     "What": "Function",
     "defdec": "Def",
-    "display": "void SetHowLong(RTC_TimeTypeDef)",
+    "display": "void SetHowLong(RTC_TimeTypeDef *)",
     "location": {
       "column": "6",
-      "line": "1120",
+      "line": "1133",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "SetHowLong",
@@ -94668,13 +94668,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@25775@F@SetHowLong@d",
+    "ID": "c:main.c@25508@F@SetHowLong@d",
     "What": "Variable",
     "defdec": "Def",
     "display": "d",
     "location": {
       "column": "11",
-      "line": "1123",
+      "line": "1136",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "d",
@@ -94682,13 +94682,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@25775@F@SetHowLong@h",
+    "ID": "c:main.c@25508@F@SetHowLong@h",
     "What": "Variable",
     "defdec": "Dec",
     "display": "h",
     "location": {
       "column": "14",
-      "line": "1123",
+      "line": "1136",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "h",
@@ -94696,13 +94696,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@25775@F@SetHowLong@m",
+    "ID": "c:main.c@25508@F@SetHowLong@m",
     "What": "Variable",
     "defdec": "Dec",
     "display": "m",
     "location": {
       "column": "17",
-      "line": "1123",
+      "line": "1136",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "m",
@@ -94716,7 +94716,7 @@
     "display": "void error(void)",
     "location": {
       "column": "6",
-      "line": "1163",
+      "line": "1180",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "error",
@@ -94724,13 +94724,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@26764@F@error@i",
+    "ID": "c:main.c@26654@F@error@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "12",
-      "line": "1165",
+      "line": "1182",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "i",

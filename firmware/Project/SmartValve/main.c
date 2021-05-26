@@ -98,7 +98,7 @@ static void PlusSegment(enum CurrentSetting CurrentSetting);
 static void MinusSegment(enum CurrentSetting CurrentSetting);
 static void SetAlarmForIrrig(void);
 static void CalcNexIrrig(void);
-static void SetHowLong(RTC_TimeTypeDef Now);
+static void SetHowLong(RTC_TimeTypeDef *Now);
 static void GetKeyboard(void);
 
 void GetKeyboard(void)
@@ -208,6 +208,8 @@ void GetKeyboard(void)
   */
 void main(void)
 {
+  uint8_t i = 0;
+  extern uint8_t SleepTime;
   HowFreq.day = 0;
   HowFreq.hours = 0;
   HowFreq.HoursDay = HRS;
@@ -226,7 +228,6 @@ void main(void)
   ValveInit();
   lcd_init();
   lcd_SetStaticSegment(1);
-  uint8_t i = 0;
   while (1)
   {
     lcd_clear();
@@ -294,7 +295,7 @@ void main(void)
     case SET_ALARM_HOWLONG:
     {
 
-      SetHowLong(StartTime);
+      SetHowLong(&StartTime);
       //Set alarm for next enable valve, but not enable alarm. Enable alarm after close valve
       SetAlarmForIrrig();
 
@@ -366,10 +367,9 @@ void main(void)
         break;
       }
       ValveOpen();
-      SetHowLong(watch);
+      SetHowLong(&watch);
 
       lcd_SetSevSegmentBlink(NONESET);
-      extern uint8_t SleepTime;
       while ((PutButton != OFF) && (ProgramState == MANUALMODE))
       {
         GetKeyboard();
@@ -456,8 +456,8 @@ void main(void)
       }
 
       CalcNexIrrig();
-      lcd_set_StartTime(StartTime);
-      lcd_set_time(watch);
+      lcd_set_StartTime(&StartTime);
+      lcd_set_time(&watch);
       lcd_SetStaticSegment(1);
       if (HowFreq.HoursDay == HRS)
       {
@@ -514,7 +514,7 @@ void main(void)
           {
             RTC_GetTime(RTC_Format_BIN, &watch);
           }
-          lcd_set_time(watch);
+          lcd_set_time(&watch);
           break;
         case HowFreqDAYorHRS:
           /* if (HowFreq.HoursDay == DAY)
@@ -544,7 +544,7 @@ void main(void)
           break;
         case StartTimeHours:
         case StartTimeMin:
-          lcd_set_StartTime(StartTime);
+          lcd_set_StartTime(&StartTime);
           break;
         }
 
@@ -639,7 +639,7 @@ void main(void)
       {
         RTC_GetTime(RTC_Format_BIN, &watch);
       }
-      lcd_set_time(watch);
+      lcd_set_time(&watch);
       RTC_AlarmCmd(DISABLE);
       break;
     }
@@ -1012,7 +1012,7 @@ void MinusSegment(enum CurrentSetting CurrentSetting)
     }
     break;
   }
-};
+}
 
 void SetAlarmForIrrig(void)
 {
@@ -1024,7 +1024,10 @@ void SetAlarmForIrrig(void)
   if (HowFreq.HoursDay == DAY)
   {
 
-    RTC_AlarmStruct.RTC_AlarmTime = StartTime;
+    //RTC_AlarmStruct.RTC_AlarmTime = StartTime;
+    RTC_AlarmStruct.RTC_AlarmTime.RTC_Hours = StartTime.RTC_Hours;
+    RTC_AlarmStruct.RTC_AlarmTime.RTC_Minutes = StartTime.RTC_Minutes;
+    RTC_AlarmStruct.RTC_AlarmTime.RTC_Seconds = StartTime.RTC_Seconds;
 
     if (((watch.RTC_Hours * 60 + watch.RTC_Minutes) >= (StartTime.RTC_Hours * 60 + StartTime.RTC_Minutes)))
     {
@@ -1046,7 +1049,11 @@ void SetAlarmForIrrig(void)
     if ((ProgramState == SET_ALARM_AFTRCONF) && ((watch.RTC_Hours * 60 + watch.RTC_Minutes) < (StartTime.RTC_Hours * 60 + StartTime.RTC_Minutes)))
     {
       RTC_AlarmStruct.RTC_AlarmDateWeekDay = RTC_DateStruct.RTC_WeekDay;
-      RTC_AlarmStruct.RTC_AlarmTime = StartTime;
+
+      //RTC_AlarmStruct.RTC_AlarmTime = StartTime;
+      RTC_AlarmStruct.RTC_AlarmTime.RTC_Hours = StartTime.RTC_Hours;
+      RTC_AlarmStruct.RTC_AlarmTime.RTC_Minutes = StartTime.RTC_Minutes;
+      RTC_AlarmStruct.RTC_AlarmTime.RTC_Seconds = StartTime.RTC_Seconds;
       return;
     }
 
@@ -1054,7 +1061,10 @@ void SetAlarmForIrrig(void)
     if ((ProgramState == SET_ALARM_AFTRCONF))
     {
       RTC_AlarmStruct.RTC_AlarmDateWeekDay = RTC_DateStruct.RTC_WeekDay + 1;
-      RTC_AlarmStruct.RTC_AlarmTime = StartTime;
+      //RTC_AlarmStruct.RTC_AlarmTime = StartTime;
+      RTC_AlarmStruct.RTC_AlarmTime.RTC_Hours = StartTime.RTC_Hours;
+      RTC_AlarmStruct.RTC_AlarmTime.RTC_Minutes = StartTime.RTC_Minutes;
+      RTC_AlarmStruct.RTC_AlarmTime.RTC_Seconds = StartTime.RTC_Seconds;
       return;
     }
     else
@@ -1075,7 +1085,10 @@ void SetAlarmForIrrig(void)
       RTC_AlarmStruct.RTC_AlarmDateWeekDay -= RTC_Weekday_Sunday;
     }
   }
-  RTC_AlarmStruct.RTC_AlarmTime = StartTime;
+  //RTC_AlarmStruct.RTC_AlarmTime = StartTime;
+  RTC_AlarmStruct.RTC_AlarmTime.RTC_Hours = StartTime.RTC_Hours;
+  RTC_AlarmStruct.RTC_AlarmTime.RTC_Minutes = StartTime.RTC_Minutes;
+  RTC_AlarmStruct.RTC_AlarmTime.RTC_Seconds = StartTime.RTC_Seconds;
 }
 
 void CalcNexIrrig(void)
@@ -1117,7 +1130,7 @@ void CalcNexIrrig(void)
   }
 }
 
-void SetHowLong(RTC_TimeTypeDef Now)
+void SetHowLong(RTC_TimeTypeDef *Now)
 {
 
   uint8_t d, h, m;
@@ -1128,14 +1141,14 @@ void SetHowLong(RTC_TimeTypeDef Now)
   h = (HowLongVal / 60) % 24;
   d = (HowLongVal / 60) / 24;
 
-  StopTime.RTC_Minutes = Now.RTC_Minutes + m;
+  StopTime.RTC_Minutes = Now->RTC_Minutes + m;
   if (StopTime.RTC_Minutes >= 60)
   {
     StopTime.RTC_Minutes %= 60;
     h++;
   }
 
-  StopTime.RTC_Hours = Now.RTC_Hours + h;
+  StopTime.RTC_Hours = Now->RTC_Hours + h;
   if (StopTime.RTC_Hours >= 24)
   {
     StopTime.RTC_Hours %= 24;
@@ -1149,7 +1162,11 @@ void SetHowLong(RTC_TimeTypeDef Now)
   }
 
   StopTime.RTC_Seconds = 0;//watch.RTC_Seconds;
-  AlarmWhenStop.RTC_AlarmTime = StopTime;
+  //AlarmWhenStop.RTC_AlarmTime = StopTime;
+  AlarmWhenStop.RTC_AlarmTime.RTC_Hours = StopTime.RTC_Hours;
+  AlarmWhenStop.RTC_AlarmTime.RTC_Minutes = StopTime.RTC_Minutes;
+  AlarmWhenStop.RTC_AlarmTime.RTC_Seconds = StopTime.RTC_Seconds;
+
   AlarmWhenStop.RTC_AlarmDateWeekDaySel = RTC_AlarmDateWeekDaySel_WeekDay;
   AlarmWhenStop.RTC_AlarmMask = RTC_AlarmMask_DateWeekDay;
   AlarmWhenStop.RTC_AlarmDateWeekDay = d;

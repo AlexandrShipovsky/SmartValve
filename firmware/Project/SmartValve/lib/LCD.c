@@ -193,33 +193,33 @@ void lcd_SetStaticSegment(uint8_t state)
     T20(0);
   }
 }
-void lcd_set_time(RTC_TimeTypeDef watch)
+void lcd_set_time(RTC_TimeTypeDef *watch)
 {
   uint8_t integer = 0;
-  integer = watch.RTC_Hours / 10;
+  integer = watch->RTC_Hours / 10;
   SevenSegmentSet(1, integer);
-  integer = watch.RTC_Hours % 10;
+  integer = watch->RTC_Hours % 10;
   SevenSegmentSet(2, integer);
 
-  integer = watch.RTC_Minutes / 10;
+  integer = watch->RTC_Minutes / 10;
   SevenSegmentSet(3, integer);
-  integer = watch.RTC_Minutes % 10;
+  integer = watch->RTC_Minutes % 10;
   SevenSegmentSet(4, integer);
   T10(1);
   COL1(1);
 }
 
-void lcd_set_StartTime(RTC_TimeTypeDef watch)
+void lcd_set_StartTime(RTC_TimeTypeDef *watch)
 {
   uint8_t integer = 0;
-  integer = watch.RTC_Hours / 10;
+  integer = watch->RTC_Hours / 10;
   SevenSegmentSet(10, integer);
-  integer = watch.RTC_Hours % 10;
+  integer = watch->RTC_Hours % 10;
   SevenSegmentSet(11, integer);
 
-  integer = watch.RTC_Minutes / 10;
+  integer = watch->RTC_Minutes / 10;
   SevenSegmentSet(12, integer);
-  integer = watch.RTC_Minutes % 10;
+  integer = watch->RTC_Minutes % 10;
   SevenSegmentSet(13, integer);
   COL2(1);
 }

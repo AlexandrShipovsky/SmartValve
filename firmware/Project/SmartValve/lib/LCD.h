@@ -540,8 +540,8 @@ void lcd_init(void);
 void lcd_update(void);
 void lcd_clear(void);
 void SevenSegmentSet(uint8_t NumberSegment,uint8_t val);
-void lcd_set_time(RTC_TimeTypeDef watch);
-void lcd_set_StartTime(RTC_TimeTypeDef watch);
+void lcd_set_time(RTC_TimeTypeDef *watch);
+void lcd_set_StartTime(RTC_TimeTypeDef *watch);
 void lcd_SetStaticSegment(uint8_t state);
 void lcd_SetBattery(enum BatteryState);
 void lcd_SetSevSegmentBlink(enum CurrentSetting CurrentSetting); // if 0 then all segment not blink
