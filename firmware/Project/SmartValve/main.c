@@ -220,7 +220,6 @@ void main(void)
   /* Infinite loop */
 
   clk_init();
-  pwr_init();
   rtc_init();
   TIM4_Config();
   gpio_init();
@@ -228,6 +227,7 @@ void main(void)
   ValveInit();
   lcd_init();
   lcd_SetStaticSegment(1);
+  pwr_init();
   while (1)
   {
     lcd_clear();
@@ -236,13 +236,14 @@ void main(void)
       case BATTERYLOW:
       {
         ValveClose();
+        PWR_PVDITConfig(DISABLE);
+        PWR_PVDClearFlag();
         ProgramStatePrevios = BATTERYLOW;
-        while(1)
-        {
+
           lcd_SetBattery(BatLow);
           lcd_SetSevSegmentBlink(BATTERYLOWBLINK);
           lcd_update();
-        }
+
         break;
       }
     case SET_ALARM_AFTRCONF:
@@ -304,13 +305,25 @@ void main(void)
     }
     case VALVEOPEN:
     {
+      PWR_PVDCmd(DISABLE);
+      PWR_PVDITConfig(DISABLE);
       ValveOpen();
+      Delay(1000);
+      PWR_PVDClearFlag();
+      PWR_PVDClearITPendingBit();
+      PWR_PVDCmd(ENABLE);
       ProgramState = SET_ALARM_HOWLONG;
       break;
     }
     case VALVECLOSE:
     {
+      PWR_PVDCmd(DISABLE);
+      PWR_PVDITConfig(DISABLE);
       ValveClose();
+      Delay(1000);
+      PWR_PVDClearFlag();
+      PWR_PVDClearITPendingBit();
+      PWR_PVDCmd(ENABLE);
       ProgramState = SET_ALARM_HOWFREQ;
       break;
     }
@@ -681,6 +694,7 @@ void pwr_init(void)
   PWR_DeInit();
   PWR_PVDLevelConfig(PWR_PVDLevel_3V05);
   PWR_PVDCmd(ENABLE);
+  PWR_PVDITConfig(ENABLE);
   
 }
 
