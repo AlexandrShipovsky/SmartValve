@@ -320,19 +320,30 @@ void main(void)
       SetAlarmForIrrig();
 
       ProgramState = NORMAL;
+      if(RainDelay)
+      {
+        ProgramState = RAINDELAYMODE;
+      }
+      
       break;
     }
     case VALVEOPEN:
     {
       DisablePVD();
-      ValveOpen();
+      if(!RainDelay)
+      {
+        ValveOpen();
+      }
       ProgramState = SET_ALARM_HOWLONG;
       break;
     }
     case VALVECLOSE:
     {
       DisablePVD();
-      ValveClose();
+      if(!RainDelay)
+      {
+        ValveClose();
+      }
       ProgramState = SET_ALARM_HOWFREQ;
       break;
     }
@@ -423,12 +434,10 @@ void main(void)
       break;
     }
     case RAINDELAYMODE:
-      AlarmState = DISABLE;
       lcd_raindelay(1);
       if (RainDelay == 0)
       {
-        SetAlarmForIrrig();
-        ProgramState = SET_ALARM_HOWFREQ;
+        ProgramState = NORMAL;
         lcd_raindelay(0);
       }
     case NORMAL:
