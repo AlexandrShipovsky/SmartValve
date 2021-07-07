@@ -52,9 +52,11 @@ extern enum ValveState VALVESTATE;
 
 uint16_t intforblink = 0;
 uint8_t SleepTime = SLEEPTIME;
+uint8_t SleepPVDTime = SLEEPPVDTIME;
 uint16_t ButtomHoldInc = BUTTONHOLD;
 /* Private function prototypes -----------------------------------------------*/
 extern void TimingDelay_Decrement(void);
+extern void EnablePVD(void);
 /* Private functions ---------------------------------------------------------*/
 void DelayInInterrupt(uint32_t time);
 void DelayInInterrupt(uint32_t time)
@@ -415,12 +417,19 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_TRG_IRQHandler, 25)
       BlinkState = 1;
     }
 
+    
+    if (SleepPVDTime == 0)
+    {
+      //EnablePVD();
+      SleepPVDTime = SLEEPPVDTIME;
+    }
     if (SleepTime == 0)
     {
       ProgramState = SLEEP;
       SleepTime = SLEEPTIME;
     }
     SleepTime--;
+    SleepPVDTime--;
   }
   intforblink++;
   TimingDelay_Decrement();

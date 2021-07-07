@@ -61,6 +61,7 @@ FunctionalState AlarmState = DISABLE;
 uint8_t RainDelay = 0;
 extern enum com SelectCOM;
 extern uint8_t SleepTime;
+extern uint8_t SleepPVDTime;
 uint16_t ChildLockInc = 0;
 uint8_t ChildLockMode = 0;
 
@@ -100,6 +101,24 @@ static void SetAlarmForIrrig(void);
 static void CalcNexIrrig(void);
 static void SetHowLong(RTC_TimeTypeDef *Now);
 static void GetKeyboard(void);
+
+void EnablePVD(void);
+void DisablePVD(void);
+
+void EnablePVD(void)
+{
+  PWR_PVDClearFlag();
+  PWR_PVDClearITPendingBit();
+  PWR_PVDCmd(ENABLE);
+  PWR_PVDITConfig(ENABLE);
+}
+
+void DisablePVD(void)
+{
+  SleepPVDTime = SLEEPPVDTIME;
+  PWR_PVDCmd(DISABLE);
+  PWR_PVDITConfig(DISABLE);
+}
 
 void GetKeyboard(void)
 {
@@ -189,7 +208,7 @@ void GetKeyboard(void)
       PutButton = OFF;
     }
     Delay(200);
-    }
+  }
   if (ChildLockMode)
   {
     PutButton = NOPUT;
@@ -233,19 +252,19 @@ void main(void)
     lcd_clear();
     switch (ProgramState)
     {
-      case BATTERYLOW:
-      {
-        ValveClose();
-        PWR_PVDITConfig(DISABLE);
-        PWR_PVDClearFlag();
-        ProgramStatePrevios = BATTERYLOW;
+    case BATTERYLOW:
+    {
+      ValveClose();
+      PWR_PVDITConfig(DISABLE);
+      PWR_PVDClearFlag();
+      ProgramStatePrevios = BATTERYLOW;
 
-          lcd_SetBattery(BatLow);
-          lcd_SetSevSegmentBlink(BATTERYLOWBLINK);
-          lcd_update();
+      lcd_SetBattery(BatLow);
+      lcd_SetSevSegmentBlink(BATTERYLOWBLINK);
+      lcd_update();
 
-        break;
-      }
+      break;
+    }
     case SET_ALARM_AFTRCONF:
     {
       SetAlarmForIrrig();
@@ -305,25 +324,15 @@ void main(void)
     }
     case VALVEOPEN:
     {
-      PWR_PVDCmd(DISABLE);
-      PWR_PVDITConfig(DISABLE);
+      DisablePVD();
       ValveOpen();
-      Delay(1000);
-      PWR_PVDClearFlag();
-      PWR_PVDClearITPendingBit();
-      PWR_PVDCmd(ENABLE);
       ProgramState = SET_ALARM_HOWLONG;
       break;
     }
     case VALVECLOSE:
     {
-      PWR_PVDCmd(DISABLE);
-      PWR_PVDITConfig(DISABLE);
+      DisablePVD();
       ValveClose();
-      Delay(1000);
-      PWR_PVDClearFlag();
-      PWR_PVDClearITPendingBit();
-      PWR_PVDCmd(ENABLE);
       ProgramState = SET_ALARM_HOWFREQ;
       break;
     }
@@ -331,9 +340,12 @@ void main(void)
     {
       uint16_t BufHowLongVal = HowLongVal;
       enum CurrentSetting CurrentSetting = HowLong;
+      ProgramStatePrevios = MANUALMODE;
+
       while ((PutButton != OFF) && (CurrentSetting != StartTimeHours))
       {
         GetKeyboard();
+        SleepTime = SLEEPTIME;
         lcd_clear();
         lcd_SetStaticSegment(1);
         lcd_SetSevSegmentBlink(CurrentSetting);
@@ -379,8 +391,16 @@ void main(void)
         ClearButton(&PutButton);
         break;
       }
+      // Disable PVD for in order not to take into account the voltage drawdown
+      DisablePVD();
+
       ValveOpen();
+      if (RTC_WaitForSynchro() == SUCCESS)
+      {
+        RTC_GetTime(RTC_Format_BIN, &watch);
+      }
       SetHowLong(&watch);
+
 
       lcd_SetSevSegmentBlink(NONESET);
       while ((PutButton != OFF) && (ProgramState == MANUALMODE))
@@ -416,11 +436,11 @@ void main(void)
       ProgramStatePrevios = NORMAL;
       GetKeyboard();
       VBAT = GetVBAT();
-      if ((VBAT/100) < 36)
+      if ((VBAT / 100) < 36)
       {
         lcd_SetBattery(BatLow);
       }
-      else if ((VBAT/100) < 42)
+      else if ((VBAT / 100) < 42)
       {
         lcd_SetBattery(BatMiddle);
       }
@@ -625,7 +645,7 @@ void main(void)
     case SLEEP:
     {
       ProgramState = ProgramStatePrevios;
-      
+
       gpio_init_interrupt();
       Delay(2);
       EnableCOM();
@@ -633,10 +653,10 @@ void main(void)
       lcd_update();
       PWR_UltraLowPowerCmd(ENABLE);
 
-      ADC_Cmd(ADC1,DISABLE);
+      ADC_Cmd(ADC1, DISABLE);
       halt();
       PWR_UltraLowPowerCmd(DISABLE);
-      ADC_Cmd(ADC1,ENABLE);
+      ADC_Cmd(ADC1, ENABLE);
 
       gpio_init();
       COMFromHalt();
@@ -693,9 +713,6 @@ void pwr_init(void)
 {
   PWR_DeInit();
   PWR_PVDLevelConfig(PWR_PVDLevel_3V05);
-  PWR_PVDCmd(ENABLE);
-  PWR_PVDITConfig(ENABLE);
-  
 }
 
 /**
@@ -1175,7 +1192,11 @@ void SetHowLong(RTC_TimeTypeDef *Now)
     d -= RTC_Weekday_Sunday;
   }
 
-  StopTime.RTC_Seconds = 0;//watch.RTC_Seconds;
+  StopTime.RTC_Seconds = 0;
+  if (ProgramStatePrevios == MANUALMODE)
+  {
+    StopTime.RTC_Seconds = watch.RTC_Seconds;
+  }
   //AlarmWhenStop.RTC_AlarmTime = StopTime;
   AlarmWhenStop.RTC_AlarmTime.RTC_Hours = StopTime.RTC_Hours;
   AlarmWhenStop.RTC_AlarmTime.RTC_Minutes = StopTime.RTC_Minutes;

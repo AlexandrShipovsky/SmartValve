@@ -3,6 +3,7 @@
 #define __COMMON_H
 
 #define SLEEPTIME (uint8_t)60
+#define SLEEPPVDTIME (uint8_t)10
 
 enum ProgramMode
 {
