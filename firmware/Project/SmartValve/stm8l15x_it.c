@@ -161,6 +161,11 @@ INTERRUPT_HANDLER(EXTIE_F_PVD_IRQHandler, 5)
     */
    ProgramState = BATTERYLOW;
    PWR_PVDClearITPendingBit();
+   PWR_PVDClearFlag();
+   PWR_PVDITConfig(DISABLE);
+   PWR_PVDCmd(DISABLE);
+   
+   
 }
 
 /**
@@ -420,7 +425,7 @@ INTERRUPT_HANDLER(TIM4_UPD_OVF_TRG_IRQHandler, 25)
     
     if (SleepPVDTime == 0)
     {
-      //EnablePVD();
+      EnablePVD();
       SleepPVDTime = SLEEPPVDTIME;
     }
     if (SleepTime == 0)

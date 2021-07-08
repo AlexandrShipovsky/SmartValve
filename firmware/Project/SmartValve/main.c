@@ -24,7 +24,8 @@
   *
   ******************************************************************************
   */
-// Warning for future!!!: Program Mode - only current, without previous. For set set alarm use function, NOT switch-case 
+// Warning for future!!!: Program Mode - only current, without previous. For set set alarm use function, NOT switch-case
+// Add calibrate RTC
 /* Includes ------------------------------------------------------------------*/
 #include "stm8l15x.h"
 #include "keyboard.h"
@@ -64,6 +65,8 @@ extern uint8_t SleepTime;
 extern uint8_t SleepPVDTime;
 uint16_t ChildLockInc = 0;
 uint8_t ChildLockMode = 0;
+
+uint8_t EnablePVDFlag = 0;
 
 uint16_t VBAT = 0;
 
@@ -111,6 +114,9 @@ void EnablePVD(void)
   PWR_PVDClearITPendingBit();
   PWR_PVDCmd(ENABLE);
   PWR_PVDITConfig(ENABLE);
+  PWR_PVDClearFlag();
+  PWR_PVDClearITPendingBit();
+  EnablePVDFlag = 1;
 }
 
 void DisablePVD(void)
@@ -118,6 +124,9 @@ void DisablePVD(void)
   SleepPVDTime = SLEEPPVDTIME;
   PWR_PVDCmd(DISABLE);
   PWR_PVDITConfig(DISABLE);
+  PWR_PVDClearFlag();
+  PWR_PVDClearITPendingBit();
+  EnablePVDFlag = 0;
 }
 
 void GetKeyboard(void)
@@ -247,6 +256,7 @@ void main(void)
   lcd_init();
   lcd_SetStaticSegment(1);
   pwr_init();
+  uint8_t SemaphoreBatLow = 1;
   while (1)
   {
     lcd_clear();
@@ -254,10 +264,12 @@ void main(void)
     {
     case BATTERYLOW:
     {
-      ValveClose();
-      PWR_PVDITConfig(DISABLE);
-      PWR_PVDClearFlag();
       ProgramStatePrevios = BATTERYLOW;
+      if (SemaphoreBatLow)
+      {
+        ValveClose();
+        SemaphoreBatLow--;
+      }
 
       lcd_SetBattery(BatLow);
       lcd_SetSevSegmentBlink(BATTERYLOWBLINK);
@@ -330,7 +342,7 @@ void main(void)
     case VALVEOPEN:
     {
       DisablePVD();
-      if ((!RainDelay)&&(ProgramStatePrevios != OFFMODE))
+      if ((!RainDelay) && (ProgramStatePrevios != OFFMODE))
       {
         ValveOpen();
       }
@@ -340,7 +352,7 @@ void main(void)
     case VALVECLOSE:
     {
       DisablePVD();
-      if ((!RainDelay)&&(ProgramStatePrevios != OFFMODE))
+      if ((!RainDelay) && (ProgramStatePrevios != OFFMODE))
       {
         ValveClose();
       }
