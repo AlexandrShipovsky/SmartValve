@@ -1,40 +1,38 @@
 main.pbi: \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\main.c \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\stm8l15x_conf.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_adc.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_aes.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_beep.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_comp.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dac.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_flash.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_irtim.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_itc.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_iwdg.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_lcd.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_pwr.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rst.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rtc.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_syscfg.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim1.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim2.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim3.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim4.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim5.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x_clk.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wfe.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wwdg.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\keyboard.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\valve.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\VBAT.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\common.h \
   C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\LCD.h \
-  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\common.h
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\VBAT.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\valve.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\lib\keyboard.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wwdg.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wfe.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim5.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim4.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim3.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim2.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim1.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_syscfg.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rtc.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rst.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_pwr.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_lcd.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_iwdg.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_itc.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_irtim.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_flash.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dac.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_comp.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_beep.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_aes.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\EWSTM8\..\..\..\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_adc.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\stm8l15x_conf.h \
+  C:\Users\Глюк\Desktop\SmartValve\firmware\Project\SmartValve\main.c

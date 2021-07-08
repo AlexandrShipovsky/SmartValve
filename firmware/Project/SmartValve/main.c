@@ -24,7 +24,7 @@
   *
   ******************************************************************************
   */
-
+// Warning for future!!!: Program Mode - only current, without previous. For set set alarm use function, NOT switch-case 
 /* Includes ------------------------------------------------------------------*/
 #include "stm8l15x.h"
 #include "keyboard.h"
@@ -196,8 +196,8 @@ void GetKeyboard(void)
       {
         if (ProgramState == OFFMODE)
         {
-          SetAlarmForIrrig();
-          ProgramState = SET_ALARM_HOWFREQ;
+          //SetAlarmForIrrig();
+          ProgramState = NORMAL; //SET_ALARM_HOWFREQ;
         }
         else
         {
@@ -309,7 +309,7 @@ void main(void)
       RTC_AlarmCmd(AlarmState);
 
       RTC_GetAlarm(RTC_Format_BIN, &RTC_AlarmStruct);
-      ProgramState = NORMAL;
+      ProgramState = ProgramStatePrevios;
       break;
     }
     case SET_ALARM_HOWLONG:
@@ -319,18 +319,18 @@ void main(void)
       //Set alarm for next enable valve, but not enable alarm. Enable alarm after close valve
       SetAlarmForIrrig();
 
-      ProgramState = NORMAL;
-      if(RainDelay)
+      ProgramState = ProgramStatePrevios;
+      if (RainDelay)
       {
         ProgramState = RAINDELAYMODE;
       }
-      
+
       break;
     }
     case VALVEOPEN:
     {
       DisablePVD();
-      if(!RainDelay)
+      if ((!RainDelay)&&(ProgramStatePrevios != OFFMODE))
       {
         ValveOpen();
       }
@@ -340,7 +340,7 @@ void main(void)
     case VALVECLOSE:
     {
       DisablePVD();
-      if(!RainDelay)
+      if ((!RainDelay)&&(ProgramStatePrevios != OFFMODE))
       {
         ValveClose();
       }
@@ -351,7 +351,7 @@ void main(void)
     {
       uint16_t BufHowLongVal = HowLongVal;
       enum CurrentSetting CurrentSetting = HowLong;
-      ProgramStatePrevios = MANUALMODE;
+      //ProgramStatePrevios = MANUALMODE;
 
       while ((PutButton != OFF) && (CurrentSetting != StartTimeHours))
       {
@@ -411,7 +411,6 @@ void main(void)
         RTC_GetTime(RTC_Format_BIN, &watch);
       }
       SetHowLong(&watch);
-
 
       lcd_SetSevSegmentBlink(NONESET);
       while ((PutButton != OFF) && (ProgramState == MANUALMODE))
@@ -1061,6 +1060,10 @@ void SetAlarmForIrrig(void)
   RTC_AlarmStruct.RTC_AlarmDateWeekDaySel = RTC_AlarmDateWeekDaySel_WeekDay;
   //StartTime.RTC_Seconds = watch.RTC_Seconds;
   RTC_GetDate(RTC_Format_BIN, &RTC_DateStruct);
+  if (RTC_WaitForSynchro() == SUCCESS)
+  {
+    RTC_GetTime(RTC_Format_BIN, &watch);
+  }
   if (HowFreq.HoursDay == DAY)
   {
 
@@ -1202,7 +1205,7 @@ void SetHowLong(RTC_TimeTypeDef *Now)
   }
 
   StopTime.RTC_Seconds = 0;
-  if (ProgramStatePrevios == MANUALMODE)
+  if (ProgramState == MANUALMODE)
   {
     StopTime.RTC_Seconds = watch.RTC_Seconds;
   }
