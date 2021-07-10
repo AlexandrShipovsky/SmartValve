@@ -47,6 +47,7 @@ extern enum buttons PutButton;
 extern enum com SelectCOM;
 extern uint8_t BlinkState;
 extern enum ProgramMode ProgramState;
+extern enum ProgramMode ProgramStatePrevios;
 
 extern enum ValveState VALVESTATE;
 
@@ -136,6 +137,9 @@ INTERRUPT_HANDLER(DMA1_CHANNEL2_3_IRQHandler, 3)
   */
 INTERRUPT_HANDLER(RTC_CSSLSE_IRQHandler, 4)
 {
+  SleepTime = SMALLSLEEPTIME;
+  if(ProgramStatePrevios != MANUALMODE)
+  {
   if (VALVESTATE == OPEN)
   {
     ProgramState = VALVECLOSE;
@@ -143,6 +147,11 @@ INTERRUPT_HANDLER(RTC_CSSLSE_IRQHandler, 4)
   else
   {
     ProgramState = VALVEOPEN;
+  }
+  }//if ProgramStatePrevios
+  else
+  {
+    ProgramState = MANUALMODEEXIT;
   }
   RTC_ClearITPendingBit(RTC_IT_ALRA);
   /* In order to detect unexpected events during development,

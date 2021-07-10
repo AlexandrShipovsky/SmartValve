@@ -2,8 +2,9 @@
 #ifndef __COMMON_H
 #define __COMMON_H
 
-#define SLEEPTIME (uint8_t)60
-#define SLEEPPVDTIME (uint8_t)10
+#define SLEEPTIME (uint8_t)25
+#define SMALLSLEEPTIME (uint8_t)7
+#define SLEEPPVDTIME (uint8_t)6
 
 enum ProgramMode
 {
@@ -18,6 +19,7 @@ enum ProgramMode
   SET_ALARM_HOWFREQ,
   SET_ALARM_AFTRCONF,
   MANUALMODE,
+  MANUALMODEEXIT,
   RAINDELAYMODE,
   OFFMODE,
   BATTERYLOW

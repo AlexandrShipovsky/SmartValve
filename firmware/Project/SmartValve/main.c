@@ -87,6 +87,10 @@ struct NextIrrig NextIrrig;
 struct HowFreq HowFreq;
 
 uint16_t HowLongVal = 0;
+
+// For MANUALMODE
+uint16_t BufHowLongVal;
+enum CurrentSetting CurrentSetting;
 /* Private function prototypes -----------------------------------------------*/
 static void clk_init(void);
 static void gpio_init(void);
@@ -359,76 +363,80 @@ void main(void)
       ProgramState = SET_ALARM_HOWFREQ;
       break;
     }
+    case MANUALMODEEXIT:
     case MANUALMODE:
     {
-      uint16_t BufHowLongVal = HowLongVal;
-      enum CurrentSetting CurrentSetting = HowLong;
-      //ProgramStatePrevios = MANUALMODE;
-
-      while ((PutButton != OFF) && (CurrentSetting != StartTimeHours))
+      //if manual mode run first time, no  after sleep
+      if (ProgramStatePrevios != MANUALMODE)
       {
-        GetKeyboard();
-        SleepTime = SLEEPTIME;
-        lcd_clear();
-        lcd_SetStaticSegment(1);
-        lcd_SetSevSegmentBlink(CurrentSetting);
-        lcd_SetHowLong(HowLongVal);
-
-        lcd_update();
-
-        ToggleCOM();
-        switch (PutButton)
+        BufHowLongVal = HowLongVal;
+        CurrentSetting = HowLong;
+        while ((PutButton != OFF) && (CurrentSetting != StartTimeHours))
         {
-        case MANUAL:
-          ClearButton(&PutButton);
-          CurrentSetting++;
-          break;
-        case PLUS:
+          GetKeyboard();
+          SleepTime = SLEEPTIME;
+          lcd_clear();
+          lcd_SetStaticSegment(1);
+          lcd_SetSevSegmentBlink(CurrentSetting);
+          lcd_SetHowLong(HowLongVal);
+
+          lcd_update();
+
+          ToggleCOM();
+          switch (PutButton)
+          {
+          case MANUAL:
+            ClearButton(&PutButton);
+            CurrentSetting++;
+            break;
+          case PLUS:
+          {
+            PlusSegment(CurrentSetting);
+            ClearButton(&PutButton);
+            break;
+          }
+          case MINUS:
+          {
+            MinusSegment(CurrentSetting);
+            ClearButton(&PutButton);
+            break;
+          }
+          default:
+            //ClearButton(&PutButton);
+            break;
+          }
+        }
+
+        if (!VALVESTATE)
         {
-          PlusSegment(CurrentSetting);
+          ValveClose();
+        }
+
+        if (HowLongVal == 0)
+        {
+          ProgramState = VALVECLOSE;
+          HowLongVal = BufHowLongVal;
+          lcd_SetSevSegmentBlink(NONESET);
           ClearButton(&PutButton);
           break;
         }
-        case MINUS:
+        // Disable PVD for in order not to take into account the voltage drawdown
+        DisablePVD();
+
+        ValveOpen();
+        if (RTC_WaitForSynchro() == SUCCESS)
         {
-          MinusSegment(CurrentSetting);
-          ClearButton(&PutButton);
-          break;
+          RTC_GetTime(RTC_Format_BIN, &watch);
         }
-        default:
-          //ClearButton(&PutButton);
-          break;
-        }
-      }
+        SetHowLong(&watch);
+      } // if !MANUALMODE
 
-      if (!VALVESTATE)
-      {
-        ValveClose();
-      }
-
-      if (HowLongVal == 0)
-      {
-        ProgramState = VALVECLOSE;
-        HowLongVal = BufHowLongVal;
-        lcd_SetSevSegmentBlink(NONESET);
-        ClearButton(&PutButton);
-        break;
-      }
-      // Disable PVD for in order not to take into account the voltage drawdown
-      DisablePVD();
-
-      ValveOpen();
-      if (RTC_WaitForSynchro() == SUCCESS)
-      {
-        RTC_GetTime(RTC_Format_BIN, &watch);
-      }
-      SetHowLong(&watch);
-
+      ProgramStatePrevios = MANUALMODE;
+      SleepTime = SMALLSLEEPTIME;
       lcd_SetSevSegmentBlink(NONESET);
       while ((PutButton != OFF) && (ProgramState == MANUALMODE))
       {
         GetKeyboard();
-        SleepTime = 60;
         lcd_clear();
         lcd_SetStaticSegment(1);
         lcd_SetHowLong(HowLongVal);
@@ -438,10 +446,14 @@ void main(void)
         ToggleCOM();
       }
 
-      ProgramState = VALVECLOSE;
-      HowLongVal = BufHowLongVal;
-      lcd_SetSevSegmentBlink(NONESET);
-      ClearButton(&PutButton);
+      if (ProgramState != SLEEP)
+      {
+        ProgramState = VALVECLOSE;
+        HowLongVal = BufHowLongVal;
+        lcd_SetSevSegmentBlink(NONESET);
+        ClearButton(&PutButton);
+        ProgramStatePrevios = NORMAL;
+      }
       break;
     }
     case RAINDELAYMODE:
