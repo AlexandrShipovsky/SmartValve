@@ -48,7 +48,7 @@ RTC_TimeTypeDef watch;
 RTC_TimeTypeDef StartTime;
 RTC_TimeTypeDef StopTime;
 RTC_AlarmTypeDef RTC_AlarmStruct;
-RTC_AlarmTypeDef RTC_NowAlarmStruct;
+RTC_AlarmTypeDef AlarmNow;
 RTC_AlarmTypeDef AlarmWhenStop;
 RTC_DateTypeDef RTC_DateStruct;
 
@@ -69,6 +69,7 @@ uint8_t ChildLockMode = 0;
 uint8_t EnablePVDFlag = 0;
 
 uint16_t VBAT = 0;
+uint8_t VbatOffset = 0;
 
 struct HowFreq
 {
@@ -467,14 +468,19 @@ void main(void)
     {
       ProgramStatePrevios = NORMAL;
       GetKeyboard();
-      VBAT = GetVBAT();
+      if(EnablePVDFlag)
+      {
+        VBAT = GetVBAT() - VbatOffset;
+      }
       if ((VBAT / 100) < 36)
       {
         lcd_SetBattery(BatLow);
+        VbatOffset = 200;
       }
       else if ((VBAT / 100) < 42)
       {
         lcd_SetBattery(BatMiddle);
+        VbatOffset = 100;
       }
       else
       {
@@ -550,7 +556,7 @@ void main(void)
       {
 
         lcd_automode(0);
-        lcd_SetNextIrrigation(1000, NONEHD);
+        lcd_SetNextIrrigation(255, NONEHD);
       }
 
       lcd_SetHowLong(HowLongVal);
@@ -814,7 +820,7 @@ void rtc_init(void)
   //RTC_EnterInitMode();
   RTC_InitTypeDef RTC_Struct;
   RTC_Struct.RTC_HourFormat = RTC_HourFormat_24;
-  RTC_Struct.RTC_AsynchPrediv = 0x7F;
+  RTC_Struct.RTC_AsynchPrediv = 0x7F; //7F;
   RTC_Struct.RTC_SynchPrediv = 0x00FF;
 
   if (RTC_Init(&RTC_Struct) != SUCCESS)
@@ -1160,12 +1166,68 @@ void SetAlarmForIrrig(void)
 
 void CalcNexIrrig(void)
 {
+  RTC_DateTypeDef RTC_DateNow;
+
+  RTC_GetDate(RTC_Format_BIN, &RTC_DateNow);
+  RTC_GetAlarm(RTC_Format_BIN, &AlarmNow);
+  if (RTC_WaitForSynchro() == SUCCESS)
+  {
+    RTC_GetTime(RTC_Format_BIN, &watch);
+  }
+
+  // Initialize to zeros the diff variables
+  int8_t next_irr_days_diff = 0;  // Can be between 0 and 7
+  int8_t next_irr_hours_diff = 0; // Can be between 0 and 23
+
+  if (((RTC_DateNow.RTC_WeekDay == AlarmNow.RTC_AlarmDateWeekDay) && (watch.RTC_Hours < AlarmNow.RTC_AlarmTime.RTC_Hours)) || ((watch.RTC_Hours == AlarmNow.RTC_AlarmTime.RTC_Hours) && (watch.RTC_Minutes <= AlarmNow.RTC_AlarmTime.RTC_Minutes)))
+  {
+    // CASE A : Today the next irrigation is scheduled but has not yet happened
+    next_irr_days_diff = 0;
+    next_irr_hours_diff = AlarmNow.RTC_AlarmTime.RTC_Hours - watch.RTC_Hours;
+  }
+  else
+  {
+    // CASE B : The irrigation is to happen on some other day, Or has already happened today:
+    if ((watch.RTC_Hours < AlarmNow.RTC_AlarmTime.RTC_Hours) || ((watch.RTC_Hours == AlarmNow.RTC_AlarmTime.RTC_Hours) && (watch.RTC_Minutes <= AlarmNow.RTC_AlarmTime.RTC_Minutes)))
+    {
+      // Next Irrigation Time (hh:mm) is on or after Current Time (hh:mm)
+      next_irr_hours_diff = AlarmNow.RTC_AlarmTime.RTC_Hours - watch.RTC_Hours;
+      next_irr_days_diff = AlarmNow.RTC_AlarmDateWeekDay - RTC_DateNow.RTC_WeekDay;
+      if (next_irr_days_diff < 0)
+      {
+        next_irr_days_diff += 7;
+      } // Add 7 days in case number becomes negative
+    }
+    else
+    {
+      // Next Irrigation Time (hh:mm) is before Current Time (hh:mm)
+
+      // Example : Current Day Time is Sat 17:30, and Next Irrigation is on Monday 05:45
+      next_irr_hours_diff = 23 - (watch.RTC_Hours - AlarmNow.RTC_AlarmTime.RTC_Hours);
+      next_irr_days_diff = AlarmNow.RTC_AlarmDateWeekDay - RTC_DateNow.RTC_WeekDay - 1;
+      if (next_irr_days_diff < 0)
+      {
+        next_irr_days_diff += 7; // Add 7 days in case number becomes negative
+      }
+    }
+  } //else
+
+  if (next_irr_days_diff == 0)
+  {
+    NextIrrig.HoursDay = HRS;
+    NextIrrig.hours = next_irr_hours_diff;
+  }
+  else
+  {
+    NextIrrig.HoursDay = DAY;
+    NextIrrig.day = next_irr_days_diff;
+  }
+  /*
   int8_t days = 0;
   int8_t hours = 0;
   NextIrrig.HoursDay = HRS;
   NextIrrig.hours = hours;
-  RTC_GetDate(RTC_Format_BIN, &RTC_DateStruct);
-  RTC_GetAlarm(RTC_Format_BIN, &RTC_NowAlarmStruct);
+  
 
   if (RTC_NowAlarmStruct.RTC_AlarmDateWeekDay >= RTC_DateStruct.RTC_WeekDay)
   {
@@ -1195,6 +1257,7 @@ void CalcNexIrrig(void)
     NextIrrig.HoursDay = HRS;
     NextIrrig.hours = hours;
   }
+  */
 }
 
 void SetHowLong(RTC_TimeTypeDef *Now)
@@ -1245,7 +1308,7 @@ void SetHowLong(RTC_TimeTypeDef *Now)
   RTC_AlarmCmd(DISABLE);
   RTC_SetAlarm(RTC_Format_BIN, &AlarmWhenStop);
   RTC_AlarmCmd(ENABLE);
-  RTC_GetAlarm(RTC_Format_BIN, &RTC_NowAlarmStruct);
+  RTC_GetAlarm(RTC_Format_BIN, &AlarmNow);
 }
 
 void error(void)

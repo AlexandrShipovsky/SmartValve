@@ -93698,16 +93698,16 @@
     "scope": null
   },
   {
-    "ID": "c:@RTC_NowAlarmStruct",
+    "ID": "c:@AlarmNow",
     "What": "Variable",
     "defdec": "Dec",
-    "display": "RTC_NowAlarmStruct",
+    "display": "AlarmNow",
     "location": {
       "column": "18",
       "line": "51",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
-    "name": "RTC_NowAlarmStruct",
+    "name": "AlarmNow",
     "origin": "project_file",
     "scope": null
   },
@@ -93950,13 +93950,27 @@
     "scope": null
   },
   {
+    "ID": "c:@VbatOffset",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "VbatOffset",
+    "location": {
+      "column": "9",
+      "line": "72",
+      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
+    },
+    "name": "VbatOffset",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@S@HowFreq",
     "What": "Struct",
     "defdec": "Def",
     "display": "HowFreq",
     "location": {
       "column": "8",
-      "line": "73",
+      "line": "74",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "members": [
@@ -93967,7 +93981,7 @@
         "display": "day",
         "location": {
           "column": "11",
-          "line": "75",
+          "line": "76",
           "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
         },
         "name": "day",
@@ -93981,7 +93995,7 @@
         "display": "hours",
         "location": {
           "column": "11",
-          "line": "76",
+          "line": "77",
           "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
         },
         "name": "hours",
@@ -93995,7 +94009,7 @@
         "display": "HoursDay",
         "location": {
           "column": "17",
-          "line": "77",
+          "line": "78",
           "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
         },
         "name": "HoursDay",
@@ -94014,7 +94028,7 @@
     "display": "NextIrrig",
     "location": {
       "column": "8",
-      "line": "80",
+      "line": "81",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "members": [
@@ -94025,7 +94039,7 @@
         "display": "day",
         "location": {
           "column": "11",
-          "line": "82",
+          "line": "83",
           "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
         },
         "name": "day",
@@ -94039,7 +94053,7 @@
         "display": "hours",
         "location": {
           "column": "11",
-          "line": "83",
+          "line": "84",
           "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
         },
         "name": "hours",
@@ -94053,7 +94067,7 @@
         "display": "HoursDay",
         "location": {
           "column": "17",
-          "line": "84",
+          "line": "85",
           "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
         },
         "name": "HoursDay",
@@ -94072,7 +94086,7 @@
     "display": "NextIrrig",
     "location": {
       "column": "18",
-      "line": "86",
+      "line": "87",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "NextIrrig",
@@ -94086,7 +94100,7 @@
     "display": "HowFreq",
     "location": {
       "column": "16",
-      "line": "87",
+      "line": "88",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "HowFreq",
@@ -94100,7 +94114,7 @@
     "display": "HowLongVal",
     "location": {
       "column": "10",
-      "line": "89",
+      "line": "90",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "HowLongVal",
@@ -94114,7 +94128,7 @@
     "display": "BufHowLongVal",
     "location": {
       "column": "10",
-      "line": "92",
+      "line": "93",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "BufHowLongVal",
@@ -94128,7 +94142,7 @@
     "display": "CurrentSetting",
     "location": {
       "column": "21",
-      "line": "93",
+      "line": "94",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "CurrentSetting",
@@ -94142,7 +94156,7 @@
     "display": "void clk_init(void)",
     "location": {
       "column": "13",
-      "line": "95",
+      "line": "96",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "clk_init",
@@ -94156,7 +94170,7 @@
     "display": "void gpio_init(void)",
     "location": {
       "column": "13",
-      "line": "96",
+      "line": "97",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "gpio_init",
@@ -94170,7 +94184,7 @@
     "display": "void pwr_init(void)",
     "location": {
       "column": "13",
-      "line": "97",
+      "line": "98",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "pwr_init",
@@ -94184,7 +94198,7 @@
     "display": "void gpio_init_interrupt(void)",
     "location": {
       "column": "13",
-      "line": "98",
+      "line": "99",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "gpio_init_interrupt",
@@ -94198,7 +94212,7 @@
     "display": "void rtc_init(void)",
     "location": {
       "column": "13",
-      "line": "99",
+      "line": "100",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "rtc_init",
@@ -94212,7 +94226,7 @@
     "display": "void error(void)",
     "location": {
       "column": "13",
-      "line": "100",
+      "line": "101",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "error",
@@ -94226,7 +94240,7 @@
     "display": "void TIM4_Config(void)",
     "location": {
       "column": "13",
-      "line": "102",
+      "line": "103",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "TIM4_Config",
@@ -94240,7 +94254,7 @@
     "display": "void Delay(volatile uint32_t)",
     "location": {
       "column": "6",
-      "line": "103",
+      "line": "104",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "Delay",
@@ -94254,7 +94268,7 @@
     "display": "void TimingDelay_Decrement(void)",
     "location": {
       "column": "6",
-      "line": "104",
+      "line": "105",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "TimingDelay_Decrement",
@@ -94268,7 +94282,7 @@
     "display": "void PlusSegment(enum CurrentSetting)",
     "location": {
       "column": "13",
-      "line": "105",
+      "line": "106",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "PlusSegment",
@@ -94282,7 +94296,7 @@
     "display": "void MinusSegment(enum CurrentSetting)",
     "location": {
       "column": "13",
-      "line": "106",
+      "line": "107",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "MinusSegment",
@@ -94296,7 +94310,7 @@
     "display": "void SetAlarmForIrrig(void)",
     "location": {
       "column": "13",
-      "line": "107",
+      "line": "108",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "SetAlarmForIrrig",
@@ -94310,7 +94324,7 @@
     "display": "void CalcNexIrrig(void)",
     "location": {
       "column": "13",
-      "line": "108",
+      "line": "109",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "CalcNexIrrig",
@@ -94324,7 +94338,7 @@
     "display": "void SetHowLong(RTC_TimeTypeDef *)",
     "location": {
       "column": "13",
-      "line": "109",
+      "line": "110",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "SetHowLong",
@@ -94338,7 +94352,7 @@
     "display": "void GetKeyboard(void)",
     "location": {
       "column": "13",
-      "line": "110",
+      "line": "111",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "GetKeyboard",
@@ -94352,7 +94366,7 @@
     "display": "void EnablePVD(void)",
     "location": {
       "column": "6",
-      "line": "112",
+      "line": "113",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "EnablePVD",
@@ -94366,7 +94380,7 @@
     "display": "void DisablePVD(void)",
     "location": {
       "column": "6",
-      "line": "113",
+      "line": "114",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "DisablePVD",
@@ -94380,7 +94394,7 @@
     "display": "void EnablePVD(void)",
     "location": {
       "column": "6",
-      "line": "115",
+      "line": "116",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "EnablePVD",
@@ -94394,7 +94408,7 @@
     "display": "void DisablePVD(void)",
     "location": {
       "column": "6",
-      "line": "126",
+      "line": "127",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "DisablePVD",
@@ -94408,7 +94422,7 @@
     "display": "void GetKeyboard(void)",
     "location": {
       "column": "6",
-      "line": "136",
+      "line": "137",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "GetKeyboard",
@@ -94416,13 +94430,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4105@F@GetKeyboard@key",
+    "ID": "c:main.c@4120@F@GetKeyboard@key",
     "What": "Variable",
     "defdec": "Def",
     "display": "key",
     "location": {
       "column": "13",
-      "line": "138",
+      "line": "139",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "key",
@@ -94430,13 +94444,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4123@F@GetKeyboard@ChildLockOut",
+    "ID": "c:main.c@4138@F@GetKeyboard@ChildLockOut",
     "What": "Variable",
     "defdec": "Def",
     "display": "ChildLockOut",
     "location": {
       "column": "18",
-      "line": "139",
+      "line": "140",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "ChildLockOut",
@@ -94444,13 +94458,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4155@F@GetKeyboard@OFFInc",
+    "ID": "c:main.c@4170@F@GetKeyboard@OFFInc",
     "What": "Variable",
     "defdec": "Def",
     "display": "OFFInc",
     "location": {
       "column": "11",
-      "line": "140",
+      "line": "141",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "OFFInc",
@@ -94464,7 +94478,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "241",
+      "line": "242",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "main",
@@ -94472,13 +94486,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@6103@F@main@i",
+    "ID": "c:main.c@6118@F@main@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "11",
-      "line": "243",
+      "line": "244",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "i",
@@ -94492,7 +94506,7 @@
     "display": "SleepTime",
     "location": {
       "column": "18",
-      "line": "244",
+      "line": "245",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "SleepTime",
@@ -94500,13 +94514,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@6475@F@main@SemaphoreBatLow",
+    "ID": "c:main.c@6490@F@main@SemaphoreBatLow",
     "What": "Variable",
     "defdec": "Def",
     "display": "SemaphoreBatLow",
     "location": {
       "column": "11",
-      "line": "263",
+      "line": "264",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "SemaphoreBatLow",
@@ -94514,13 +94528,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@13240@F@main@CurrentSetting",
+    "ID": "c:main.c@13366@F@main@CurrentSetting",
     "What": "Variable",
     "defdec": "Def",
     "display": "CurrentSetting",
     "location": {
       "column": "27",
-      "line": "565",
+      "line": "571",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "CurrentSetting",
@@ -94534,7 +94548,7 @@
     "display": "void clk_init(void)",
     "location": {
       "column": "6",
-      "line": "718",
+      "line": "724",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "clk_init",
@@ -94542,13 +94556,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@16558@F@clk_init@i",
+    "ID": "c:main.c@16684@F@clk_init@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "12",
-      "line": "720",
+      "line": "726",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "i",
@@ -94562,7 +94576,7 @@
     "display": "void pwr_init(void)",
     "location": {
       "column": "6",
-      "line": "744",
+      "line": "750",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "pwr_init",
@@ -94576,7 +94590,7 @@
     "display": "void TIM4_Config(void)",
     "location": {
       "column": "13",
-      "line": "755",
+      "line": "761",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "TIM4_Config",
@@ -94590,7 +94604,7 @@
     "display": "void Delay(volatile uint32_t)",
     "location": {
       "column": "6",
-      "line": "785",
+      "line": "791",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "Delay",
@@ -94604,7 +94618,7 @@
     "display": "void TimingDelay_Decrement(void)",
     "location": {
       "column": "6",
-      "line": "798",
+      "line": "804",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "TimingDelay_Decrement",
@@ -94618,7 +94632,7 @@
     "display": "void rtc_init(void)",
     "location": {
       "column": "6",
-      "line": "806",
+      "line": "812",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "rtc_init",
@@ -94626,13 +94640,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@18797@F@rtc_init@RTC_Struct",
+    "ID": "c:main.c@18923@F@rtc_init@RTC_Struct",
     "What": "Variable",
     "defdec": "Def",
     "display": "RTC_Struct",
     "location": {
       "column": "19",
-      "line": "815",
+      "line": "821",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "RTC_Struct",
@@ -94646,7 +94660,7 @@
     "display": "void gpio_init(void)",
     "location": {
       "column": "6",
-      "line": "831",
+      "line": "837",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "gpio_init",
@@ -94660,7 +94674,7 @@
     "display": "void gpio_init_interrupt(void)",
     "location": {
       "column": "6",
-      "line": "867",
+      "line": "873",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "gpio_init_interrupt",
@@ -94674,7 +94688,7 @@
     "display": "void PlusSegment(enum CurrentSetting)",
     "location": {
       "column": "6",
-      "line": "890",
+      "line": "896",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "PlusSegment",
@@ -94688,7 +94702,7 @@
     "display": "void MinusSegment(enum CurrentSetting)",
     "location": {
       "column": "6",
-      "line": "985",
+      "line": "991",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "MinusSegment",
@@ -94702,7 +94716,7 @@
     "display": "void SetAlarmForIrrig(void)",
     "location": {
       "column": "6",
-      "line": "1080",
+      "line": "1086",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "SetAlarmForIrrig",
@@ -94716,7 +94730,7 @@
     "display": "void CalcNexIrrig(void)",
     "location": {
       "column": "6",
-      "line": "1161",
+      "line": "1167",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "CalcNexIrrig",
@@ -94724,30 +94738,44 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@27393@F@CalcNexIrrig@days",
+    "ID": "c:main.c@27525@F@CalcNexIrrig@RTC_DateNow",
     "What": "Variable",
     "defdec": "Def",
-    "display": "days",
+    "display": "RTC_DateNow",
     "location": {
-      "column": "10",
-      "line": "1163",
+      "column": "19",
+      "line": "1169",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
-    "name": "days",
+    "name": "RTC_DateNow",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@27413@F@CalcNexIrrig@hours",
+    "ID": "c:main.c@27788@F@CalcNexIrrig@next_irr_days_diff",
     "What": "Variable",
     "defdec": "Def",
-    "display": "hours",
+    "display": "next_irr_days_diff",
     "location": {
       "column": "10",
-      "line": "1164",
+      "line": "1179",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
-    "name": "hours",
+    "name": "next_irr_days_diff",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@27849@F@CalcNexIrrig@next_irr_hours_diff",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "next_irr_hours_diff",
+    "location": {
+      "column": "10",
+      "line": "1180",
+      "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
+    },
+    "name": "next_irr_hours_diff",
     "origin": "project_file",
     "scope": null
   },
@@ -94758,7 +94786,7 @@
     "display": "void SetHowLong(RTC_TimeTypeDef *)",
     "location": {
       "column": "6",
-      "line": "1200",
+      "line": "1263",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "SetHowLong",
@@ -94766,13 +94794,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@28384@F@SetHowLong@d",
+    "ID": "c:main.c@30657@F@SetHowLong@d",
     "What": "Variable",
     "defdec": "Def",
     "display": "d",
     "location": {
       "column": "11",
-      "line": "1203",
+      "line": "1266",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "d",
@@ -94780,13 +94808,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@28384@F@SetHowLong@h",
+    "ID": "c:main.c@30657@F@SetHowLong@h",
     "What": "Variable",
     "defdec": "Dec",
     "display": "h",
     "location": {
       "column": "14",
-      "line": "1203",
+      "line": "1266",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "h",
@@ -94794,13 +94822,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@28384@F@SetHowLong@m",
+    "ID": "c:main.c@30657@F@SetHowLong@m",
     "What": "Variable",
     "defdec": "Dec",
     "display": "m",
     "location": {
       "column": "17",
-      "line": "1203",
+      "line": "1266",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "m",
@@ -94814,7 +94842,7 @@
     "display": "void error(void)",
     "location": {
       "column": "6",
-      "line": "1251",
+      "line": "1314",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "error",
@@ -94822,13 +94850,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@29648@F@error@i",
+    "ID": "c:main.c@31911@F@error@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "12",
-      "line": "1253",
+      "line": "1316",
       "path": "C:\\Users\\\u0413\u043b\u044e\u043a\\Desktop\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "i",
