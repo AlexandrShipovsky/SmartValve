@@ -468,7 +468,7 @@ void main(void)
     {
       ProgramStatePrevios = NORMAL;
       GetKeyboard();
-      if(EnablePVDFlag)
+      if (EnablePVDFlag)
       {
         VBAT = GetVBAT() - VbatOffset;
       }
@@ -490,7 +490,10 @@ void main(void)
       switch (PutButton)
       {
       case OFF:
-
+        if (VALVESTATE == OPEN)
+        {
+          ProgramState = VALVECLOSE;
+        }
         ClearButton(&PutButton);
         break;
       case OK:
@@ -1086,7 +1089,7 @@ void MinusSegment(enum CurrentSetting CurrentSetting)
 void SetAlarmForIrrig(void)
 {
 
-  RTC_AlarmStruct.RTC_AlarmMask = RTC_AlarmMask_DateWeekDay;
+  RTC_AlarmStruct.RTC_AlarmMask = RTC_AlarmMask_None;
   RTC_AlarmStruct.RTC_AlarmDateWeekDaySel = RTC_AlarmDateWeekDaySel_WeekDay;
   //StartTime.RTC_Seconds = watch.RTC_Seconds;
   RTC_GetDate(RTC_Format_BIN, &RTC_DateStruct);
@@ -1179,7 +1182,7 @@ void CalcNexIrrig(void)
   int8_t next_irr_days_diff = 0;  // Can be between 0 and 7
   int8_t next_irr_hours_diff = 0; // Can be between 0 and 23
 
-  if (((RTC_DateNow.RTC_WeekDay == AlarmNow.RTC_AlarmDateWeekDay) && (watch.RTC_Hours < AlarmNow.RTC_AlarmTime.RTC_Hours)) || ((watch.RTC_Hours == AlarmNow.RTC_AlarmTime.RTC_Hours) && (watch.RTC_Minutes <= AlarmNow.RTC_AlarmTime.RTC_Minutes)))
+  if ((RTC_DateNow.RTC_WeekDay == AlarmNow.RTC_AlarmDateWeekDay) && ((watch.RTC_Hours < AlarmNow.RTC_AlarmTime.RTC_Hours) || ((watch.RTC_Hours == AlarmNow.RTC_AlarmTime.RTC_Hours) && (watch.RTC_Minutes <= AlarmNow.RTC_AlarmTime.RTC_Minutes))))
   {
     // CASE A : Today the next irrigation is scheduled but has not yet happened
     next_irr_days_diff = 0;
@@ -1302,7 +1305,7 @@ void SetHowLong(RTC_TimeTypeDef *Now)
   AlarmWhenStop.RTC_AlarmTime.RTC_Seconds = StopTime.RTC_Seconds;
 
   AlarmWhenStop.RTC_AlarmDateWeekDaySel = RTC_AlarmDateWeekDaySel_WeekDay;
-  AlarmWhenStop.RTC_AlarmMask = RTC_AlarmMask_DateWeekDay;
+  AlarmWhenStop.RTC_AlarmMask = RTC_AlarmMask_None;
   AlarmWhenStop.RTC_AlarmDateWeekDay = d;
 
   RTC_AlarmCmd(DISABLE);
