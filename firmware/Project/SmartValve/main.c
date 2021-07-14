@@ -251,16 +251,25 @@ void main(void)
   NextIrrig.hours = 0;
   NextIrrig.HoursDay = HRS;
   /* Infinite loop */
+  for(uint16_t j = 0; j < 10000; j++);
 
   clk_init();
   rtc_init();
   TIM4_Config();
   gpio_init();
   VBAT_init();
-  ValveInit();
   lcd_init();
   lcd_SetStaticSegment(1);
   pwr_init();
+  EnablePVD();
+  Delay(150);
+  DisablePVD();
+
+  if(ProgramState != BATTERYLOW)
+  {
+    ValveInit();
+  }
+
   uint8_t SemaphoreBatLow = 1;
   while (1)
   {
@@ -695,10 +704,10 @@ void main(void)
       PWR_UltraLowPowerCmd(ENABLE);
 
       ADC_Cmd(ADC1, DISABLE);
+      EnablePVD();
       halt();
       PWR_UltraLowPowerCmd(DISABLE);
       ADC_Cmd(ADC1, ENABLE);
-
       gpio_init();
       COMFromHalt();
       Delay(50);
