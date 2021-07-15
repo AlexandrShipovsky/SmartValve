@@ -282,6 +282,7 @@ void main(void)
       ProgramStatePrevios = BATTERYLOW;
       if (SemaphoreBatLow)
       {
+        SleepTime = SLEEPTIME;
         ValveClose();
         SemaphoreBatLow--;
       }
