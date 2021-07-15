@@ -2,7 +2,7 @@
 #ifndef __COMMON_H
 #define __COMMON_H
 
-#define SLEEPTIME (uint8_t)6
+#define SLEEPTIME (uint8_t)12
 #define SMALLSLEEPTIME (uint8_t)6
 #define SLEEPPVDTIME (uint8_t)6
 
