@@ -702,6 +702,7 @@ void main(void)
       EnableCOM();
       lcd_clear();
       lcd_update();
+      Delay(10);
       ADC_Cmd(ADC1, DISABLE);
       PWR_UltraLowPowerCmd(ENABLE);
       DisablePVD();
