@@ -251,7 +251,8 @@ void main(void)
   NextIrrig.hours = 0;
   NextIrrig.HoursDay = HRS;
   /* Infinite loop */
-  for(uint16_t j = 0; j < 10000; j++);
+  for (uint16_t j = 0; j < 10000; j++)
+    ;
 
   clk_init();
   rtc_init();
@@ -265,7 +266,7 @@ void main(void)
   Delay(150);
   DisablePVD();
 
-  if(ProgramState != BATTERYLOW)
+  if (ProgramState != BATTERYLOW)
   {
     ValveInit();
   }
@@ -701,16 +702,24 @@ void main(void)
       EnableCOM();
       lcd_clear();
       lcd_update();
-      PWR_UltraLowPowerCmd(ENABLE);
-
       ADC_Cmd(ADC1, DISABLE);
-      EnablePVD();
+      PWR_UltraLowPowerCmd(ENABLE);
+      DisablePVD();
+      CLK_PeripheralClockConfig(CLK_Peripheral_LCD, DISABLE);
+      LCD_HighDriveCmd(DISABLE);
+      LCD_Cmd(DISABLE);
+
       halt();
+
+      CLK_PeripheralClockConfig(CLK_Peripheral_LCD, ENABLE);
+      LCD_HighDriveCmd(ENABLE);
+      LCD_Cmd(ENABLE);
+
       PWR_UltraLowPowerCmd(DISABLE);
       ADC_Cmd(ADC1, ENABLE);
       gpio_init();
       COMFromHalt();
-      Delay(50);
+      Delay(75);
       ClearButton(&PutButton);
       break;
     }

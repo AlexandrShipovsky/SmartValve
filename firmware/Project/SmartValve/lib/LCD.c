@@ -550,6 +550,7 @@ void lcd_clear(void)
   }
   lcd_automode(10);
   lcd_SetBattery(BatNONE);
+  T4(0);
   T5(0);
   T8(0);
   T9(0);

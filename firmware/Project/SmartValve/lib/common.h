@@ -2,8 +2,8 @@
 #ifndef __COMMON_H
 #define __COMMON_H
 
-#define SLEEPTIME (uint8_t)25
-#define SMALLSLEEPTIME (uint8_t)7
+#define SLEEPTIME (uint8_t)6
+#define SMALLSLEEPTIME (uint8_t)6
 #define SLEEPPVDTIME (uint8_t)6
 
 enum ProgramMode
