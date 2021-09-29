@@ -226,7 +226,7 @@
                     <item>EnablePVDFlag</item>
                     <item>AlarmNow</item>
                     <item>RTC_AlarmStruct</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>

@@ -115,22 +115,26 @@ void DisablePVD(void);
 
 void EnablePVD(void)
 {
+  /*
   PWR_PVDClearFlag();
   PWR_PVDClearITPendingBit();
   PWR_PVDCmd(ENABLE);
   PWR_PVDITConfig(ENABLE);
   PWR_PVDClearFlag();
   PWR_PVDClearITPendingBit();
+  */
   EnablePVDFlag = 1;
 }
 
 void DisablePVD(void)
 {
   SleepPVDTime = SLEEPPVDTIME;
+  /*
   PWR_PVDCmd(DISABLE);
   PWR_PVDITConfig(DISABLE);
   PWR_PVDClearFlag();
   PWR_PVDClearITPendingBit();
+  */
   EnablePVDFlag = 0;
 }
 
@@ -265,6 +269,8 @@ void main(void)
   EnablePVD();
   Delay(150);
   DisablePVD();
+
+  VBAT = GetVBAT() - VbatOffset;
 
   if (ProgramState != BATTERYLOW)
   {
@@ -483,12 +489,12 @@ void main(void)
       {
         VBAT = GetVBAT() - VbatOffset;
       }
-      if ((VBAT / 100) < 36)
+      if ((VBAT / 100) < 48)
       {
         lcd_SetBattery(BatLow);
         VbatOffset = 200;
       }
-      else if ((VBAT / 100) < 42)
+      else if ((VBAT / 100) < 55)
       {
         lcd_SetBattery(BatMiddle);
         VbatOffset = 100;
@@ -721,6 +727,12 @@ void main(void)
       ADC_Cmd(ADC1, ENABLE);
       gpio_init();
       COMFromHalt();
+
+      VBAT = GetVBAT();
+      if(VBAT < 40)
+      {
+        ProgramState = BATTERYLOW;
+      }
       Delay(75);
       ClearButton(&PutButton);
       break;
