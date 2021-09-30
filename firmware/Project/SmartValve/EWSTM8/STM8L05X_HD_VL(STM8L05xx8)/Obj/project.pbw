@@ -94562,7 +94562,7 @@
     "display": "void clk_init(void)",
     "location": {
       "column": "6",
-      "line": "759",
+      "line": "760",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "clk_init",
@@ -94570,13 +94570,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@17398@F@clk_init@i",
+    "ID": "c:main.c@17406@F@clk_init@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "12",
-      "line": "761",
+      "line": "762",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "i",
@@ -94590,7 +94590,7 @@
     "display": "void pwr_init(void)",
     "location": {
       "column": "6",
-      "line": "785",
+      "line": "786",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "pwr_init",
@@ -94604,7 +94604,7 @@
     "display": "void TIM4_Config(void)",
     "location": {
       "column": "13",
-      "line": "796",
+      "line": "797",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "TIM4_Config",
@@ -94618,7 +94618,7 @@
     "display": "void Delay(volatile uint32_t)",
     "location": {
       "column": "6",
-      "line": "826",
+      "line": "827",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "Delay",
@@ -94632,7 +94632,7 @@
     "display": "void TimingDelay_Decrement(void)",
     "location": {
       "column": "6",
-      "line": "839",
+      "line": "840",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "TimingDelay_Decrement",
@@ -94646,7 +94646,7 @@
     "display": "void rtc_init(void)",
     "location": {
       "column": "6",
-      "line": "847",
+      "line": "848",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "rtc_init",
@@ -94654,13 +94654,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@19637@F@rtc_init@RTC_Struct",
+    "ID": "c:main.c@19645@F@rtc_init@RTC_Struct",
     "What": "Variable",
     "defdec": "Def",
     "display": "RTC_Struct",
     "location": {
       "column": "19",
-      "line": "856",
+      "line": "857",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "RTC_Struct",
@@ -94674,7 +94674,7 @@
     "display": "void gpio_init(void)",
     "location": {
       "column": "6",
-      "line": "872",
+      "line": "873",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "gpio_init",
@@ -94688,7 +94688,7 @@
     "display": "void gpio_init_interrupt(void)",
     "location": {
       "column": "6",
-      "line": "908",
+      "line": "909",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "gpio_init_interrupt",
@@ -94702,7 +94702,7 @@
     "display": "void PlusSegment(enum CurrentSetting)",
     "location": {
       "column": "6",
-      "line": "931",
+      "line": "932",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "PlusSegment",
@@ -94716,7 +94716,7 @@
     "display": "void MinusSegment(enum CurrentSetting)",
     "location": {
       "column": "6",
-      "line": "1026",
+      "line": "1027",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "MinusSegment",
@@ -94730,7 +94730,7 @@
     "display": "void SetAlarmForIrrig(void)",
     "location": {
       "column": "6",
-      "line": "1121",
+      "line": "1122",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "SetAlarmForIrrig",
@@ -94744,7 +94744,7 @@
     "display": "void CalcNexIrrig(void)",
     "location": {
       "column": "6",
-      "line": "1202",
+      "line": "1203",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "CalcNexIrrig",
@@ -94752,13 +94752,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@28232@F@CalcNexIrrig@RTC_DateNow",
+    "ID": "c:main.c@28240@F@CalcNexIrrig@RTC_DateNow",
     "What": "Variable",
     "defdec": "Def",
     "display": "RTC_DateNow",
     "location": {
       "column": "19",
-      "line": "1204",
+      "line": "1205",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "RTC_DateNow",
@@ -94766,13 +94766,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@28495@F@CalcNexIrrig@next_irr_days_diff",
+    "ID": "c:main.c@28503@F@CalcNexIrrig@next_irr_days_diff",
     "What": "Variable",
     "defdec": "Def",
     "display": "next_irr_days_diff",
     "location": {
       "column": "10",
-      "line": "1214",
+      "line": "1215",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "next_irr_days_diff",
@@ -94780,13 +94780,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@28556@F@CalcNexIrrig@next_irr_hours_diff",
+    "ID": "c:main.c@28564@F@CalcNexIrrig@next_irr_hours_diff",
     "What": "Variable",
     "defdec": "Def",
     "display": "next_irr_hours_diff",
     "location": {
       "column": "10",
-      "line": "1215",
+      "line": "1216",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "next_irr_hours_diff",
@@ -94800,7 +94800,7 @@
     "display": "void SetHowLong(RTC_TimeTypeDef *)",
     "location": {
       "column": "6",
-      "line": "1298",
+      "line": "1299",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "SetHowLong",
@@ -94808,13 +94808,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@31364@F@SetHowLong@d",
+    "ID": "c:main.c@31372@F@SetHowLong@d",
     "What": "Variable",
     "defdec": "Def",
     "display": "d",
     "location": {
       "column": "11",
-      "line": "1301",
+      "line": "1302",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "d",
@@ -94822,13 +94822,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@31364@F@SetHowLong@h",
+    "ID": "c:main.c@31372@F@SetHowLong@h",
     "What": "Variable",
     "defdec": "Dec",
     "display": "h",
     "location": {
       "column": "14",
-      "line": "1301",
+      "line": "1302",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "h",
@@ -94836,13 +94836,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@31364@F@SetHowLong@m",
+    "ID": "c:main.c@31372@F@SetHowLong@m",
     "What": "Variable",
     "defdec": "Dec",
     "display": "m",
     "location": {
       "column": "17",
-      "line": "1301",
+      "line": "1302",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "m",
@@ -94856,7 +94856,7 @@
     "display": "void error(void)",
     "location": {
       "column": "6",
-      "line": "1349",
+      "line": "1350",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "error",
@@ -94864,13 +94864,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@32611@F@error@i",
+    "ID": "c:main.c@32619@F@error@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "12",
-      "line": "1351",
+      "line": "1352",
       "path": "C:\\Users\\Alexandr\\Documents\\GitHub\\SmartValve\\firmware\\Project\\SmartValve\\main.c"
     },
     "name": "i",

@@ -728,12 +728,13 @@ void main(void)
       gpio_init();
       COMFromHalt();
 
+      Delay(75);
       VBAT = GetVBAT();
       if(VBAT < 40)
       {
         ProgramState = BATTERYLOW;
       }
-      Delay(75);
+      
       ClearButton(&PutButton);
       break;
     }
